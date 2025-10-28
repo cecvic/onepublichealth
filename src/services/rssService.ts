@@ -19,17 +19,38 @@ export const DEFAULT_RSS_FEEDS: RssFeedConfig[] = [
     maxArticles: 20
   },
   {
-    id: 'who-news',
-    name: 'WHO News',
-    url: 'https://www.who.int/news/rss.xml',
-    enabled: false,
+    id: 'nih-healthit-news',
+    name: 'NIH Health IT News',
+    url: 'https://www.nlm.nih.gov/rss/healthitnews.rss',
+    enabled: true,
     maxArticles: 15
   },
   {
-    id: 'cdc-news',
-    name: 'CDC News',
-    url: 'https://tools.cdc.gov/api/v2/resources/media/132059.rss',
-    enabled: false,
+    id: 'circulating-now',
+    name: 'Circulating Now (NIH)',
+    url: 'https://circulatingnow.nlm.nih.gov/feed/?_gl=1*oe5qky*_ga*MTMyMzk4MjI1OC4xNzYxNjc0NzA0*_ga_7147EPK006*czE3NjE2NzQ3MDQkbzEkZzEkdDE3NjE2NzUwNjYkajUyJGwwJGgw*_ga_P1FPTH9PL4*czE3NjE2NzQ3MDQkbzEkZzEkdDE3NjE2NzUwNjYkajUyJGwwJGgw',
+    enabled: true,
+    maxArticles: 15
+  },
+  {
+    id: 'pmc-new-articles',
+    name: 'PMC New Articles',
+    url: 'https://pmc.ncbi.nlm.nih.gov/about/new-in-pmc.rss',
+    enabled: true,
+    maxArticles: 15
+  },
+  {
+    id: 'medlineplus-news',
+    name: 'MedlinePlus News',
+    url: 'https://medlineplus.gov/xml/rss/news.xml',
+    enabled: true,
+    maxArticles: 15
+  },
+  {
+    id: 'nlm-news',
+    name: 'NLM News',
+    url: 'https://www.nlm.nih.gov/rss/news.rss',
+    enabled: true,
     maxArticles: 15
   }
 ];
@@ -41,12 +62,11 @@ const RSS_PROXY_URL = 'https://api.allorigins.win/raw?url=';
  * Generate a unique ID for RSS articles using URL hash
  */
 const generateRssId = (url: string, feedId: string): string => {
-  // Simple hash function to generate unique ID from URL
   let hash = 0;
   for (let i = 0; i < url.length; i++) {
     const char = url.charCodeAt(i);
     hash = ((hash << 5) - hash) + char;
-    hash = hash & hash; // Convert to 32-bit integer
+    hash = hash & hash;
   }
   return `rss_${feedId}_${Math.abs(hash).toString(36)}`;
 };
@@ -139,13 +159,7 @@ const parseRssXml = (xmlText: string, feedId: string): NewsArticle[] => {
         const descMatch = itemContent.match(/<description[^>]*><!\[CDATA\[(.*?)\]\]><\/description>|<description[^>]*>(.*?)<\/description>/i);
         const description = descMatch ? (descMatch[1] || descMatch[2] || '').trim() : '';
         
-        // Debug logging
-        console.log(`Item ${itemIndex} from ${feedId}:`, {
-          title: title.substring(0, 50) + '...',
-          link: link.substring(0, 50) + '...',
-          pubDate: pubDate.substring(0, 30) + '...',
-          description: description.substring(0, 50) + '...'
-        });
+        console.log(`Item ${itemIndex}: title="${title}", link="${link}", pubDate="${pubDate}"`);
         
         if (title && link) {
           articles.push({
@@ -156,12 +170,7 @@ const parseRssXml = (xmlText: string, feedId: string): NewsArticle[] => {
             description: cleanHtmlEntities(description) || 'No description available',
           });
         } else {
-          console.warn(`Skipping item ${itemIndex} from ${feedId} - missing title or link:`, {
-            hasTitle: !!title,
-            hasLink: !!link,
-            title: title.substring(0, 30),
-            link: link.substring(0, 30)
-          });
+          console.warn(`Item ${itemIndex} missing required fields: title="${title}", link="${link}"`);
         }
       } catch (itemError) {
         console.warn(`Error parsing RSS item ${itemIndex} from ${feedId}:`, itemError);
@@ -171,27 +180,20 @@ const parseRssXml = (xmlText: string, feedId: string): NewsArticle[] => {
     console.log(`Successfully parsed ${articles.length} articles from ${feedId}`);
     return articles;
   } catch (error) {
-    console.error(`Error parsing RSS XML from ${feedId}:`, error);
+    console.error(`Error parsing RSS XML for ${feedId}:`, error);
     return [];
   }
 };
 
 /**
- * Fetch and parse a single RSS feed
+ * Fetch RSS news from a single feed
  */
-export const fetchSingleRssFeed = async (feedConfig: RssFeedConfig): Promise<{
-  success: boolean;
-  articles: NewsArticle[];
-  error?: string;
-  feedName: string;
-}> => {
+export const fetchSingleRssFeed = async (feedConfig: RssFeedConfig): Promise<NewsArticle[]> => {
   try {
-    console.log(`Fetching RSS feed: ${feedConfig.name} (${feedConfig.url})`);
+    console.log(`Fetching RSS feed: ${feedConfig.name} (${feedConfig.id})`);
     
-    // Use our local proxy to fetch the RSS feed
     const proxyUrl = `${RSS_PROXY_URL}${encodeURIComponent(feedConfig.url)}`;
     
-    // Fetch the RSS feed
     const response = await fetch(proxyUrl);
     
     if (!response.ok) {
@@ -201,129 +203,81 @@ export const fetchSingleRssFeed = async (feedConfig: RssFeedConfig): Promise<{
     const xmlText = await response.text();
     
     if (!xmlText || xmlText.trim().length === 0) {
-      return {
-        success: false,
-        articles: [],
-        error: 'Empty RSS feed received',
-        feedName: feedConfig.name
-      };
+      console.warn(`Empty RSS feed received for ${feedConfig.name}`);
+      return [];
     }
     
-    // Parse the RSS XML
     const articles = parseRssXml(xmlText, feedConfig.id);
     
     if (articles.length === 0) {
-      return {
-        success: false,
-        articles: [],
-        error: 'No articles found in RSS feed',
-        feedName: feedConfig.name
-      };
+      console.warn(`No articles found in RSS feed for ${feedConfig.name}`);
+      return [];
     }
     
-    // Limit articles if specified
-    const limitedArticles = feedConfig.maxArticles 
-      ? articles.slice(0, feedConfig.maxArticles)
-      : articles;
+    const limitedArticles = articles.slice(0, feedConfig.maxArticles || 20);
     
-    console.log(`Successfully fetched ${limitedArticles.length} articles from ${feedConfig.name}`);
-    
-    return {
-      success: true,
-      articles: limitedArticles,
-      feedName: feedConfig.name
-    };
+    console.log(`Successfully fetched ${limitedArticles.length} RSS articles from ${feedConfig.name}`);
+    return limitedArticles;
     
   } catch (error) {
     console.error(`Failed to fetch RSS feed ${feedConfig.name}:`, error);
-    return {
-      success: false,
-      articles: [],
-      error: error instanceof Error ? error.message : 'Unknown error',
-      feedName: feedConfig.name
-    };
+    return [];
   }
 };
 
 /**
- * Fetch multiple RSS feeds
+ * Fetch RSS news from multiple feeds
  */
-export const fetchMultipleRssFeeds = async (feedConfigs: RssFeedConfig[]): Promise<{
-  articles: NewsArticle[];
-  results: Array<{
-    feedName: string;
-    success: boolean;
-    articleCount: number;
-    error?: string;
-  }>;
-}> => {
-  const enabledFeeds = feedConfigs.filter(feed => feed.enabled);
-  
-  if (enabledFeeds.length === 0) {
-    return {
-      articles: [],
-      results: []
-    };
-  }
-  
-  // Fetch all feeds in parallel
-  const results = await Promise.all(
-    enabledFeeds.map(feed => fetchSingleRssFeed(feed))
-  );
-  
-  // Combine all articles
-  const allArticles = results
-    .filter(result => result.success)
-    .flatMap(result => result.articles);
-  
-  // Sort by date (newest first)
-  allArticles.sort((a, b) => {
-    try {
-      const dateA = new Date(a.date);
-      const dateB = new Date(b.date);
-      return dateB.getTime() - dateA.getTime();
-    } catch {
-      return 0;
-    }
-  });
-  
-  return {
-    articles: allArticles,
-    results: results.map(result => ({
-      feedName: result.feedName,
-      success: result.success,
-      articleCount: result.articles.length,
-      error: result.error
-    }))
-  };
-};
-
-/**
- * Legacy function for backward compatibility
- */
-export const fetchRssNews = async (): Promise<NewsArticle[]> => {
-  const scienceDailyFeed = DEFAULT_RSS_FEEDS.find(feed => feed.id === 'sciencedaily-health');
-  if (!scienceDailyFeed) return [];
-  
-  const result = await fetchSingleRssFeed(scienceDailyFeed);
-  return result.articles;
-};
-
-/**
- * Fetch both RSS and Contentful news and merge them
- */
-export const fetchAllNews = async (
-  contentfulNews: NewsArticle[],
-  rssFeeds: RssFeedConfig[] = DEFAULT_RSS_FEEDS
-): Promise<NewsArticle[]> => {
+export const fetchMultipleRssFeeds = async (feedConfigs: RssFeedConfig[]): Promise<NewsArticle[]> => {
   try {
-    // Fetch RSS articles
-    const rssResult = await fetchMultipleRssFeeds(rssFeeds);
+    console.log(`Fetching RSS feeds from ${feedConfigs.length} sources`);
     
-    // Combine both sources
-    const allNews = [...contentfulNews, ...rssResult.articles];
+    const enabledFeeds = feedConfigs.filter(feed => feed.enabled);
+    console.log(`Enabled feeds: ${enabledFeeds.map(f => f.name).join(', ')}`);
+    
+    const fetchPromises = enabledFeeds.map(feed => fetchSingleRssFeed(feed));
+    const results = await Promise.all(fetchPromises);
+    
+    const allArticles = results.flat();
     
     // Sort by date (newest first)
+    allArticles.sort((a, b) => {
+      try {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateB.getTime() - dateA.getTime();
+      } catch {
+        return 0;
+      }
+    });
+    
+    console.log(`Total RSS articles fetched: ${allArticles.length}`);
+    return allArticles;
+    
+  } catch (error) {
+    console.error('Error fetching multiple RSS feeds:', error);
+    return [];
+  }
+};
+
+/**
+ * Fetch RSS news (legacy function for backward compatibility)
+ */
+export const fetchRssNews = async (): Promise<NewsArticle[]> => {
+  return fetchMultipleRssFeeds(DEFAULT_RSS_FEEDS);
+};
+
+/**
+ * Fetch all news (Contentful + RSS)
+ */
+export const fetchAllNews = async (
+  contentfulNews: NewsArticle[]
+): Promise<NewsArticle[]> => {
+  try {
+    const rssNews = await fetchMultipleRssFeeds(DEFAULT_RSS_FEEDS);
+    
+    const allNews = [...contentfulNews, ...rssNews];
+    
     allNews.sort((a, b) => {
       try {
         const dateA = new Date(a.date);
@@ -338,7 +292,6 @@ export const fetchAllNews = async (
     
   } catch (error) {
     console.error('Error combining news sources:', error);
-    // Return only Contentful news if RSS fails
     return contentfulNews;
   }
 };
