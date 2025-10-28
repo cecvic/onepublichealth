@@ -14,6 +14,7 @@ import Organizations from "./pages/Organizations";
 import OrganizationDetail from "./pages/OrganizationDetail";
 import Courses from "./pages/Courses";
 import News from "./pages/News";
+import RssDebug from "./pages/RssDebug";
 import About from "./pages/About";
 import Advertise from "./pages/Advertise";
 import JoinUs from "./pages/JoinUs";
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/organizations/:id" element={<OrganizationDetail />} />
           <Route path="/magazines" element={<Magazines />} />
           <Route path="/news" element={<News />} />
+          <Route path="/rss-debug" element={<RssDebug />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

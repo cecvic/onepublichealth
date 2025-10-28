@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import { Calendar, ExternalLink, Search, Filter, TrendingUp, AlertCircle } from "lucide-react";
 import { NewsArticle, mapNewsEntry } from "@/utils/utils";
 import { createClient } from 'contentful';
+import { fetchAllNews } from "@/services/rssService";
 
 const News = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -23,7 +24,7 @@ const News = () => {
     accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN || '',
   });
 
-  // Load news articles from Contentful
+  // Load news articles from Contentful and RSS
   useEffect(() => {
     const loadNewsData = async () => {
       try {
@@ -36,10 +37,13 @@ const News = () => {
           order: ['-sys.createdAt'],
         });
 
-        const articles = response.items.map(mapNewsEntry);
+        const contentfulArticles = response.items.map(mapNewsEntry);
         
-        setNewsArticles(articles);
-        setFilteredArticles(articles);
+        // Fetch and combine with RSS news
+        const allArticles = await fetchAllNews(contentfulArticles);
+        
+        setNewsArticles(allArticles);
+        setFilteredArticles(allArticles);
       } catch (err) {
         console.error("Error loading news data:", err);
         setError("Failed to load news articles. Please try again later.");
@@ -174,6 +178,11 @@ const News = () => {
                           <Calendar className="h-4 w-4" />
                           {formatDate(article.date)}
                         </span>
+                        {article.id.startsWith('rss_') && (
+                          <Badge variant="secondary" className="text-xs">
+                            ScienceDaily
+                          </Badge>
+                        )}
                       </div>
                       <CardTitle className="text-lg md:text-xl mb-3 hover:text-brand-blue transition-colors line-clamp-2">
                         {article.title}
@@ -225,6 +234,11 @@ const News = () => {
                           <div className="flex items-center gap-2 mb-2 text-sm text-muted-foreground">
                             <Calendar className="h-4 w-4" />
                             {formatDate(article.date)}
+                            {article.id.startsWith('rss_') && (
+                              <Badge variant="secondary" className="text-xs ml-2">
+                                ScienceDaily
+                              </Badge>
+                            )}
                           </div>
                           <CardTitle className="text-lg hover:text-brand-blue transition-colors line-clamp-2">
                             {article.title}

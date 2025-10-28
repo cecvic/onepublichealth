@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, ArrowRight, ExternalLink } from "lucide-react";
 import client from "@/lib/contentful";
 import { mapNewsEntry, NewsArticle } from "@/utils/utils";
+import { fetchAllNews } from "@/services/rssService";
 
 const LatestNews = () => {
   const [news, setNews] = useState<NewsArticle[]>([]);
@@ -14,16 +15,24 @@ const LatestNews = () => {
   useEffect(() => {
     const fetchLatestNews = async () => {
       try {
+        // Fetch Contentful news first
         const res = await client.getEntries({
           content_type: "news",
           limit: 3,
           order: ["-sys.createdAt"]
         });
         
-        const mapped = res.items.map(mapNewsEntry);
-        setNews(mapped);
+        const contentfulNews = res.items.map(mapNewsEntry);
+        
+        // Fetch and combine with RSS news
+        const allNews = await fetchAllNews(contentfulNews);
+        
+        // Take only the first 3 for the latest news section
+        setNews(allNews.slice(0, 3));
       } catch (err) {
         console.error("Error fetching latest news:", err);
+        // Fallback to empty array if both sources fail
+        setNews([]);
       } finally {
         setLoading(false);
       }
@@ -105,6 +114,11 @@ const LatestNews = () => {
                   <div className="flex items-center space-x-1">
                     <Calendar className="w-4 h-4 text-blue-600" />
                     <span className="text-sm text-muted-foreground">{formatDate(article.date)}</span>
+                    {article.id.startsWith('rss_') && (
+                      <Badge variant="secondary" className="text-xs ml-2">
+                        ScienceDaily
+                      </Badge>
+                    )}
                   </div>
                 </div>
 
