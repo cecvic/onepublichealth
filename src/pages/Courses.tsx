@@ -24,18 +24,50 @@ import {
   RefreshCw,
 } from 'lucide-react';
 
-interface Course {
+// Base course interface with common fields
+interface BaseCourse {
   id: string;
-  institute: string;
+  courseType: 'MPH' | 'MD' | 'MSC' | 'Online' | 'Others';
+  institution: string;
   location: string;
-  startYear: string;
-  nirfRank: string;
-  contactEmail: string;
-  admissionCycle: string;
+  website: string;
   specializations: string[];
-  courseUrl: string;
-  instituteUrl: string;
 }
+
+// Type-specific interfaces
+interface MPHCourse extends BaseCourse {
+  courseType: 'MPH';
+  parentUniversity?: string;
+  nirfRank?: string;
+}
+
+interface MDCourse extends BaseCourse {
+  courseType: 'MD';
+  mdFocus?: string;
+}
+
+interface MSCCourse extends BaseCourse {
+  courseType: 'MSC';
+  programName?: string;
+  parentUniversity?: string;
+}
+
+interface OnlineCourse extends BaseCourse {
+  courseType: 'Online';
+  programName?: string;
+  modeDuration?: string;
+  targetAudience?: string;
+}
+
+interface OthersCourse extends BaseCourse {
+  courseType: 'Others';
+  programName?: string;
+  parentUniversity?: string;
+  targetProfile?: string;
+}
+
+// Union type for all course types
+type Course = MPHCourse | MDCourse | MSCCourse | OnlineCourse | OthersCourse;
 
 export default function Courses() {
   const [courses, setCourses] = useState<Course[]>([]);
@@ -80,11 +112,17 @@ export default function Courses() {
     if (searchQuery) {
       filtered = filtered.filter(
         (course) =>
-          course.institute.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          course.institution.toLowerCase().includes(searchQuery.toLowerCase()) ||
           course.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
           course.specializations.some((spec) =>
             spec.toLowerCase().includes(searchQuery.toLowerCase())
-          )
+          ) ||
+          (course.courseType === 'MSC' && course.programName && 
+           course.programName.toLowerCase().includes(searchQuery.toLowerCase())) ||
+          (course.courseType === 'Online' && course.programName && 
+           course.programName.toLowerCase().includes(searchQuery.toLowerCase())) ||
+          (course.courseType === 'Others' && course.programName && 
+           course.programName.toLowerCase().includes(searchQuery.toLowerCase()))
       );
     }
 
@@ -106,28 +144,7 @@ export default function Courses() {
 
     // Course type filter
     if (courseTypeFilter !== 'all') {
-      filtered = filtered.filter((course) => {
-        // Get the course name from specializations field
-        const courseName = course.specializations.join(' ').toLowerCase();
-        const instituteName = course.institute.toLowerCase();
-        
-        // Check for different course types
-        switch (courseTypeFilter) {
-          case 'MPH':
-            return courseName.includes('mph') || instituteName.includes('mph');
-          case 'MD':
-            return courseName.includes(' md ') || courseName.includes('(md)') || courseName.includes('doctor');
-          case 'PhD':
-            return courseName.includes('phd') || courseName.includes('doctorate');
-          case 'MSc':
-            return courseName.includes('msc') || courseName.includes('m.sc') || instituteName.includes('msc');
-          case 'Other':
-            return !courseName.includes('mph') && !courseName.includes(' phd') && 
-                   !courseName.includes(' msc') && !courseName.includes(' md ');
-          default:
-            return true;
-        }
-      });
+      filtered = filtered.filter((course) => course.courseType === courseTypeFilter);
     }
 
     setFilteredCourses(filtered);
@@ -139,12 +156,12 @@ export default function Courses() {
       const parts = course.location.split(',');
       return parts.length > 1 ? parts[parts.length - 1].trim() : course.location;
     });
-    return [...new Set(locations)].sort();
+    return [...new Set(locations)].filter(loc => loc && loc.trim() !== '').sort();
   };
 
   const getAllSpecializations = () => {
     const specs = courses.flatMap((course) => course.specializations);
-    return [...new Set(specs)].sort();
+    return [...new Set(specs)].filter(spec => spec && spec.trim() !== '').sort();
   };
 
   const handleRefresh = () => {
@@ -171,7 +188,7 @@ export default function Courses() {
                 Public Health <span className="text-brand-charcoal-dark">Courses</span>
               </h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto">
-                Explore Master of Public Health (MPH) and epidemiology programs from India's top institutions
+                Explore MPH, MD, MSc, online programs, and other public health courses from India's top institutions
               </p>
             </div>
           </div>
@@ -235,9 +252,9 @@ export default function Courses() {
                   <SelectItem value="all">All Courses</SelectItem>
                   <SelectItem value="MPH">MPH</SelectItem>
                   <SelectItem value="MD">MD</SelectItem>
-                  <SelectItem value="PhD">PhD</SelectItem>
-                  <SelectItem value="MSc">MSc</SelectItem>
-                  <SelectItem value="Other">Other</SelectItem>
+                  <SelectItem value="MSC">MSC</SelectItem>
+                  <SelectItem value="Online">Online</SelectItem>
+                  <SelectItem value="Others">Others</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -282,10 +299,12 @@ export default function Courses() {
                     key={course.id}
                     className="hover:shadow-lg transition-shadow duration-300 flex flex-col"
                   >
+                    {course.courseType === 'MPH' && (
+                      <>
                     <CardHeader>
                       <div className="flex items-start justify-between gap-2 mb-2">
                         <CardTitle className="text-lg leading-tight flex-1">
-                          {course.institute}
+                              {course.institution}
                         </CardTitle>
                         {course.nirfRank && course.nirfRank !== '—' && course.nirfRank !== 'Not Mentioned' && (
                           <Badge className={getRankBadgeColor(course.nirfRank)} variant="outline">
@@ -298,28 +317,15 @@ export default function Courses() {
                         <MapPin className="w-3 h-3" />
                         {course.location}
                       </CardDescription>
+                          {course.parentUniversity && (
+                            <CardDescription className="text-xs text-gray-500">
+                              {course.parentUniversity}
+                            </CardDescription>
+                          )}
                     </CardHeader>
 
                     <CardContent className="flex-1 flex flex-col">
                       <div className="space-y-3 mb-4 flex-1">
-                        {/* Admission Cycle */}
-                        <div className="flex items-start gap-2 text-sm">
-                          <Calendar className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <div>
-                            <p className="font-medium text-gray-700">Admission Cycle</p>
-                            <p className="text-gray-600">{course.admissionCycle}</p>
-                          </div>
-                        </div>
-
-                        {/* Start Year */}
-                        <div className="flex items-start gap-2 text-sm">
-                          <GraduationCap className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                          <div>
-                            <p className="font-medium text-gray-700">Program Since</p>
-                            <p className="text-gray-600">{course.startYear}</p>
-                          </div>
-                        </div>
-
                         {/* Specializations */}
                         <div className="text-sm">
                           <p className="font-medium text-gray-700 mb-2 flex items-center gap-1">
@@ -327,51 +333,293 @@ export default function Courses() {
                             Specializations
                           </p>
                           <div className="flex flex-wrap gap-1">
-                            {course.specializations.slice(0, 4).map((spec, idx) => (
+                                {course.specializations.slice(0, 3).map((spec, idx) => (
                               <Badge key={idx} variant="secondary" className="text-xs">
                                 {spec}
                               </Badge>
                             ))}
-                            {course.specializations.length > 4 && (
+                                {course.specializations.length > 3 && (
                               <Badge variant="secondary" className="text-xs">
-                                +{course.specializations.length - 4} more
+                                    +{course.specializations.length - 3} more
                               </Badge>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+
+                          {/* Action Button */}
+                          <div className="flex flex-col gap-2 pt-4 border-t">
+                            <Button
+                              asChild
+                              className="w-full bg-green-600 hover:bg-green-700"
+                            >
+                              <a
+                                href={course.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <ExternalLink className="w-4 h-4 mr-2" />
+                                Visit Course Website
+                              </a>
+                            </Button>
+                          </div>
+                        </CardContent>
+                      </>
+                    )}
+
+                    {course.courseType === 'MD' && (
+                      <>
+                        <CardHeader>
+                          <CardTitle className="text-lg leading-tight">
+                            {course.institution}
+                          </CardTitle>
+                          <CardDescription className="flex items-center gap-1 text-sm">
+                            <MapPin className="w-3 h-3" />
+                            {course.location}
+                          </CardDescription>
+                        </CardHeader>
+
+                        <CardContent className="flex-1 flex flex-col">
+                          <div className="space-y-3 mb-4 flex-1">
+                            {/* MD Focus */}
+                            {course.mdFocus && (
+                              <div className="text-sm">
+                                <p className="font-medium text-gray-700 mb-1 flex items-center gap-1">
+                                  <GraduationCap className="w-4 h-4 text-blue-600" />
+                                  MD Focus
+                                </p>
+                                <p className="text-gray-600">{course.mdFocus}</p>
+                              </div>
                             )}
+                          </div>
+
+                          {/* Action Button */}
+                          <div className="flex flex-col gap-2 pt-4 border-t">
+                            <Button
+                              asChild
+                              className="w-full bg-blue-600 hover:bg-blue-700"
+                            >
+                              <a
+                                href={course.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <ExternalLink className="w-4 h-4 mr-2" />
+                                Visit Official Website
+                              </a>
+                            </Button>
+                          </div>
+                        </CardContent>
+                      </>
+                    )}
+
+                    {course.courseType === 'MSC' && (
+                      <>
+                        <CardHeader>
+                          <CardTitle className="text-lg leading-tight">
+                            {course.programName || course.institution}
+                          </CardTitle>
+                          <CardDescription className="flex items-center gap-1 text-sm">
+                            <MapPin className="w-3 h-3" />
+                            {course.location}
+                          </CardDescription>
+                          {course.parentUniversity && (
+                            <CardDescription className="text-xs text-gray-500">
+                              {course.parentUniversity}
+                            </CardDescription>
+                          )}
+                        </CardHeader>
+
+                        <CardContent className="flex-1 flex flex-col">
+                          <div className="space-y-3 mb-4 flex-1">
+                            {/* Specializations */}
+                            <div className="text-sm">
+                              <p className="font-medium text-gray-700 mb-2 flex items-center gap-1">
+                                <BookOpen className="w-4 h-4 text-purple-600" />
+                                Focus Areas
+                              </p>
+                              <div className="flex flex-wrap gap-1">
+                                {course.specializations.slice(0, 3).map((spec, idx) => (
+                                  <Badge key={idx} variant="secondary" className="text-xs">
+                                    {spec}
+                                  </Badge>
+                                ))}
+                                {course.specializations.length > 3 && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    +{course.specializations.length - 3} more
+                                  </Badge>
+                                )}
+                              </div>
                           </div>
                         </div>
 
-                        {/* Contact */}
-                        <div className="flex items-start gap-2 text-sm">
-                          <Mail className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                          <div className="break-all">
-                            <p className="font-medium text-gray-700">Contact</p>
-                            <a
-                              href={`mailto:${course.contactEmail}`}
-                              className="text-blue-600 hover:underline text-xs"
+                          {/* Action Button */}
+                          <div className="flex flex-col gap-2 pt-4 border-t">
+                            <Button
+                              asChild
+                              className="w-full bg-purple-600 hover:bg-purple-700"
                             >
-                              {course.contactEmail}
-                            </a>
+                              <a
+                                href={course.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <ExternalLink className="w-4 h-4 mr-2" />
+                                Visit Course Website
+                              </a>
+                            </Button>
+                          </div>
+                        </CardContent>
+                      </>
+                    )}
+
+                    {course.courseType === 'Online' && (
+                      <>
+                        <CardHeader>
+                          <CardTitle className="text-lg leading-tight">
+                            {course.programName || course.institution}
+                          </CardTitle>
+                          <CardDescription className="flex items-center gap-1 text-sm">
+                            <MapPin className="w-3 h-3" />
+                            {course.location}
+                          </CardDescription>
+                        </CardHeader>
+
+                        <CardContent className="flex-1 flex flex-col">
+                          <div className="space-y-3 mb-4 flex-1">
+                            {/* Mode/Duration */}
+                            {course.modeDuration && (
+                              <div className="text-sm">
+                                <p className="font-medium text-gray-700 mb-1 flex items-center gap-1">
+                                  <Calendar className="w-4 h-4 text-green-600" />
+                                  Mode/Duration
+                                </p>
+                                <p className="text-gray-600">{course.modeDuration}</p>
+                              </div>
+                            )}
+
+                            {/* Target Audience */}
+                            {course.targetAudience && (
+                              <div className="text-sm">
+                                <p className="font-medium text-gray-700 mb-1 flex items-center gap-1">
+                                  <GraduationCap className="w-4 h-4 text-blue-600" />
+                                  Target Audience
+                                </p>
+                                <p className="text-gray-600">{course.targetAudience}</p>
+                              </div>
+                            )}
+
+                            {/* Specializations */}
+                            <div className="text-sm">
+                              <p className="font-medium text-gray-700 mb-2 flex items-center gap-1">
+                                <BookOpen className="w-4 h-4 text-purple-600" />
+                                Focus
+                              </p>
+                              <div className="flex flex-wrap gap-1">
+                                {course.specializations.slice(0, 2).map((spec, idx) => (
+                                  <Badge key={idx} variant="secondary" className="text-xs">
+                                    {spec}
+                                  </Badge>
+                                ))}
+                                {course.specializations.length > 2 && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    +{course.specializations.length - 2} more
+                                  </Badge>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+
+                          {/* Action Button */}
+                          <div className="flex flex-col gap-2 pt-4 border-t">
+                            <Button
+                              asChild
+                              className="w-full bg-orange-600 hover:bg-orange-700"
+                            >
+                              <a
+                                href={course.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <ExternalLink className="w-4 h-4 mr-2" />
+                                Visit Website
+                              </a>
+                            </Button>
+                          </div>
+                        </CardContent>
+                      </>
+                    )}
+
+                    {course.courseType === 'Others' && (
+                      <>
+                        <CardHeader>
+                          <CardTitle className="text-lg leading-tight">
+                            {course.programName || course.institution}
+                          </CardTitle>
+                          <CardDescription className="flex items-center gap-1 text-sm">
+                            <MapPin className="w-3 h-3" />
+                            {course.location}
+                          </CardDescription>
+                          {course.parentUniversity && (
+                            <CardDescription className="text-xs text-gray-500">
+                              {course.parentUniversity}
+                            </CardDescription>
+                          )}
+                        </CardHeader>
+
+                        <CardContent className="flex-1 flex flex-col">
+                          <div className="space-y-3 mb-4 flex-1">
+                            {/* Target Profile */}
+                            {course.targetProfile && (
+                              <div className="text-sm">
+                                <p className="font-medium text-gray-700 mb-1 flex items-center gap-1">
+                                  <GraduationCap className="w-4 h-4 text-blue-600" />
+                                  Target Profile
+                                </p>
+                                <p className="text-gray-600">{course.targetProfile}</p>
+                              </div>
+                            )}
+
+                            {/* Specializations */}
+                            <div className="text-sm">
+                              <p className="font-medium text-gray-700 mb-2 flex items-center gap-1">
+                                <BookOpen className="w-4 h-4 text-purple-600" />
+                                Focus Areas
+                              </p>
+                              <div className="flex flex-wrap gap-1">
+                                {course.specializations.slice(0, 3).map((spec, idx) => (
+                                  <Badge key={idx} variant="secondary" className="text-xs">
+                                    {spec}
+                                  </Badge>
+                                ))}
+                                {course.specializations.length > 3 && (
+                                  <Badge variant="secondary" className="text-xs">
+                                    +{course.specializations.length - 3} more
+                                  </Badge>
+                                )}
                           </div>
                         </div>
                       </div>
 
-                      {/* Action Buttons */}
+                          {/* Action Button */}
                       <div className="flex flex-col gap-2 pt-4 border-t">
                         <Button
                           asChild
-                          className="w-full bg-green-600 hover:bg-green-700"
+                              className="w-full bg-gray-600 hover:bg-gray-700"
                         >
                           <a
-                            href={course.instituteUrl}
+                                href={course.website}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <GraduationCap className="w-4 h-4 mr-2" />
-                            Visit Institute Website
+                                <ExternalLink className="w-4 h-4 mr-2" />
+                                Visit Course Website
                           </a>
                         </Button>
                       </div>
                     </CardContent>
+                      </>
+                    )}
                   </Card>
                 ))}
               </div>
@@ -404,7 +652,7 @@ export default function Courses() {
               {filteredCourses.length > 0 && (
                 <div className="mt-8 text-center">
                   <p className="text-sm text-muted-foreground">
-                    Showing {filteredCourses.length} institution{filteredCourses.length !== 1 ? 's' : ''} offering MPH programs
+                    Showing {filteredCourses.length} course{filteredCourses.length !== 1 ? 's' : ''} from {courses.length} institutions
                   </p>
                 </div>
               )}
@@ -415,18 +663,19 @@ export default function Courses() {
         {/* Info Section */}
         <section className="bg-gradient-to-b from-white to-green-50 py-12">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-center mb-8">About MPH Programs in India</h2>
-              <div className="grid md:grid-cols-3 gap-6">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-center mb-8">About Public Health Education in India</h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Card>
                   <CardHeader>
                     <GraduationCap className="w-8 h-8 text-green-600 mb-2" />
-                    <CardTitle className="text-lg">What is MPH?</CardTitle>
+                    <CardTitle className="text-lg">MPH Programs</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-gray-600">
-                      Master of Public Health (MPH) is a professional degree focusing on
-                      population health, disease prevention, and health policy.
+                      Master of Public Health (MPH) focuses on population health, disease prevention, 
+                      epidemiology, and health policy. Ideal for healthcare professionals seeking 
+                      leadership roles in public health.
                     </p>
                   </CardContent>
                 </Card>
@@ -434,12 +683,13 @@ export default function Courses() {
                 <Card>
                   <CardHeader>
                     <BookOpen className="w-8 h-8 text-blue-600 mb-2" />
-                    <CardTitle className="text-lg">Core Subjects</CardTitle>
+                    <CardTitle className="text-lg">MD Community Medicine</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-gray-600">
-                      Typical subjects include Epidemiology, Biostatistics, Health Policy,
-                      Environmental Health, and Health Systems Management.
+                      Doctor of Medicine in Community Medicine combines clinical medicine with 
+                      public health practice. Focuses on community-based healthcare delivery 
+                      and preventive medicine.
                     </p>
                   </CardContent>
                 </Card>
@@ -447,12 +697,55 @@ export default function Courses() {
                 <Card>
                   <CardHeader>
                     <Award className="w-8 h-8 text-purple-600 mb-2" />
-                    <CardTitle className="text-lg">Career Prospects</CardTitle>
+                    <CardTitle className="text-lg">MSc Programs</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-gray-600">
-                      Graduates work in government health departments, NGOs, research
-                      institutions, international organizations like WHO, and healthcare consulting.
+                      Master of Science programs offer specialized training in epidemiology, 
+                      biostatistics, health systems, and research methodologies for public 
+                      health practice and research.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <Calendar className="w-8 h-8 text-orange-600 mb-2" />
+                    <CardTitle className="text-lg">Online Programs</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-gray-600">
+                      Flexible online and distance learning programs designed for working 
+                      professionals. Offer part-time and full-time options with various 
+                      specializations and durations.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <BookOpen className="w-8 h-8 text-gray-600 mb-2" />
+                    <CardTitle className="text-lg">Other Programs</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-gray-600">
+                      Diploma courses, certificate programs, and specialized training 
+                      in public health areas like health management, nutrition, and 
+                      community health.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <Award className="w-8 h-8 text-green-600 mb-2" />
+                    <CardTitle className="text-lg">Career Opportunities</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-gray-600">
+                      Graduates work in government health departments, NGOs, research 
+                      institutions, international organizations like WHO, healthcare 
+                      consulting, and academic institutions.
                     </p>
                   </CardContent>
                 </Card>

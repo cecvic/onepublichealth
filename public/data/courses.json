@@ -1,314 +1,2354 @@
 [
   {
-    "id": "aiims-jodhpur-mph",
-    "institute": "AIIMS Jodhpur – School of Public Health",
-    "location": "Jodhpur, Rajasthan",
-    "startYear": "2017",
-    "nirfRank": "19 (Medical)",
-    "contactEmail": "aiimsjdh.sph@gmail.com",
-    "admissionCycle": "May-June",
-    "specializations": ["Epidemiology", "Health Policy"],
-    "courseUrl": "https://www.aiimsjodhpur.edu.in/pgadmission.php",
-    "instituteUrl": "https://www.aiimsjodhpur.edu.in/"
+    "id": "mph_462uxelb9",
+    "courseType": "MPH",
+    "institution": "All India Institute of Medical Sciences (AIIMS) New Delhi",
+    "location": "New Delhi, Delhi",
+    "website": "https://www.aiims.edu",
+    "specializations": [
+      "Public Health, Epidemiology, Health Policy & Systems"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "1"
   },
   {
-    "id": "aiims-rishikesh-mph",
-    "institute": "AIIMS Rishikesh – Dept. of Community Medicine",
+    "id": "mph_6mgl3sy3v",
+    "courseType": "MPH",
+    "institution": "AIIMS Rishikesh",
     "location": "Rishikesh, Uttarakhand",
-    "startYear": "2019",
-    "nirfRank": "22 (Medical)",
-    "contactEmail": "academic@aiimsrishikesh.edu.in",
-    "admissionCycle": "May-June",
-    "specializations": ["Epidemiology", "Health Policy"],
-    "courseUrl": "https://aiimsrishikesh.edu.in/",
-    "instituteUrl": "https://aiimsrishikesh.edu.in/"
+    "website": "https://aiimsrishikesh.edu.in",
+    "specializations": [
+      "Master of Public Health (General)",
+      "Hospital & Health Systems Management"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "14"
   },
   {
-    "id": "aiims-raipur-mph",
-    "institute": "AIIMS Raipur",
-    "location": "Chhattisgarh",
-    "startYear": "2019",
-    "nirfRank": "31 (Medical)",
-    "contactEmail": "admin@aiimsraipur.edu.in",
-    "admissionCycle": "mid-May to early June",
-    "specializations": ["Epidemiology", "Health Policy"],
-    "courseUrl": "https://aiimsraipur.edu.in/",
-    "instituteUrl": "https://aiimsraipur.edu.in/"
+    "id": "mph_4p2hcji4f",
+    "courseType": "MPH",
+    "institution": "AIIMS Jodhpur",
+    "location": "Jodhpur, Rajasthan",
+    "website": "https://aiimsjodhpur.edu.in",
+    "specializations": [
+      "Public Health, Environmental/Occupational Health"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "16"
   },
   {
-    "id": "pgimer-mph",
-    "institute": "PGIMER – School of Public Health",
-    "location": "Chandigarh",
-    "startYear": "1997",
-    "nirfRank": "2 (Medical)",
-    "contactEmail": "pgimer-chd@nic.in",
-    "admissionCycle": "Jan & July",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Policy and Management", "Environmental Health", "Infectious Disease Control", "Health Promotion"],
-    "courseUrl": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/GlobalPages/JSP/Page_Data.jsp?dep_id=5543",
-    "instituteUrl": "https://pgimer.edu.in/"
+    "id": "mph_bokamfd16",
+    "courseType": "MPH",
+    "institution": "AIIMS Raipur",
+    "location": "Raipur, Chhattisgarh",
+    "website": "https://aiimsraipur.edu.in",
+    "specializations": [
+      "MPH (General Public Health)"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "NA"
   },
   {
-    "id": "jipmer-mph",
-    "institute": "JIPMER – MPH Program",
-    "location": "Puducherry",
-    "startYear": "2014",
-    "nirfRank": "4 (Medical)",
-    "contactEmail": "jipmermsc@jipmer.edu.in",
-    "admissionCycle": "Jan & July",
-    "specializations": ["Epidemiology", "Public Health"],
-    "courseUrl": "https://jipmer.edu.in/",
-    "instituteUrl": "https://jipmer.edu.in/"
-  },
-  {
-    "id": "sctimst-mph",
-    "institute": "SCTIMST – Achutha Menon Centre for Health Science Studies",
-    "location": "Thiruvananthapuram, Kerala",
-    "startYear": "2000",
-    "nirfRank": "17 (Medical)",
-    "contactEmail": "sct@sctimst.ac.in",
-    "admissionCycle": "July",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Policy and Management", "Environmental and Community Health", "Maternal and Child Health", "Infectious Disease Control", "Health Systems Research"],
-    "courseUrl": "https://sctimst.ac.in/",
-    "instituteUrl": "https://sctimst.ac.in/"
-  },
-  {
-    "id": "icmr-nie-mph",
-    "institute": "ICMR-NIE – School of Public Health",
-    "location": "Chennai, Tamil Nadu",
-    "startYear": "2008",
-    "nirfRank": "—",
-    "contactEmail": "director.nie@icmr.gov.in",
-    "admissionCycle": "June or July",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Policy and Management", "Environmental and Occupational Health", "Global Health", "Health Promotion", "Nutritional Epidemiology", "Infectious Disease Epidemiology"],
-    "courseUrl": "https://nie.gov.in/",
-    "instituteUrl": "https://nie.gov.in/"
-  },
-  {
-    "id": "nimhans-mph",
-    "institute": "NIMHANS – MPH in Epidemiology",
-    "location": "Bengaluru, Karnataka",
-    "startYear": "2010",
-    "nirfRank": "4 (University)",
-    "contactEmail": "academic@nimhans.ac.in",
-    "admissionCycle": "State/Central counselling",
-    "specializations": ["Public Health", "Epidemiology", "Mental Health"],
-    "courseUrl": "https://nimhans.ac.in/",
-    "instituteUrl": "https://nimhans.ac.in/"
-  },
-  {
-    "id": "tiss-mumbai-mph",
-    "institute": "TISS Mumbai – School of Health Systems Studies",
-    "location": "Mumbai, Maharashtra",
-    "startYear": "2008",
-    "nirfRank": "72 (University)",
-    "contactEmail": "info@tiss.edu",
-    "admissionCycle": "May-June",
-    "specializations": ["Social Epidemiology", "Health Administration", "Health Policy, Economics and Finance"],
-    "courseUrl": "https://www.tiss.edu/schoolprogrammes/mumbai-campus/school-of-health-systems-studies/",
-    "instituteUrl": "https://www.tiss.edu/"
-  },
-  {
-    "id": "cmc-vellore-mph",
-    "institute": "CMC Vellore – MPH Program",
-    "location": "Vellore, Tamil Nadu",
-    "startYear": "2015",
-    "nirfRank": "3 (Medical)",
-    "contactEmail": "registrar@cmcvellore.ac.in",
-    "admissionCycle": "February to April",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Systems Management", "Health Policy", "Environmental Health", "Community Health", "Infectious Diseases"],
-    "courseUrl": "https://www.cmch-vellore.edu/",
-    "instituteUrl": "https://www.cmch-vellore.edu/"
-  },
-  {
-    "id": "iiphg-mph",
-    "institute": "IIPHG – Indian Institute of Public Health",
-    "location": "Gandhinagar, Gujarat",
-    "startYear": "2008",
-    "nirfRank": "—",
-    "contactEmail": "admissions@iiphg.org",
-    "admissionCycle": "Not Mentioned",
-    "specializations": ["MPH", "Epidemiology", "Health Management"],
-    "courseUrl": "https://www.iiphg.edu.in/",
-    "instituteUrl": "https://www.iiphg.edu.in/"
-  },
-  {
-    "id": "iiph-delhi-mph",
-    "institute": "IIPH Delhi (PHFI)",
-    "location": "Gurugram, Haryana",
-    "startYear": "2008",
-    "nirfRank": "—",
-    "contactEmail": "info@iiphdelhi.org",
-    "admissionCycle": "Not Mentioned",
-    "specializations": ["MPH", "Epidemiology", "Health Management"],
-    "courseUrl": "https://www.iiphd.org/",
-    "instituteUrl": "https://www.iiphd.org/"
-  },
-  {
-    "id": "iiph-hyderabad-mph",
-    "institute": "IIPH Hyderabad (PHFI)",
-    "location": "Hyderabad, Telangana",
-    "startYear": "2008",
-    "nirfRank": "—",
-    "contactEmail": "info@iiphh.org",
-    "admissionCycle": "Not Mentioned",
-    "specializations": ["MPH", "Epidemiology", "Health Management"],
-    "courseUrl": "https://www.iiphh.org/",
-    "instituteUrl": "https://www.iiphh.org/"
-  },
-  {
-    "id": "iiph-shillong-mph",
-    "institute": "IIPH Shillong (PHFI)",
-    "location": "Shillong, Meghalaya",
-    "startYear": "2008",
-    "nirfRank": "—",
-    "contactEmail": "info@iiphs.ac.in",
-    "admissionCycle": "Not Mentioned",
-    "specializations": ["MPH", "Epidemiology", "Health Management"],
-    "courseUrl": "https://www.iiphs.org/",
-    "instituteUrl": "https://www.iiphs.org/"
-  },
-  {
-    "id": "iiph-bhubaneswar-mph",
-    "institute": "IIPH Bhubaneswar (PHFI)",
+    "id": "mph_8ukj4fk6w",
+    "courseType": "MPH",
+    "institution": "AIIMS Bhubaneswar",
     "location": "Bhubaneswar, Odisha",
-    "startYear": "2010",
-    "nirfRank": "—",
-    "contactEmail": "info@iiphb.org",
-    "admissionCycle": "Not Mentioned",
-    "specializations": ["MPH", "Epidemiology", "Health Management"],
-    "courseUrl": "https://www.iiphb.org/",
-    "instituteUrl": "https://www.iiphb.org/"
+    "website": "https://aiimsbhubaneswar.nic.in",
+    "specializations": [
+      "Community & Family Health, Epidemiology"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "NA"
   },
   {
-    "id": "manipal-mph",
-    "institute": "Manipal Academy of Higher Education – MPH",
-    "location": "Manipal, Karnataka",
-    "startYear": "2012",
-    "nirfRank": "6 (University)",
-    "contactEmail": "admissions@manipal.edu",
-    "admissionCycle": "July",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Systems Management", "Health Policy", "Environmental Health", "Public Health Nutrition", "Community Health"],
-    "courseUrl": "https://manipal.edu/mu.html",
-    "instituteUrl": "https://manipal.edu/"
+    "id": "mph_gmyjqkfnf",
+    "courseType": "MPH",
+    "institution": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "location": "Chandigarh, UT",
+    "website": "https://pgimer.edu.in",
+    "specializations": [
+      "Community Health, Epidemiology, Health Systems"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "2"
   },
   {
-    "id": "amrita-mph",
-    "institute": "Amrita Vishwa Vidyapeetham – MPH",
-    "location": "Kochi, Kerala",
-    "startYear": "2013",
-    "nirfRank": "30 (University)",
-    "contactEmail": "mph@amrita.edu",
-    "admissionCycle": "July",
-    "specializations": ["Epidemiology", "Health Policy and Management", "Biostatistics", "Environmental Health", "Global Health", "Health Communication"],
-    "courseUrl": "https://www.amrita.edu/",
-    "instituteUrl": "https://www.amrita.edu/"
+    "id": "mph_bt549hrjv",
+    "courseType": "MPH",
+    "institution": "Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER)",
+    "location": "Puducherry, Puducherry",
+    "website": "https://jipmer.edu.in",
+    "specializations": [
+      "Epidemiology, Health Policy, Environmental Health"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "5"
   },
   {
-    "id": "sri-ramachandra-mph",
-    "institute": "Sri Ramachandra Institute of Higher Education – MPH",
+    "id": "mph_laqchrjna",
+    "courseType": "MPH",
+    "institution": "National Institute of Mental Health & Neurosciences (NIMHANS)",
+    "location": "Bengaluru, Karnataka",
+    "website": "https://nimhans.ac.in",
+    "specializations": [
+      "Public Mental Health, Epidemiology, Health Policy"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "4"
+  },
+  {
+    "id": "mph_iw5dn94u5",
+    "courseType": "MPH",
+    "institution": "Sree Chitra Tirunal Institute for Medical Sciences & Technology (SCTIMST)",
+    "location": "Thiruvananthapuram, Kerala",
+    "website": "https://sctimst.ac.in",
+    "specializations": [
+      "Global Health, Epidemiology, Health Technology Assessment"
+    ],
+    "parentUniversity": "Institute of National Importance",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_y0neojddr",
+    "courseType": "MPH",
+    "institution": "Sri Ramachandra Institute of Higher Education and Research (SRIHER)",
     "location": "Chennai, Tamil Nadu",
-    "startYear": "2009",
-    "nirfRank": "21 (Medical)",
-    "contactEmail": "admissions@sriramachandra.edu.in",
-    "admissionCycle": "May-June",
-    "specializations": ["MPH", "MSc Public Health"],
-    "courseUrl": "https://www.sriramachandra.edu.in/",
-    "instituteUrl": "https://www.sriramachandra.edu.in/"
+    "website": "https://www.sriramachandra.edu.in",
+    "specializations": [
+      "Epidemiology, Health Promotion, Occupational & Environmental Health"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "96"
   },
   {
-    "id": "kle-university-mph",
-    "institute": "KLE University – MPH",
-    "location": "Belagavi, Karnataka",
-    "startYear": "2012",
-    "nirfRank": "34 (Medical)",
-    "contactEmail": "info@kleuniversity.edu.in",
-    "admissionCycle": "September to November",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Policy and Management", "Environmental Health", "Health Promotion", "Public Health Nutrition", "Occupational Health"],
-    "courseUrl": "https://kle.edu.in/",
-    "instituteUrl": "https://kle.edu.in/"
+    "id": "mph_iylmrkds5",
+    "courseType": "MPH",
+    "institution": "Christian Medical College (CMC) Vellore",
+    "location": "Vellore, Tamil Nadu",
+    "website": "https://www.cmch-vellore.edu",
+    "specializations": [
+      "MPH in Public Health Practice & Research Methods"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "3"
   },
   {
-    "id": "nihfw-mph",
-    "institute": "National Institute of Health & Family Welfare (NIHFW)",
-    "location": "Delhi",
-    "startYear": "2024",
-    "nirfRank": "Not Mentioned",
-    "contactEmail": "nihfw.admissions@gmail.com",
-    "admissionCycle": "June-July",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Policy and Management", "Reproductive and Child Health", "Health Promotion", "Environmental Health", "Nutrition", "Health Systems Research"],
-    "courseUrl": "https://nihfw.ac.in/",
-    "instituteUrl": "https://nihfw.ac.in/"
+    "id": "mph_7g8o5c4mm",
+    "courseType": "MPH",
+    "institution": "Manipal Academy of Higher Education (MAHE)",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Global Health, Epidemiology, Health Policy"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "10"
   },
   {
-    "id": "dmiher-mph",
-    "institute": "Datta Meghe Institute of Higher Education & Research",
-    "location": "Maharashtra",
-    "startYear": "2005",
-    "nirfRank": "Not Mentioned",
-    "contactEmail": "admissions@dmimsdu.edu.in",
-    "admissionCycle": "June-August",
-    "specializations": ["MPH with Epidemiology", "Health Management"],
-    "courseUrl": "https://www.dmiher.edu.in/",
-    "instituteUrl": "https://www.dmiher.edu.in/"
+    "id": "mph_8ugb79p08",
+    "courseType": "MPH",
+    "institution": "Kasturba Medical College (KMC) Mangaluru",
+    "location": "Mangaluru, Karnataka",
+    "website": "https://manipal.edu/kmc-mangalore.html",
+    "specializations": [
+      "Public Health Practice, Epidemiology"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "10"
   },
   {
-    "id": "parul-university-mph",
-    "institute": "Parul University",
-    "location": "Gujarat",
-    "startYear": "2010",
-    "nirfRank": "Not Mentioned",
-    "contactEmail": "paruluniversity@paruluniversity.ac.in",
-    "admissionCycle": "June-August",
-    "specializations": ["MPH", "MSc Epidemiology", "Public Health"],
-    "courseUrl": "https://paruluniversity.ac.in/",
-    "instituteUrl": "https://paruluniversity.ac.in/"
+    "id": "mph_vk4avq5yg",
+    "courseType": "MPH",
+    "institution": "Datta Meghe Institute of Higher Education & Research (DMIHER)",
+    "location": "Wardha, Maharashtra",
+    "website": "https://dmiher.edu.in",
+    "specializations": [
+      "Community Health, Epidemiology, Health Systems"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
   },
   {
-    "id": "jss-mysore-mph",
-    "institute": "JSS Medical College, Mysore",
-    "location": "Mysore, Karnataka",
-    "startYear": "1999",
-    "nirfRank": "39 (Medical)",
-    "contactEmail": "jssmc@jssuni.edu.in",
-    "admissionCycle": "May-July",
-    "specializations": ["MPH", "Community Medicine"],
-    "courseUrl": "https://jssuni.edu.in/",
-    "instituteUrl": "https://jssuni.edu.in/"
+    "id": "mph_o8cc7uf75",
+    "courseType": "MPH",
+    "institution": "Amrita Vishwa Vidyapeetham",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Epidemiology, Global Health, Community Health"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "8"
   },
   {
-    "id": "jnu-mph",
-    "institute": "Jawaharlal Nehru University (JNU)",
-    "location": "Delhi",
-    "startYear": "1969",
-    "nirfRank": "2 (JNU Overall)",
-    "contactEmail": "director_admissions@mail.jnu.ac.in",
-    "admissionCycle": "June",
-    "specializations": ["MPH", "Epidemiology"],
-    "courseUrl": "https://www.jnu.ac.in/",
-    "instituteUrl": "https://www.jnu.ac.in/"
+    "id": "mph_mdff2yr8v",
+    "courseType": "MPH",
+    "institution": "Symbiosis Institute of Health Sciences (SIHS)",
+    "location": "Pune, Maharashtra",
+    "website": "https://sihspune.org",
+    "specializations": [
+      "Health Policy, Health Systems, Epidemiology"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
   },
   {
-    "id": "amity-university-mph",
-    "institute": "Amity University",
-    "location": "Noida, Uttar Pradesh",
-    "startYear": "2015",
-    "nirfRank": "150 (Overall)",
-    "contactEmail": "mph@amity.edu",
-    "admissionCycle": "June-August",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Policy and Management", "Environmental Health", "Global Health", "Health Promotion and Education", "Public Health Nutrition"],
-    "courseUrl": "https://www.amity.edu/",
-    "instituteUrl": "https://www.amity.edu/"
+    "id": "mph_ozohl9a0k",
+    "courseType": "MPH",
+    "institution": "Dr. D.Y. Patil Vidyapeeth (DPU)",
+    "location": "Pune, Maharashtra",
+    "website": "https://dypatil.edu",
+    "specializations": [
+      "Public Health Management, Epidemiology"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "11"
   },
   {
-    "id": "sgt-university-mph",
-    "institute": "SGT University",
+    "id": "mph_h1k6xeh5t",
+    "courseType": "MPH",
+    "institution": "Indian Institute of Public Health Gandhinagar (IIPHG)",
+    "location": "Gandhinagar, Gujarat",
+    "website": "https://iiphg.edu.in",
+    "specializations": [
+      "Public Health Management, Epidemiology, Health Policy"
+    ],
+    "parentUniversity": "State Private University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_hyhmxot5l",
+    "courseType": "MPH",
+    "institution": "Indian Institute of Public Health Delhi (IIPHD)",
     "location": "Gurugram, Haryana",
-    "startYear": "2015",
-    "nirfRank": "Not Mentioned",
-    "contactEmail": "admissions@sgtuniversity.ac.in",
-    "admissionCycle": "August-September",
-    "specializations": ["Epidemiology", "Biostatistics", "Health Policy and Management", "Environmental Health", "Global Health", "Health Promotion and Education", "Public Health Nutrition"],
-    "courseUrl": "https://www.sgtuniversity.ac.in/",
-    "instituteUrl": "https://www.sgtuniversity.ac.in/"
+    "website": "https://iiphd.org",
+    "specializations": [
+      "General MPH, Epidemiology, Health Systems & Policy"
+    ],
+    "parentUniversity": "PHFI + AcSIR",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_9c8jca88x",
+    "courseType": "MPH",
+    "institution": "Indian Institute of Public Health Hyderabad (IIPH-H)",
+    "location": "Hyderabad, Telangana",
+    "website": "https://iiphh.org",
+    "specializations": [
+      "Epidemiology, Health Systems, Biostatistics"
+    ],
+    "parentUniversity": "PHFI + KNRUHS",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_f8zexfvs4",
+    "courseType": "MPH",
+    "institution": "Indian Institute of Public Health Bhubaneswar (IIPH-B)",
+    "location": "Bhubaneswar, Odisha",
+    "website": "https://iiphb.org",
+    "specializations": [
+      "Public Health Practice, Program Management"
+    ],
+    "parentUniversity": "PHFI",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_qgyd2p1nc",
+    "courseType": "MPH",
+    "institution": "Indian Institute of Public Health Shillong (IIPH-S)",
+    "location": "Shillong, Meghalaya",
+    "website": "https://iiphs.ac.in",
+    "specializations": [
+      "Health Systems Strengthening, Epidemiology"
+    ],
+    "parentUniversity": "PHFI",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_kbcqovilx",
+    "courseType": "MPH",
+    "institution": "University of Hyderabad",
+    "location": "Hyderabad, Telangana",
+    "website": "https://uohyd.ac.in",
+    "specializations": [
+      "MPH (General), Health Policy, Epidemiology"
+    ],
+    "parentUniversity": "Central University",
+    "nirfRank": "151-200 (Univ)"
+  },
+  {
+    "id": "mph_9vo5dkk4v",
+    "courseType": "MPH",
+    "institution": "Jawaharlal Nehru University (JNU)",
+    "location": "New Delhi, Delhi",
+    "website": "https://jnu.ac.in",
+    "specializations": [
+      "Public Health Policy, Health Administration"
+    ],
+    "parentUniversity": "Central University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_zf98pqbxf",
+    "courseType": "MPH",
+    "institution": "Banaras Hindu University (BHU)",
+    "location": "Varanasi, Uttar Pradesh",
+    "website": "https://imsbhu.ac.in",
+    "specializations": [
+      "Community Health, Epidemiology"
+    ],
+    "parentUniversity": "Central University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_3cb2sg8yv",
+    "courseType": "MPH",
+    "institution": "King George’s Medical University (KGMU)",
+    "location": "Lucknow, Uttar Pradesh",
+    "website": "https://kgmu.org",
+    "specializations": [
+      "Epidemiology, Biostatistics, Program Management"
+    ],
+    "parentUniversity": "State University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_76ti3jbjv",
+    "courseType": "MPH",
+    "institution": "KIIT School of Public Health (KSPH)",
+    "location": "Bhubaneswar, Odisha",
+    "website": "https://ksph.kiit.ac.in",
+    "specializations": [
+      "Hospital & Health Management, Epidemiology"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_z2h6rszgx",
+    "courseType": "MPH",
+    "institution": "JSS Academy of Higher Education & Research",
+    "location": "Mysuru, Karnataka",
+    "website": "https://jssuni.edu.in",
+    "specializations": [
+      "Epidemiology, Global Health, Health Promotion"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_a3r1ez33y",
+    "courseType": "MPH",
+    "institution": "MS Ramaiah University of Applied Sciences",
+    "location": "Bengaluru, Karnataka",
+    "website": "https://msruas.ac.in",
+    "specializations": [
+      "Health Policy, Health Administration, Epidemiology"
+    ],
+    "parentUniversity": "Private University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_d3csyzhra",
+    "courseType": "MPH",
+    "institution": "St. John’s National Academy of Health Sciences",
+    "location": "Bengaluru, Karnataka",
+    "website": "https://stjohns.in",
+    "specializations": [
+      "Community Health, Epidemiology, Maternal & Child Health"
+    ],
+    "parentUniversity": "Autonomous",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_tziyqjrfd",
+    "courseType": "MPH",
+    "institution": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+    "location": "Bengaluru, Karnataka",
+    "website": "http://www.rguhs.ac.in",
+    "specializations": [
+      "Community Health, Health Management, Epidemiology"
+    ],
+    "parentUniversity": "State Health Sciences University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_3qag7krzs",
+    "courseType": "MPH",
+    "institution": "Gujarat University",
+    "location": "Ahmedabad, Gujarat",
+    "website": "https://www.gujaratuniversity.ac.in",
+    "specializations": [
+      "Public Health Management, Epidemiology"
+    ],
+    "parentUniversity": "State Public University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_it0o2pbhd",
+    "courseType": "MPH",
+    "institution": "SRM Institute of Science and Technology",
+    "location": "Kattankulathur, Tamil Nadu",
+    "website": "https://www.srmist.edu.in",
+    "specializations": [
+      "Epidemiology, Health Informatics, Health Policy"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_m7nmokoqm",
+    "courseType": "MPH",
+    "institution": "Annamalai University",
+    "location": "Chidambaram, Tamil Nadu",
+    "website": "https://annamalaiuniversity.ac.in",
+    "specializations": [
+      "Public Health Practice, Program Management"
+    ],
+    "parentUniversity": "State University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_o46usqzf6",
+    "courseType": "MPH",
+    "institution": "PSG Institute of Medical Sciences & Research",
+    "location": "Coimbatore, Tamil Nadu",
+    "website": "https://psgimsr.ac.in",
+    "specializations": [
+      "Global Health, Epidemiology, Health Systems"
+    ],
+    "parentUniversity": "Affiliated to Dr. MGR Medical University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_cqi2ou6sr",
+    "courseType": "MPH",
+    "institution": "Yenepoya (Deemed to be University)",
+    "location": "Mangaluru, Karnataka",
+    "website": "https://www.yenepoya.edu.in",
+    "specializations": [
+      "Epidemiology, Global Health, Health Promotion"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_w7wqhlfps",
+    "courseType": "MPH",
+    "institution": "Kerala University of Health Sciences (KUHS)",
+    "location": "Thrissur, Kerala",
+    "website": "https://kuhs.ac.in",
+    "specializations": [
+      "Epidemiology, Health Administration, Family Health"
+    ],
+    "parentUniversity": "State Health Sciences University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_wtoqz2c9i",
+    "courseType": "MPH",
+    "institution": "Saveetha Institute of Medical and Technical Sciences",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://saveetha.com",
+    "specializations": [
+      "Public Health Dentistry, Epidemiology, Health Promotion"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_yh3f4zmv7",
+    "courseType": "MPH",
+    "institution": "Bharti Vidyapeeth (Deemed University)",
+    "location": "Pune, Maharashtra",
+    "website": "https://bvuniversity.edu.in",
+    "specializations": [
+      "Hospital & Health Management, Epidemiology"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_966tiqb04",
+    "courseType": "MPH",
+    "institution": "Parul University",
+    "location": "Vadodara, Gujarat",
+    "website": "https://paruluniversity.ac.in",
+    "specializations": [
+      "Community Medicine, Health Systems"
+    ],
+    "parentUniversity": "Private University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_dxo4h1l70",
+    "courseType": "MPH",
+    "institution": "SGT University",
+    "location": "Gurugram, Haryana",
+    "website": "https://sgtuniversity.ac.in",
+    "specializations": [
+      "Master of Public Health (General), Health Promotion"
+    ],
+    "parentUniversity": "Private University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_cmssov9v3",
+    "courseType": "MPH",
+    "institution": "Integral University",
+    "location": "Lucknow, Uttar Pradesh",
+    "website": "https://www.integraluniversity.ac.in",
+    "specializations": [
+      "Public Health, Hospital Administration"
+    ],
+    "parentUniversity": "Private University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_cn8jb6dlq",
+    "courseType": "MPH",
+    "institution": "Chitkara University",
+    "location": "Rajpura, Punjab",
+    "website": "https://www.chitkara.edu.in",
+    "specializations": [
+      "Health Analytics, Epidemiology, Health Systems"
+    ],
+    "parentUniversity": "Private University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_f4paah6eb",
+    "courseType": "MPH",
+    "institution": "Lovely Professional University (LPU)",
+    "location": "Phagwara, Punjab",
+    "website": "https://www.lpu.in",
+    "specializations": [
+      "Public Health, Health Promotion, Program Management"
+    ],
+    "parentUniversity": "Private University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_upoddpgy0",
+    "courseType": "MPH",
+    "institution": "Government Medical College & Hospital (GMCH) Chandigarh",
+    "location": "Chandigarh, UT",
+    "website": "https://gmch.gov.in",
+    "specializations": [
+      "Urban Health, Program Implementation, Epidemiology"
+    ],
+    "parentUniversity": "State Govt Medical College",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "mph_o99xbc613",
+    "courseType": "MPH",
+    "institution": "Tata Institute of Social Sciences (TISS)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.tiss.edu",
+    "specializations": [
+      "Social Epidemiology, Health Policy, Economics & Finance, Health Systems"
+    ],
+    "parentUniversity": "Deemed University",
+    "nirfRank": "NA"
+  },
+  {
+    "id": "md_lruxrvsvi",
+    "courseType": "MD",
+    "institution": "All India Institute of Medical Sciences (AIIMS) New Delhi",
+    "location": "New Delhi, Delhi",
+    "website": "https://www.aiims.edu",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / Community & Family Medicine (PSM, Epidemiology, Health Systems, National Programmes)"
+  },
+  {
+    "id": "md_xgnd8oklj",
+    "courseType": "MD",
+    "institution": "AIIMS Rishikesh",
+    "location": "Rishikesh, Uttarakhand",
+    "website": "https://aiimsrishikesh.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community & Family Medicine (epidemiology, disaster health, health systems)"
+  },
+  {
+    "id": "md_3991gpsaz",
+    "courseType": "MD",
+    "institution": "AIIMS Jodhpur",
+    "location": "Jodhpur, Rajasthan",
+    "website": "https://aiimsjodhpur.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community & Family Medicine (field epidemiology, environmental/occupational health)"
+  },
+  {
+    "id": "md_3ng5ipmpt",
+    "courseType": "MD",
+    "institution": "AIIMS Raipur",
+    "location": "Raipur, Chhattisgarh",
+    "website": "https://aiimsraipur.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community & Family Medicine (tribal/rural health, program implementation)"
+  },
+  {
+    "id": "md_xkr81qo38",
+    "courseType": "MD",
+    "institution": "AIIMS Bhubaneswar",
+    "location": "Bhubaneswar, Odisha",
+    "website": "https://aiimsbhubaneswar.nic.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / Community & Family Medicine"
+  },
+  {
+    "id": "md_o4wd602y7",
+    "courseType": "MD",
+    "institution": "AIIMS Bhopal",
+    "location": "Bhopal, Madhya Pradesh",
+    "website": "https://aiimsbhopal.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community & Family Medicine (environmental health, disaster / industrial exposure)"
+  },
+  {
+    "id": "md_ldv13oblp",
+    "courseType": "MD",
+    "institution": "Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER)",
+    "location": "Puducherry, Puducherry",
+    "website": "https://jipmer.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (epidemiology, health policy, environmental health)"
+  },
+  {
+    "id": "md_k7f8n4bft",
+    "courseType": "MD",
+    "institution": "Postgraduate Institute of Medical Education & Research (PGIMER) Chandigarh",
+    "location": "Chandigarh, UT",
+    "website": "https://pgimer.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (School of Public Health; surveillance, program evaluation, M&E)"
+  },
+  {
+    "id": "md_7syuxau5d",
+    "courseType": "MD",
+    "institution": "All India Institute of Hygiene & Public Health (AIIH&PH) / affiliated medical college pathway",
+    "location": "Kolkata, West Bengal",
+    "website": "http://www.aiihph.gov.in",
+    "specializations": [],
+    "mdFocus": "MD (Community Medicine / PSM equivalent training via WBUHS-affiliated teaching hospitals)"
+  },
+  {
+    "id": "md_qneizp1dj",
+    "courseType": "MD",
+    "institution": "National Institute of Epidemiology (ICMR NIE) with affiliated medical college (SRIHER/Dr MGR Med Univ pathways)",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://nie.icmr.org.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine-style training pipeline for field epidemiology / public health leadership"
+  },
+  {
+    "id": "md_6v2hhrc2y",
+    "courseType": "MD",
+    "institution": "Maulana Azad Medical College (MAMC)",
+    "location": "New Delhi, Delhi",
+    "website": "https://www.mamc.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (urban health systems, programme management)"
+  },
+  {
+    "id": "md_h6wn9lnxo",
+    "courseType": "MD",
+    "institution": "Lady Hardinge Medical College (LHMC)",
+    "location": "New Delhi, Delhi",
+    "website": "http://lhmc-hosp.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (maternal & child health, RMNCH+A, gender health)"
+  },
+  {
+    "id": "md_tefe1zg1d",
+    "courseType": "MD",
+    "institution": "Vallabhbhai Patel Chest Institute / UCMS-Delhi (University College of Medical Sciences)",
+    "location": "New Delhi, Delhi",
+    "website": "https://www.ucms.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (communicable disease control, urban primary care)"
+  },
+  {
+    "id": "md_qsgr7bszh",
+    "courseType": "MD",
+    "institution": "Banaras Hindu University - Institute of Medical Sciences (BHU IMS)",
+    "location": "Varanasi, Uttar Pradesh",
+    "website": "https://imsbhu.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (rural health systems, vector-borne disease control)"
+  },
+  {
+    "id": "md_biplfyypy",
+    "courseType": "MD",
+    "institution": "King George’s Medical University (KGMU)",
+    "location": "Lucknow, Uttar Pradesh",
+    "website": "https://kgmu.org",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (epidemiology, biostatistics, NCD control)"
+  },
+  {
+    "id": "md_3uuzkfbo8",
+    "courseType": "MD",
+    "institution": "GSVM Medical College, Kanpur",
+    "location": "Kanpur, Uttar Pradesh",
+    "website": "http://www.gsvmmedicalcollege.com",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (district health systems, surveillance)"
+  },
+  {
+    "id": "md_3iquxlzzq",
+    "courseType": "MD",
+    "institution": "SN Medical College, Agra",
+    "location": "Agra, Uttar Pradesh",
+    "website": "http://www.snmcagra.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_voa15laxo",
+    "courseType": "MD",
+    "institution": "Lala Lajpat Rai Memorial (LLRM) Medical College",
+    "location": "Meerut, Uttar Pradesh",
+    "website": "https://llrmmedicalcollege.nic.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_u4ap2u33v",
+    "courseType": "MD",
+    "institution": "SMS Medical College Jaipur",
+    "location": "Jaipur, Rajasthan",
+    "website": "https://education.rajasthan.gov.in/smsmcjaipur",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (programme implementation, RNTCP/NTEP, NTEP, NPCDCS)"
+  },
+  {
+    "id": "md_wgxrg385u",
+    "courseType": "MD",
+    "institution": "Dr. S.N. Medical College Jodhpur",
+    "location": "Jodhpur, Rajasthan",
+    "website": "https://drsnmcjodhpur.com",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_81j20r9ua",
+    "courseType": "MD",
+    "institution": "Pt. B.D. Sharma PGIMS Rohtak",
+    "location": "Rohtak, Haryana",
+    "website": "https://uhsr.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (rural health training centres, NCD clinics)"
+  },
+  {
+    "id": "md_353torors",
+    "courseType": "MD",
+    "institution": "Government Medical College & Hospital Chandigarh (GMCH-32)",
+    "location": "Chandigarh, UT",
+    "website": "https://gmch.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (urban primary care, program management, surveillance)"
+  },
+  {
+    "id": "md_w30av82vy",
+    "courseType": "MD",
+    "institution": "Indira Gandhi Medical College (IGMC)",
+    "location": "Shimla, Himachal Pradesh",
+    "website": "https://www.igmcshimla.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (hilly terrain health systems)"
+  },
+  {
+    "id": "md_dupxb1eem",
+    "courseType": "MD",
+    "institution": "Government Medical College, Jammu",
+    "location": "Jammu, J&K",
+    "website": "https://gmcjammu.nic.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (border-state programme delivery, RMNCH+A)"
+  },
+  {
+    "id": "md_msbn49s3f",
+    "courseType": "MD",
+    "institution": "Government Medical College, Srinagar",
+    "location": "Srinagar, J&K",
+    "website": "https://www.gmcs.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (communicable disease control, PHC/CHC strengthening)"
+  },
+  {
+    "id": "md_m0bufwjb8",
+    "courseType": "MD",
+    "institution": "Madras Medical College (MMC)",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://www.mmc.tn.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (urban/rural surveillance, NCD, TB, field epidemiology)"
+  },
+  {
+    "id": "md_2mis76pm3",
+    "courseType": "MD",
+    "institution": "Stanley Medical College",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://www.stanleymedicalcollege.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_19kqbpdih",
+    "courseType": "MD",
+    "institution": "Kilpauk Medical College",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://www.kmc.tn.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_6dwnpd7e0",
+    "courseType": "MD",
+    "institution": "Coimbatore Medical College",
+    "location": "Coimbatore, Tamil Nadu",
+    "website": "https://www.cmchtn.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (district health systems, NCD clinics)"
+  },
+  {
+    "id": "md_r644ptm1g",
+    "courseType": "MD",
+    "institution": "PSG Institute of Medical Sciences & Research",
+    "location": "Coimbatore, Tamil Nadu",
+    "website": "https://psgimsr.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (implementation research, global health, health systems)"
+  },
+  {
+    "id": "md_gl3k46vhk",
+    "courseType": "MD",
+    "institution": "Christian Medical College (CMC) Vellore",
+    "location": "Vellore, Tamil Nadu",
+    "website": "https://www.cmch-vellore.edu",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (primary health care models, rural field practice areas, epidemiology)"
+  },
+  {
+    "id": "md_k5rsq7y24",
+    "courseType": "MD",
+    "institution": "Government Kilpauk / Govt Thanjavur / Govt Tirunelveli etc. (Tamil Nadu Govt Medical Colleges network)",
+    "location": "Multiple districts, Tamil Nadu",
+    "website": "https://tnmgrmu.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM with strong field practice areas and district health exposure"
+  },
+  {
+    "id": "md_n2qplcomj",
+    "courseType": "MD",
+    "institution": "Bangalore Medical College & Research Institute (BMCRI)",
+    "location": "Bengaluru, Karnataka",
+    "website": "http://www.bmcri.org",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (urban slum health, NCDs, injury surveillance)"
+  },
+  {
+    "id": "md_l5p6qukpn",
+    "courseType": "MD",
+    "institution": "Mysore Medical College & Research Institute (MMC&RI)",
+    "location": "Mysuru, Karnataka",
+    "website": "https://mmcri.karnataka.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_bgysx8ok9",
+    "courseType": "MD",
+    "institution": "Kasturba Medical College (KMC) Manipal / Mangaluru",
+    "location": "Manipal & Mangaluru, Karnataka",
+    "website": "https://manipal.edu/kmc-mangalore.html",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (global health, epidemiology, health promotion)"
+  },
+  {
+    "id": "md_hufpm1ag0",
+    "courseType": "MD",
+    "institution": "St. John’s Medical College",
+    "location": "Bengaluru, Karnataka",
+    "website": "https://stjohns.in",
+    "specializations": [],
+    "mdFocus": "MD Community Health / Community Medicine (MCH, health systems, poverty-linked health)"
+  },
+  {
+    "id": "md_4y22oj9hq",
+    "courseType": "MD",
+    "institution": "Kempegowda Institute of Medical Sciences (KIMS)",
+    "location": "Bengaluru, Karnataka",
+    "website": "http://www.kimsku.org",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_wr4535bv7",
+    "courseType": "MD",
+    "institution": "Government Medical College, Thiruvananthapuram",
+    "location": "Thiruvananthapuram, Kerala",
+    "website": "https://gmctvm.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (epidemiology, programme evaluation, NCD clinics)"
+  },
+  {
+    "id": "md_bc2vtnh3t",
+    "courseType": "MD",
+    "institution": "Government Medical College, Kozhikode (Calicut Medical College)",
+    "location": "Kozhikode, Kerala",
+    "website": "https://www.govtmedicalcollegekozhikode.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_41imu3frk",
+    "courseType": "MD",
+    "institution": "Government Medical College, Kottayam",
+    "location": "Kottayam, Kerala",
+    "website": "https://principal.gmckottayam.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_5rf59ryrq",
+    "courseType": "MD",
+    "institution": "Amrita Institute of Medical Sciences / Amrita Vishwa Vidyapeetham",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (disaster medicine, public health emergency response, NCD epidemiology)"
+  },
+  {
+    "id": "md_9yjx73k84",
+    "courseType": "MD",
+    "institution": "Kasturba Medical College (KMC) Manipal",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (community-oriented primary care, global health)"
+  },
+  {
+    "id": "md_qo9470at5",
+    "courseType": "MD",
+    "institution": "Gandhi Medical College",
+    "location": "Hyderabad, Telangana",
+    "website": "https://gmchedu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / SPM (urban health, programme implementation)"
+  },
+  {
+    "id": "md_xbp18we3l",
+    "courseType": "MD",
+    "institution": "Osmania Medical College",
+    "location": "Hyderabad, Telangana",
+    "website": "https://www.osmaniamedicalcollege.org",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine"
+  },
+  {
+    "id": "md_qoqyqlogi",
+    "courseType": "MD",
+    "institution": "Kakatiya Medical College",
+    "location": "Warangal, Telangana",
+    "website": "https://knruhs.telangana.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_wseqkxyl9",
+    "courseType": "MD",
+    "institution": "Andhra Medical College",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "website": "https://www.andhramedicalcollegevizag.com",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / SPM (vector-borne disease control, NCD clinics)"
+  },
+  {
+    "id": "md_v6sibnv4z",
+    "courseType": "MD",
+    "institution": "Guntur Medical College",
+    "location": "Guntur, Andhra Pradesh",
+    "website": "https://gunturmedicalcollege.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_wx7tftyur",
+    "courseType": "MD",
+    "institution": "SV Medical College Tirupati (SVMC)",
+    "location": "Tirupati, Andhra Pradesh",
+    "website": "http://svimstpt.ap.nic.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_b72l2puh1",
+    "courseType": "MD",
+    "institution": "Institute of Medical Sciences, BHU (re-listed for East UP/Bihar belt relevance)",
+    "location": "Varanasi, Uttar Pradesh",
+    "website": "https://imsbhu.ac.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (rural community development blocks, vector control)"
+  },
+  {
+    "id": "md_dtsq799dw",
+    "courseType": "MD",
+    "institution": "Nil Ratan Sircar (NRS) Medical College",
+    "location": "Kolkata, West Bengal",
+    "website": "https://nrsmc.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (urban slum health, communicable disease control)"
+  },
+  {
+    "id": "md_vnnjmhliq",
+    "courseType": "MD",
+    "institution": "Medical College & Hospital, Kolkata",
+    "location": "Kolkata, West Bengal",
+    "website": "https://www.mckolkata.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_i7r14qwat",
+    "courseType": "MD",
+    "institution": "RG Kar Medical College",
+    "location": "Kolkata, West Bengal",
+    "website": "https://rgkarmch.org",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_cqdlgvv2z",
+    "courseType": "MD",
+    "institution": "North Bengal Medical College",
+    "location": "Siliguri, West Bengal",
+    "website": "https://www.nbmc.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (hilly/tea garden population health)"
+  },
+  {
+    "id": "md_4kq6kznxv",
+    "courseType": "MD",
+    "institution": "Gauhati Medical College",
+    "location": "Guwahati, Assam",
+    "website": "https://gmchassam.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (vector-borne disease, flood/disaster epidemiology)"
+  },
+  {
+    "id": "md_5h1si7l00",
+    "courseType": "MD",
+    "institution": "Assam Medical College",
+    "location": "Dibrugarh, Assam",
+    "website": "https://assammedicalcollege.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_tcdgart36",
+    "courseType": "MD",
+    "institution": "Regional Institute of Medical Sciences (RIMS)",
+    "location": "Imphal, Manipur",
+    "website": "https://www.rims.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (tribal / conflict-affected settings, surveillance)"
+  },
+  {
+    "id": "md_znpwgi6l7",
+    "courseType": "MD",
+    "institution": "North Eastern Indira Gandhi Regional Institute of Health & Medical Sciences (NEIGRIHMS)",
+    "location": "Shillong, Meghalaya",
+    "website": "https://neigrihms.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (remote/rural access, hill state health systems)"
+  },
+  {
+    "id": "md_gbvre6e91",
+    "courseType": "MD",
+    "institution": "Seth GS Medical College & KEM Hospital",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.kem.edu",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (urban health systems, occupational health, NCDs)"
+  },
+  {
+    "id": "md_7jg7qevqj",
+    "courseType": "MD",
+    "institution": "Grant Medical College & Sir JJ Group of Hospitals",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://ggmcjjh.com",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_pk7iope23",
+    "courseType": "MD",
+    "institution": "Armed Forces Medical College (AFMC)",
+    "location": "Pune, Maharashtra",
+    "website": "https://afmc.nic.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (defence epidemiology, preventive & social medicine, operational/public health in armed forces)"
+  },
+  {
+    "id": "md_9zp7xulbm",
+    "courseType": "MD",
+    "institution": "BJ Government Medical College Pune",
+    "location": "Pune, Maharashtra",
+    "website": "https://bjgmc.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_56z6h6h4o",
+    "courseType": "MD",
+    "institution": "Government Medical College, Nagpur",
+    "location": "Nagpur, Maharashtra",
+    "website": "https://gmcnagpur.org",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM"
+  },
+  {
+    "id": "md_pyyxue9ok",
+    "courseType": "MD",
+    "institution": "Government Medical College & Sir Takhtasinhji Hospital, Bhavnagar",
+    "location": "Bhavnagar, Gujarat",
+    "website": "https://gmcbvn.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine (coastal health, occupational health, vector-borne disease)"
+  },
+  {
+    "id": "md_li4us1039",
+    "courseType": "MD",
+    "institution": "BJ Medical College, Ahmedabad",
+    "location": "Ahmedabad, Gujarat",
+    "website": "https://www.bjmcabd.edu.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (urban/rural field practice, NCD and maternal health)"
+  },
+  {
+    "id": "md_o6h7if0pj",
+    "courseType": "MD",
+    "institution": "Goa Medical College",
+    "location": "Bambolim, Goa",
+    "website": "https://www.gmc.goa.gov.in",
+    "specializations": [],
+    "mdFocus": "MD Community Medicine / PSM (vector control, environmental health, tourism-linked public health)"
+  },
+  {
+    "id": "msc_upp9m96b2",
+    "courseType": "MSC",
+    "institution": "Christian Medical College (CMC) Vellore",
+    "location": "Vellore, Tamil Nadu",
+    "website": "https://www.cmch-vellore.edu",
+    "specializations": [
+      "Applied epidemiology, outbreak investigation, clinical epidemiology, public health research methods"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "Private Minority / Deemed Univ-associated"
+  },
+  {
+    "id": "msc_0a7ytx503",
+    "courseType": "MSC",
+    "institution": "Sree Chitra Tirunal Institute for Medical Sciences & Technology (Achutha Menon Centre)",
+    "location": "Thiruvananthapuram, Kerala",
+    "website": "https://www.sctimst.ac.in",
+    "specializations": [
+      "Epidemiologic methods, chronic disease epidemiology, health systems research"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_4cuif92gl",
+    "courseType": "MSC",
+    "institution": "ICMR - National Institute of Epidemiology (through SRIHER / TN Dr MGR Med Univ pathways)",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://nie.icmr.org.in",
+    "specializations": [
+      "Field epidemiology, communicable disease control, surveillance, program evaluation"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "ICMR Institute + Deemed/State Univ affiliation"
+  },
+  {
+    "id": "msc_sasm6297r",
+    "courseType": "MSC",
+    "institution": "PGIMER School of Public Health",
+    "location": "Chandigarh, UT",
+    "website": "https://pgimer.edu.in",
+    "specializations": [
+      "Epidemiology, biostatistics, infectious / non-communicable disease surveillance, program monitoring"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_w90biou1e",
+    "courseType": "MSC",
+    "institution": "JIPMER Dept of Preventive and Social Medicine / School of Public Health",
+    "location": "Puducherry, Puducherry",
+    "website": "https://jipmer.edu.in",
+    "specializations": [
+      "Clinical epidemiology, community epidemiology, health services research"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_lfg3dx71d",
+    "courseType": "MSC",
+    "institution": "SRM Institute of Science and Technology (SRMIST)",
+    "location": "Kattankulathur (Chengalpattu), Tamil Nadu",
+    "website": "https://www.srmist.edu.in",
+    "specializations": [
+      "Epidemiology of communicable & NCDs, study design, biostatistics"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_g1kro7evp",
+    "courseType": "MSC",
+    "institution": "Swami Rama Himalayan University (Himalayan Institute of Medical Sciences)",
+    "location": "Dehradun, Uttarakhand",
+    "website": "https://srhu.edu.in",
+    "specializations": [
+      "Field epidemiology, outbreak investigation, program implementation in hilly/tribal settings"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "Private University"
+  },
+  {
+    "id": "msc_yowjs4d0j",
+    "courseType": "MSC",
+    "institution": "Amrita Vishwa Vidyapeetham (School of Public Health)",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Infectious disease epidemiology, disaster epidemiology, One Health"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_4ue18o8xf",
+    "courseType": "MSC",
+    "institution": "Manipal Academy of Higher Education (Prasanna School of Public Health)",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Digital surveillance, health analytics, outbreak modelling, AI-enabled public health intelligence"
+    ],
+    "programName": "M.Sc in Digital Epidemiology",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_0vc1yubfm",
+    "courseType": "MSC",
+    "institution": "Madras Medical College (TN Dr MGR Medical University affiliated)",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://www.mmc.tn.gov.in",
+    "specializations": [
+      "Clinical and community epidemiology, program-oriented surveillance, hospital-community interface"
+    ],
+    "programName": "M.Sc Epidemiology",
+    "parentUniversity": "State Govt Medical College"
+  },
+  {
+    "id": "msc_47qpg7tzi",
+    "courseType": "MSC",
+    "institution": "International Institute for Population Sciences (IIPS)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.iipsindia.ac.in",
+    "specializations": [
+      "Biostatistics, survival analysis, statistical modelling in health, demographic methods"
+    ],
+    "programName": "M.Sc Biostatistics",
+    "parentUniversity": "Deemed to be University under MoHFW (Govt of India)"
+  },
+  {
+    "id": "msc_wdfjjjv12",
+    "courseType": "MSC",
+    "institution": "SRM Institute of Science and Technology (SRMIST)",
+    "location": "Kattankulathur (Chengalpattu), Tamil Nadu",
+    "website": "https://www.srmist.edu.in",
+    "specializations": [
+      "Combined epidemiology + advanced biostatistics, clinical trials design, statistical software skills"
+    ],
+    "programName": "M.Sc Biostatistics & Epidemiology",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_ft7sy6jy6",
+    "courseType": "MSC",
+    "institution": "St. John’s National Academy of Health Sciences (St. John’s Medical College)",
+    "location": "Bengaluru, Karnataka",
+    "website": "https://stjohns.in",
+    "specializations": [
+      "Medical statistics, clinical trials, epidemiologic data analysis, health metrics"
+    ],
+    "programName": "M.Sc Biostatistics",
+    "parentUniversity": "Affiliated to RGUHS / Autonomous Mission Institution"
+  },
+  {
+    "id": "msc_wrozw493k",
+    "courseType": "MSC",
+    "institution": "PSG Institute of Medical Sciences & Research / PSG Institute of Public Health",
+    "location": "Coimbatore, Tamil Nadu",
+    "website": "https://psgimsr.ac.in",
+    "specializations": [
+      "Applied biostatistics, global health metrics, health systems analytics"
+    ],
+    "programName": "M.Sc Biostatistics",
+    "parentUniversity": "Private Trust college (affiliated to TN Dr MGR Med Univ)"
+  },
+  {
+    "id": "msc_o9xqathrv",
+    "courseType": "MSC",
+    "institution": "Amrita Vishwa Vidyapeetham (Health Sciences Campus)",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Biostatistics for clinical research, trial design, NCD analytics, medical data management"
+    ],
+    "programName": "M.Sc Biostatistics",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_ce4ic4zfc",
+    "courseType": "MSC",
+    "institution": "MAHE / Manipal School of Life Sciences & Prasanna School of Public Health",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Biostatistics, bioinformatics interface, epidemiologic data analysis"
+    ],
+    "programName": "M.Sc Biostatistics",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_iz917sotl",
+    "courseType": "MSC",
+    "institution": "Kerala University of Health Sciences (via Govt. Medical Colleges / KUHS-affiliated colleges)",
+    "location": "Thrissur, Kerala",
+    "website": "https://kuhs.ac.in",
+    "specializations": [
+      "Biostatistics for hospital/PH data, NCD registries, surveillance analytics"
+    ],
+    "programName": "M.Sc Biostatistics",
+    "parentUniversity": "State Health Sciences University"
+  },
+  {
+    "id": "msc_vl9k45b0x",
+    "courseType": "MSC",
+    "institution": "Sree Chitra Tirunal Institute for Medical Sciences & Technology (Achutha Menon Centre)",
+    "location": "Thiruvananthapuram, Kerala",
+    "website": "https://www.sctimst.ac.in",
+    "specializations": [
+      "Health systems research, health economics, implementation research, health policy"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_mkc1xpvh0",
+    "courseType": "MSC",
+    "institution": "Manipal Academy of Higher Education (Prasanna School of Public Health)",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Global health, health promotion, health systems, implementation science"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_lsqj8sh27",
+    "courseType": "MSC",
+    "institution": "Kasturba Medical College / MAHE (Mangaluru campus)",
+    "location": "Mangaluru, Karnataka",
+    "website": "https://manipal.edu/kmc-mangalore.html",
+    "specializations": [
+      "Community health, health promotion, monitoring & evaluation"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_13vaiwt80",
+    "courseType": "MSC",
+    "institution": "Amrita Vishwa Vidyapeetham (School of Public Health)",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Disaster medicine, health systems strengthening, epidemiology of NCDs and injuries"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_94b72nd92",
+    "courseType": "MSC",
+    "institution": "Dr. D.Y. Patil Vidyapeeth (School of Public Health)",
+    "location": "Pune / Navi Mumbai, Maharashtra",
+    "website": "https://dypatil.edu",
+    "specializations": [
+      "Urban health, global health strategy, health promotion and behaviour change"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_mf1znxdqt",
+    "courseType": "MSC",
+    "institution": "Symbiosis International (Deemed University) / Symbiosis Institute of Health Sciences",
+    "location": "Pune, Maharashtra",
+    "website": "https://sihspune.org",
+    "specializations": [
+      "Health systems, health financing/insurance, program management, urban health"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_f3o1foxis",
+    "courseType": "MSC",
+    "institution": "Ahmedabad University (School / Centre for Public Health, Bagchi School of Public Health)",
+    "location": "Ahmedabad, Gujarat",
+    "website": "https://ahduni.edu.in",
+    "specializations": [
+      "Population health, epidemiology, public health analytics, health systems"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Private University"
+  },
+  {
+    "id": "msc_mdgu23wyk",
+    "courseType": "MSC",
+    "institution": "IIHMR University Jaipur",
+    "location": "Jaipur, Rajasthan",
+    "website": "https://iihmr.edu.in",
+    "specializations": [
+      "Health management, health policy, monitoring & evaluation, health systems operations"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Private University (UGC-recognised)"
+  },
+  {
+    "id": "msc_fch3vzjt7",
+    "courseType": "MSC",
+    "institution": "Indian Institute of Public Health Gandhinagar (IIPHG)",
+    "location": "Gandhinagar, Gujarat",
+    "website": "https://iiphg.edu.in",
+    "specializations": [
+      "Health policy, health systems management, epidemiology, One Health"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "State Private University (Gujarat Act)"
+  },
+  {
+    "id": "msc_qbbn6pyg1",
+    "courseType": "MSC",
+    "institution": "Indian Institute of Public Health Delhi (IIPHD) / PHFI (with AcSIR linkage)",
+    "location": "Gurugram (NCR), Haryana",
+    "website": "https://iiphd.org",
+    "specializations": [
+      "Social epidemiology, health systems & policy, health economics, public health nutrition"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "PHFI + AcSIR collaboration"
+  },
+  {
+    "id": "msc_qsxz611um",
+    "courseType": "MSC",
+    "institution": "Indian Institute of Public Health Hyderabad (IIPH-H)",
+    "location": "Hyderabad, Telangana",
+    "website": "https://iiphh.org",
+    "specializations": [
+      "Surveillance, implementation research, RMNCH+A systems, program operations"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "PHFI affiliate (with KNRUHS-type collaborations)"
+  },
+  {
+    "id": "msc_ifyv8vx9c",
+    "courseType": "MSC",
+    "institution": "Tata Institute of Social Sciences (School of Health Systems Studies)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.tiss.edu",
+    "specializations": [
+      "Social epidemiology, health policy and financing, health systems research"
+    ],
+    "programName": "M.Sc Public Health / Health Promotion",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_xzp8h7ce2",
+    "courseType": "MSC",
+    "institution": "University of Hyderabad (School of Medical Sciences)",
+    "location": "Hyderabad, Telangana",
+    "website": "https://uohyd.ac.in",
+    "specializations": [
+      "Public health research, epidemiology, biostatistics, health policy"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "Central University"
+  },
+  {
+    "id": "msc_zb65tbhhv",
+    "courseType": "MSC",
+    "institution": "King George’s Medical University (Dept of Community Medicine / Biostatistics units)",
+    "location": "Lucknow, Uttar Pradesh",
+    "website": "https://kgmu.org",
+    "specializations": [
+      "Public health research methods, health systems, program management, surveillance"
+    ],
+    "programName": "M.Sc Public Health",
+    "parentUniversity": "State University (Health Sciences in UP)"
+  },
+  {
+    "id": "msc_szjq4xu5g",
+    "courseType": "MSC",
+    "institution": "JIPMER School of Public Health",
+    "location": "Puducherry, Puducherry",
+    "website": "https://jipmer.edu.in",
+    "specializations": [
+      "Community health assessment, surveillance systems, health service delivery research"
+    ],
+    "programName": "M.Sc Community Health / Community Medicine (research track)",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_jxigyblbz",
+    "courseType": "MSC",
+    "institution": "International Institute for Population Sciences (IIPS)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.iipsindia.ac.in",
+    "specializations": [
+      "Biostatistics, demographic methods, survey methods, reproductive & child health analytics"
+    ],
+    "programName": "M.Sc Biostatistics & Demography",
+    "parentUniversity": "Deemed to be University under MoHFW"
+  },
+  {
+    "id": "msc_pp5kx0aru",
+    "courseType": "MSC",
+    "institution": "International Institute for Population Sciences (IIPS)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.iipsindia.ac.in",
+    "specializations": [
+      "Population health, fertility-mortality analysis, health policy planning, large-scale survey analytics (NFHS etc.)"
+    ],
+    "programName": "M.Sc Population Studies (with strong public health / fertility / mortality epidemiology)",
+    "parentUniversity": "Deemed to be University under MoHFW"
+  },
+  {
+    "id": "msc_qrs9wa5cj",
+    "courseType": "MSC",
+    "institution": "Tata Institute of Social Sciences (Health Policy, Economics and Finance stream)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.tiss.edu",
+    "specializations": [
+      "Health financing, health technology assessment, cost-effectiveness analysis, health policy analytics"
+    ],
+    "programName": "M.Sc Health Economics / Health Policy (quant heavy public health policy)",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_kies9wyzj",
+    "courseType": "MSC",
+    "institution": "Public Health Foundation of India / (AcSIR-linked health informatics tracks)",
+    "location": "Delhi NCR (Gurugram) / National network",
+    "website": "https://phfi.org",
+    "specializations": [
+      "Digital health systems, health information systems design, data governance, surveillance informatics"
+    ],
+    "programName": "M.Sc Health Informatics",
+    "parentUniversity": "PHFI + AcSIR"
+  },
+  {
+    "id": "msc_5ydhd1106",
+    "courseType": "MSC",
+    "institution": "SRM Institute of Science and Technology (College of Public Health / Medical Research)",
+    "location": "Kattankulathur (Chengalpattu), Tamil Nadu",
+    "website": "https://www.srmist.edu.in",
+    "specializations": [
+      "Health information systems, EMR/EHR analytics, public health informatics, digital surveillance"
+    ],
+    "programName": "M.Sc Health Informatics",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_81pp6nxh9",
+    "courseType": "MSC",
+    "institution": "Manipal Academy of Higher Education (MAHE)",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Biomedical informatics, clinical data standards, AI for health, digital epidemiology"
+    ],
+    "programName": "M.Sc Health Informatics / Biomedical Informatics",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_ztm9gh5or",
+    "courseType": "MSC",
+    "institution": "Amrita Vishwa Vidyapeetham (Health Sciences Campus)",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Digital health platforms, health analytics, hospital/public health information systems, telehealth"
+    ],
+    "programName": "M.Sc in Digital Health / Health Data Science (Public Health Analytics emphasis)",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_yzt8jwavd",
+    "courseType": "MSC",
+    "institution": "Rajiv Gandhi University of Health Sciences (through affiliated colleges)",
+    "location": "Bengaluru, Karnataka",
+    "website": "http://www.rguhs.ac.in",
+    "specializations": [
+      "Statistical analysis of health data, EMR data use, program dashboards for state health missions"
+    ],
+    "programName": "M.Sc Biostatistics & Health Informatics (variant titles at state health science universities)",
+    "parentUniversity": "State Health Sciences University"
+  },
+  {
+    "id": "msc_qk7hv1pyz",
+    "courseType": "MSC",
+    "institution": "Symbiosis Institute of Health Sciences",
+    "location": "Pune, Maharashtra",
+    "website": "https://sihspune.org",
+    "specializations": [
+      "Digital health records, health data governance, analytics for health insurance and hospital systems"
+    ],
+    "programName": "M.Sc Health Information Management / Hospital Information Systems (public health informatics slant)",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_o1zhmfbya",
+    "courseType": "MSC",
+    "institution": "SCTIMST (Achutha Menon Centre / Env. Health divisions)",
+    "location": "Thiruvananthapuram, Kerala",
+    "website": "https://www.sctimst.ac.in",
+    "specializations": [
+      "Environmental epidemiology, exposure assessment, occupational health risk evaluation"
+    ],
+    "programName": "M.Sc Environmental Health / Occupational & Environmental Health",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_qr13mdv80",
+    "courseType": "MSC",
+    "institution": "PGIMER (School of Public Health / Dept of Community Medicine)",
+    "location": "Chandigarh, UT",
+    "website": "https://pgimer.edu.in",
+    "specializations": [
+      "Air/water/soil exposure epidemiology, occupational disease surveillance, environmental policy"
+    ],
+    "programName": "M.Sc Environmental and Occupational Health",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_ii06mwpr1",
+    "courseType": "MSC",
+    "institution": "AIIMS (various campuses run EOHS or Occupational Health MSc-equivalent under Community & Family Medicine / Env. Health units)",
+    "location": "Multiple AIIMS campuses (e.g., Jodhpur, Bhopal)",
+    "website": "https://www.aiims.edu",
+    "specializations": [
+      "Workplace epidemiology, environmental risk, disaster toxicology"
+    ],
+    "programName": "M.Sc Occupational & Environmental Health",
+    "parentUniversity": "Institute of National Importance"
+  },
+  {
+    "id": "msc_tk9x9os31",
+    "courseType": "MSC",
+    "institution": "Manipal Academy of Higher Education (Prasanna School of Public Health)",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Global health policy, health systems strengthening, planetary health"
+    ],
+    "programName": "M.Sc Global Health",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_48je8d7fr",
+    "courseType": "MSC",
+    "institution": "Amrita Vishwa Vidyapeetham (School of Public Health)",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Global health delivery, humanitarian health, emergency response systems"
+    ],
+    "programName": "M.Sc Global Health",
+    "parentUniversity": "Deemed to be University"
+  },
+  {
+    "id": "msc_ry6hyylgg",
+    "courseType": "MSC",
+    "institution": "IIHMR University Jaipur",
+    "location": "Jaipur, Rajasthan",
+    "website": "https://iihmr.edu.in",
+    "specializations": [
+      "Health systems performance, program design, evaluation frameworks, UHC financing"
+    ],
+    "programName": "M.Sc Health Systems & Policy Research (sometimes titled Health Systems Management)",
+    "parentUniversity": "Private University"
+  },
+  {
+    "id": "online_6mhascmjp",
+    "courseType": "Online",
+    "institution": "Public Health Foundation of India (PHFI) / IIPH Network",
+    "location": "",
+    "website": "https://phfi.org",
+    "specializations": [
+      "Health systems, programme management, NHM operations"
+    ],
+    "programName": "ePost Graduate Program in Public Health Services Management",
+    "modeDuration": "Online / Blended (1 Year)",
+    "targetAudience": "Mid-career public health professionals"
+  },
+  {
+    "id": "online_igyho611w",
+    "courseType": "Online",
+    "institution": "National Institute of Health and Family Welfare (NIHFW)",
+    "location": "",
+    "website": "https://nihfw.ac.in",
+    "specializations": [
+      "Public health planning, HR, finance, health systems"
+    ],
+    "programName": "Post Graduate Diploma in Public Health Management (PGDPHM)",
+    "modeDuration": "Blended (1 Year)",
+    "targetAudience": "Medical officers, NHM staff"
+  },
+  {
+    "id": "online_n3o4vrsih",
+    "courseType": "Online",
+    "institution": "Indira Gandhi National Open University (IGNOU)",
+    "location": "",
+    "website": "https://ignou.ac.in",
+    "specializations": [
+      "District health systems, programme planning, epidemiology"
+    ],
+    "programName": "Post Graduate Diploma in District Health Management (PGDDHM)",
+    "modeDuration": "Distance (1 Year)",
+    "targetAudience": "District health officers, managers"
+  },
+  {
+    "id": "online_r7ti7kj01",
+    "courseType": "Online",
+    "institution": "PHFI / IIPH Delhi",
+    "location": "",
+    "website": "https://phfi.org",
+    "specializations": [
+      "Descriptive and analytical epidemiology, outbreak investigation"
+    ],
+    "programName": "ePost Graduate Program in Epidemiology",
+    "modeDuration": "Online (1 Year)",
+    "targetAudience": "Health officers, epidemiologists"
+  },
+  {
+    "id": "online_ztfzc6ejt",
+    "courseType": "Online",
+    "institution": "ICMR - National Institute of Epidemiology (NIE)",
+    "location": "",
+    "website": "https://nie.icmr.org.in",
+    "specializations": [
+      "Applied field epidemiology, outbreak investigation"
+    ],
+    "programName": "Field Epidemiology Training Programme (FETP)",
+    "modeDuration": "Blended (2 Years)",
+    "targetAudience": "In-service medical officers"
+  },
+  {
+    "id": "online_7n51scuaa",
+    "courseType": "Online",
+    "institution": "National Centre for Disease Control (NCDC)",
+    "location": "",
+    "website": "https://ncdc.gov.in",
+    "specializations": [
+      "Surveillance, outbreak response, field epi"
+    ],
+    "programName": "Post Graduate Diploma in Applied Epidemiology",
+    "modeDuration": "Blended (1 Year)",
+    "targetAudience": "Medical officers, IDSP/NHM staff"
+  },
+  {
+    "id": "online_hjzfbvgxe",
+    "courseType": "Online",
+    "institution": "Symbiosis Institute of Health Sciences (SIHS)",
+    "location": "",
+    "website": "https://sihspune.org",
+    "specializations": [
+      "GCP, clinical trials, pharmacovigilance"
+    ],
+    "programName": "Post Graduate Diploma in Clinical Research (PGDCR)",
+    "modeDuration": "Blended (1 Year)",
+    "targetAudience": "Doctors, pharmacists, life science graduates"
+  },
+  {
+    "id": "online_2vauh0gko",
+    "courseType": "Online",
+    "institution": "Manipal Academy of Higher Education (MAHE)",
+    "location": "",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Trial management, ethics, pharmacovigilance"
+    ],
+    "programName": "Post Graduate Diploma in Clinical Research",
+    "modeDuration": "Blended (1 Year)",
+    "targetAudience": "CRO staff, site managers"
+  },
+  {
+    "id": "online_d5v2i0s2v",
+    "courseType": "Online",
+    "institution": "SRM Institute of Science & Technology",
+    "location": "",
+    "website": "https://srmist.edu.in",
+    "specializations": [
+      "Statistical methods, data analytics"
+    ],
+    "programName": "Post Graduate Diploma in Biostatistics & Epidemiology",
+    "modeDuration": "Online / Blended (1 Year)",
+    "targetAudience": "Analysts, M&E staff"
+  },
+  {
+    "id": "online_262bd3q3m",
+    "courseType": "Online",
+    "institution": "SRM Institute of Science & Technology",
+    "location": "",
+    "website": "https://srmist.edu.in",
+    "specializations": [
+      "EHR, HIS, digital health systems"
+    ],
+    "programName": "Post Graduate Diploma in Health Informatics",
+    "modeDuration": "Online / Blended (1 Year)",
+    "targetAudience": "HMIS officers, IT professionals"
+  },
+  {
+    "id": "online_gpgnsxg7o",
+    "courseType": "Online",
+    "institution": "Manipal Academy of Higher Education (MAHE)",
+    "location": "",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Telehealth, clinical informatics, data analytics"
+    ],
+    "programName": "Post Graduate Diploma in Health Informatics",
+    "modeDuration": "Blended (1 Year)",
+    "targetAudience": "Clinicians, IT professionals"
+  },
+  {
+    "id": "online_wl9k4akxx",
+    "courseType": "Online",
+    "institution": "PHFI / IIPH Delhi",
+    "location": "",
+    "website": "https://phfi.org",
+    "specializations": [
+      "Health data governance, HIS design"
+    ],
+    "programName": "ePost Graduate Program in Health Informatics",
+    "modeDuration": "Online (1 Year)",
+    "targetAudience": "Health data managers, consultants"
+  },
+  {
+    "id": "online_eqt4w6yjg",
+    "courseType": "Online",
+    "institution": "Amrita Vishwa Vidyapeetham",
+    "location": "",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Digital health, predictive analytics, AI"
+    ],
+    "programName": "PG Certificate in Digital Health & Data Analytics",
+    "modeDuration": "Online / Blended (1 Year)",
+    "targetAudience": "Clinicians, health tech staff"
+  },
+  {
+    "id": "online_2nl8g6yw2",
+    "courseType": "Online",
+    "institution": "Symbiosis Institute of Health Sciences (SIHS)",
+    "location": "",
+    "website": "https://sihspune.org",
+    "specializations": [
+      "AI applications, predictive analytics"
+    ],
+    "programName": "PG Diploma in AI in Healthcare",
+    "modeDuration": "Blended (1 Year)",
+    "targetAudience": "Doctors, hospital QI staff"
+  },
+  {
+    "id": "online_tirf7bels",
+    "courseType": "Online",
+    "institution": "PHFI / IIPH Network",
+    "location": "",
+    "website": "https://phfi.org",
+    "specializations": [
+      "Indicators, dashboards, data audits"
+    ],
+    "programName": "eCourse in Monitoring & Evaluation of Health Programs",
+    "modeDuration": "Online (6 Months)",
+    "targetAudience": "M&E officers, program managers"
+  },
+  {
+    "id": "others_k6z8peg1a",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Public Health Management (PGDPHM)",
+    "location": "New Delhi, Delhi",
+    "website": "https://nihfw.ac.in",
+    "specializations": [
+      "Public health management, program planning, HMIS, RCH/NHM operations"
+    ],
+    "programName": "Post Graduate Diploma in Public Health Management (PGDPHM)",
+    "parentUniversity": "Autonomous Institute under MoHFW, Govt. of India",
+    "targetProfile": "Mid-career in-service medical/dental/AYUSH/public health officers (often sponsored by MoHFW/state NHM)"
+  },
+  {
+    "id": "others_yeepcm0vx",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Public Health Management (PGDPHM)",
+    "location": "Multiple (Delhi NCR, Gandhinagar, Hyderabad, Bhubaneswar)",
+    "website": "https://phfi.org",
+    "specializations": [
+      "Health systems, health policy, program management, monitoring & evaluation, RMNCH+A"
+    ],
+    "programName": "Post Graduate Diploma in Public Health Management (PGDPHM)",
+    "parentUniversity": "PHFI in collaboration with state health departments / partner universities",
+    "targetProfile": "Targeted at MBBS/AYUSH/nursing/health programme officers, NHM cadres"
+  },
+  {
+    "id": "others_1jog2rfm4",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Promotion and Education / Health Promotion",
+    "location": "New Delhi, Delhi",
+    "website": "https://nihfw.ac.in",
+    "specializations": [
+      "Health promotion strategies, IEC/BCC, behaviour change communication, social mobilization"
+    ],
+    "programName": "Post Graduate Diploma in Health Promotion and Education / Health Promotion",
+    "parentUniversity": "Autonomous Institute under MoHFW",
+    "targetProfile": "Public health educators, IEC/BCC officers, NGO programme staff"
+  },
+  {
+    "id": "others_ju8bav778",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Promotion and Education",
+    "location": "Kolkata, West Bengal",
+    "website": "http://www.aiihph.gov.in",
+    "specializations": [
+      "Health education, behavioural sciences, school & adolescent health, community mobilisation"
+    ],
+    "programName": "Post Graduate Diploma in Health Promotion and Education",
+    "parentUniversity": "Central Govt institute under MoHFW; affiliated with WBUHS",
+    "targetProfile": "For public health educators, school health, IEC officers"
+  },
+  {
+    "id": "others_zo0sscai4",
+    "courseType": "Others",
+    "institution": "Diploma in Public Health (DPH)",
+    "location": "Kolkata, West Bengal",
+    "website": "http://www.aiihph.gov.in",
+    "specializations": [
+      "Classical public health (epidemiology, MCH, sanitation, health admin)"
+    ],
+    "programName": "Diploma in Public Health (DPH)",
+    "parentUniversity": "MoHFW Govt. of India / WBUHS",
+    "targetProfile": "Traditionally MBBS-targeted; recognised historically for district-level public health leadership posts"
+  },
+  {
+    "id": "others_ti8btigw9",
+    "courseType": "Others",
+    "institution": "Diploma in Public Health (DPH) / Diploma in Community Medicine & Public Health",
+    "location": "Maharashtra (Mumbai, Pune, Nagpur etc.)",
+    "website": "https://www.muhs.ac.in",
+    "specializations": [
+      "Applied public health, district health administration, surveillance, outbreak response"
+    ],
+    "programName": "Diploma in Public Health (DPH) / Diploma in Community Medicine & Public Health",
+    "parentUniversity": "State Health Sciences University",
+    "targetProfile": "Clinicians entering district surveillance officer / DPHO type roles"
+  },
+  {
+    "id": "others_90tka9ebp",
+    "courseType": "Others",
+    "institution": "Diploma in Public Health",
+    "location": "Tamil Nadu (Chennai, Madurai, etc.)",
+    "website": "https://tnmgrmu.ac.in",
+    "specializations": [
+      "District health systems, program implementation, MCH, TB, NCD clinics"
+    ],
+    "programName": "Diploma in Public Health",
+    "parentUniversity": "State Health Sciences University",
+    "targetProfile": "In-service MBBS doctors for public health posts (DDHS/DPH pipeline)"
+  },
+  {
+    "id": "others_kmcb3rw2w",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Management / Hospital & Health Management",
+    "location": "Jaipur, Rajasthan",
+    "website": "https://iihmr.edu.in",
+    "specializations": [
+      "Health systems management, hospital administration, health policy and financing"
+    ],
+    "programName": "Post Graduate Diploma in Health Management / Hospital & Health Management",
+    "parentUniversity": "State Private University (UGC-recognized)",
+    "targetProfile": "Early-career programme executives, NGO/CSR health project managers"
+  },
+  {
+    "id": "others_5ar50udln",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Epidemiology",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://nie.icmr.org.in",
+    "specializations": [
+      "Field epidemiology, outbreak investigation, surveillance systems, program evaluation"
+    ],
+    "programName": "Post Graduate Diploma in Epidemiology",
+    "parentUniversity": "ICMR Institute under Govt. of India; linked with SRIHER / TN Dr MGR Med Univ for degrees",
+    "targetProfile": "Frontline epidemiologists for IDSP, NCDC, WHO surveillance fellowships"
+  },
+  {
+    "id": "others_psnnuf9c5",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Field Epidemiology / Field Epidemiology Training Programme (FETP)",
+    "location": "Chennai, Tamil Nadu / multiple field postings across India",
+    "website": "https://nie.icmr.org.in",
+    "specializations": [
+      "Applied field epidemiology, outbreak investigation, emergency response, analytic Epi"
+    ],
+    "programName": "Post Graduate Diploma in Field Epidemiology / Field Epidemiology Training Programme (FETP)",
+    "parentUniversity": "ICMR + MoHFW collaborative training",
+    "targetProfile": "In-service medical officers / state surveillance officers"
+  },
+  {
+    "id": "others_bo1nxyz3j",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Applied Epidemiology",
+    "location": "New Delhi, Delhi (national placement)",
+    "website": "https://ncdc.gov.in",
+    "specializations": [
+      "Outbreak investigation, surveillance, zoonotic/One Health epidemiology, emergency response"
+    ],
+    "programName": "Post Graduate Diploma in Applied Epidemiology",
+    "parentUniversity": "Directorate General of Health Services, MoHFW, Govt. of India",
+    "targetProfile": "Mid-career medical officers working in IDSP, outbreak response, zoonoses control"
+  },
+  {
+    "id": "others_dhf0ak3vv",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Epidemiology",
+    "location": "Chandigarh, UT",
+    "website": "https://pgimer.edu.in",
+    "specializations": [
+      "Epidemiologic methods, biostatistics, communicable/NCD surveillance, program monitoring"
+    ],
+    "programName": "Post Graduate Diploma in Epidemiology",
+    "parentUniversity": "Institute of National Importance",
+    "targetProfile": "Medical officers, programme managers, aspiring Surveillance/Monitoring & Evaluation officers"
+  },
+  {
+    "id": "others_94n21l0io",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Epidemiology",
+    "location": "Karnataka (Bengaluru, Mysuru, etc.)",
+    "website": "http://www.rguhs.ac.in",
+    "specializations": [
+      "Disease surveillance, outbreak response, district health analytics"
+    ],
+    "programName": "Post Graduate Diploma in Epidemiology",
+    "parentUniversity": "State Health Sciences University",
+    "targetProfile": "In-service MBBS/MD Community Medicine track in Karnataka state health system"
+  },
+  {
+    "id": "others_mibct66rv",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Biostatistics",
+    "location": "Bengaluru, Karnataka",
+    "website": "https://stjohns.in",
+    "specializations": [
+      "Medical statistics, trial design, statistical software, epidemiologic data analysis"
+    ],
+    "programName": "Post Graduate Diploma in Biostatistics",
+    "parentUniversity": "Autonomous Mission Institution (affiliated to RGUHS for degrees)",
+    "targetProfile": "Clinicians, MPH/MD Community Med residents, research associates in clinical trials"
+  },
+  {
+    "id": "others_4hlb03e6r",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Biostatistics & Data Management in Clinical Research",
+    "location": "Coimbatore, Tamil Nadu",
+    "website": "https://psgimsr.ac.in",
+    "specializations": [
+      "Biostatistics, data management, Good Clinical Practice, trial monitoring"
+    ],
+    "programName": "Post Graduate Diploma in Biostatistics & Data Management in Clinical Research",
+    "parentUniversity": "Private Trust college (TN Dr MGR Med Univ affiliated)",
+    "targetProfile": "Research coordinators / data managers / CRO associates"
+  },
+  {
+    "id": "others_o061e86kl",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Biostatistics and Epidemiology",
+    "location": "Kattankulathur (Chengalpattu), Tamil Nadu",
+    "website": "https://www.srmist.edu.in",
+    "specializations": [
+      "Basic & advanced biostatistics, epidemiologic study design, statistical computing for health"
+    ],
+    "programName": "Post Graduate Diploma in Biostatistics and Epidemiology",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Graduates moving into data analysis, monitoring & evaluation roles, CROs"
+  },
+  {
+    "id": "others_ostn9p4wz",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma / Certificate in Biostatistics and Data Science for Health",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Health data analytics, R/SQL for health data, modelling, registry data analysis"
+    ],
+    "programName": "Post Graduate Diploma / Certificate in Biostatistics and Data Science for Health",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Analyst roles in health systems, insurers, digital health startups, hospital quality teams"
+  },
+  {
+    "id": "others_mzx6qpauf",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Biostatistics & Demography (short-term variants)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.iipsindia.ac.in",
+    "specializations": [
+      "Large-scale survey methods (NFHS etc.), demographic and epidemiologic statistics"
+    ],
+    "programName": "Post Graduate Diploma in Biostatistics & Demography (short-term variants)",
+    "parentUniversity": "Deemed to be University under MoHFW, Govt. of India",
+    "targetProfile": "Public health data analysts, evaluation specialists, monitoring leads in large surveys"
+  },
+  {
+    "id": "others_tjwuwi91m",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Informatics",
+    "location": "Kattankulathur (Chengalpattu), Tamil Nadu",
+    "website": "https://www.srmist.edu.in",
+    "specializations": [
+      "Health information systems, EHR/EMR, data standards, public health informatics"
+    ],
+    "programName": "Post Graduate Diploma in Health Informatics",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Healthcare IT leads, EMR implementation specialists, digital health project managers"
+  },
+  {
+    "id": "others_ie7zx5bbh",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Informatics / Digital Health",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Clinical informatics, telehealth platforms, digital surveillance, analytics for health systems"
+    ],
+    "programName": "Post Graduate Diploma in Health Informatics / Digital Health",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Engineers + health professionals moving into digital health product / analytics roles"
+  },
+  {
+    "id": "others_dj6zx29z2",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Informatics / Public Health Informatics",
+    "location": "Delhi NCR / Hyderabad / Gandhinagar",
+    "website": "https://phfi.org",
+    "specializations": [
+      "Digital health architecture, HIS, health data governance, surveillance dashboards"
+    ],
+    "programName": "Post Graduate Diploma in Health Informatics / Public Health Informatics",
+    "parentUniversity": "PHFI (with AcSIR/partner universities in some tracks)",
+    "targetProfile": "In-service NHM HMIS staff, monitoring & evaluation officers, digital health consultants"
+  },
+  {
+    "id": "others_kxczwggl2",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma / Advanced Certificate in Digital Health and Data Analytics",
+    "location": "Kochi, Kerala",
+    "website": "https://amrita.edu",
+    "specializations": [
+      "Telemedicine systems, population health dashboards, AI tools in triage / decision support"
+    ],
+    "programName": "Post Graduate Diploma / Advanced Certificate in Digital Health and Data Analytics",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Doctors/IT professionals building digital health solutions and AI triage/alert pipelines"
+  },
+  {
+    "id": "others_cdlbvby20",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in AI in Healthcare / AI for Healthcare Professionals",
+    "location": "Pune, Maharashtra",
+    "website": "https://sihspune.org",
+    "specializations": [
+      "AI in diagnostics decision support, predictive analytics for hospital/public health, digital health governance"
+    ],
+    "programName": "Post Graduate Diploma in AI in Healthcare / AI for Healthcare Professionals",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Clinicians / health IT / hospital quality professionals upskilling in AI-enabled decision tools"
+  },
+  {
+    "id": "others_mmlw0q5n0",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in AI & Digital Health Analytics (health vertical)",
+    "location": "Jaipur, Rajasthan",
+    "website": "https://iihmr.edu.in",
+    "specializations": [
+      "Analytics for hospital performance, population dashboards, predictive modelling for programmes"
+    ],
+    "programName": "Post Graduate Diploma in AI & Digital Health Analytics (health vertical)",
+    "parentUniversity": "State Private University",
+    "targetProfile": "Public health managers / hospital analytics / CSR health programme M&E staff"
+  },
+  {
+    "id": "others_2nwfd3enl",
+    "courseType": "Others",
+    "institution": "Diploma in Health Education / Diploma in Health Promotion",
+    "location": "Kolkata, West Bengal",
+    "website": "http://www.aiihph.gov.in",
+    "specializations": [
+      "School health, adolescent health, IEC/BCC, social & behaviour change communication"
+    ],
+    "programName": "Diploma in Health Education / Diploma in Health Promotion",
+    "parentUniversity": "MoHFW Govt. of India / WBUHS",
+    "targetProfile": "Health educators, school health programme officers, counsellors"
+  },
+  {
+    "id": "others_d6iesl22q",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Promotion",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.tiss.edu",
+    "specializations": [
+      "Community mobilisation, social determinants, behaviour change strategy, programme advocacy"
+    ],
+    "programName": "Post Graduate Diploma in Health Promotion",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "NGO / CSR programme managers, social mobilisers, district IEC / BCC leads"
+  },
+  {
+    "id": "others_vok34dzmy",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Clinical Research",
+    "location": "Chennai, Tamil Nadu",
+    "website": "https://nirt.res.in",
+    "specializations": [
+      "Clinical trial design, GCP, regulatory compliance, monitoring, TB and infectious disease trials"
+    ],
+    "programName": "Post Graduate Diploma in Clinical Research",
+    "parentUniversity": "ICMR Institute (Govt of India)",
+    "targetProfile": "Clinicians / study coordinators / site investigators in TB, HIV, vaccine and NCD trials"
+  },
+  {
+    "id": "others_uljimuj0z",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Clinical Research",
+    "location": "Coimbatore, Tamil Nadu",
+    "website": "https://psgimsr.ac.in",
+    "specializations": [
+      "Study design, ethics, data & safety monitoring, regulatory affairs, pharma/CRO interface"
+    ],
+    "programName": "Post Graduate Diploma in Clinical Research",
+    "parentUniversity": "Private Trust college (TN Dr MGR Med Univ affiliated)",
+    "targetProfile": "Healthcare professionals entering clinical trials / CRO industry"
+  },
+  {
+    "id": "others_muy81tzae",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Clinical Research",
+    "location": "Manipal, Karnataka",
+    "website": "https://manipal.edu",
+    "specializations": [
+      "Clinical operations, pharmacovigilance, regulatory science, data management"
+    ],
+    "programName": "Post Graduate Diploma in Clinical Research",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Doctors, pharmacists, life science grads aiming for pharma / CRO roles"
+  },
+  {
+    "id": "others_9co7kh42d",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Clinical Research",
+    "location": "Pune, Maharashtra",
+    "website": "https://sihspune.org",
+    "specializations": [
+      "Clinical trial management, regulatory & ethics, pharmacovigilance, data management"
+    ],
+    "programName": "Post Graduate Diploma in Clinical Research",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Entry-level clinical research associates / coordinators / safety analysts"
+  },
+  {
+    "id": "others_0lwq04caa",
+    "courseType": "Others",
+    "institution": "PG Diploma in Pharmacovigilance & Clinical Research (public health safety focus)",
+    "location": "Jaipur, Rajasthan",
+    "website": "https://iihmr.edu.in",
+    "specializations": [
+      "Drug safety surveillance, signal detection, regulatory compliance, post-marketing surveillance"
+    ],
+    "programName": "PG Diploma in Pharmacovigilance & Clinical Research (public health safety focus)",
+    "parentUniversity": "State Private University",
+    "targetProfile": "Pharmacists / MBBS / BDS / life science grads in pharma safety teams"
+  },
+  {
+    "id": "others_5ujtgd4sw",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Policy, Economics & Finance (public health policy focus)",
+    "location": "Mumbai, Maharashtra",
+    "website": "https://www.tiss.edu",
+    "specializations": [
+      "Health financing, health technology assessment, cost-effectiveness, budgeting for NHM/state schemes"
+    ],
+    "programName": "Post Graduate Diploma in Health Policy, Economics & Finance (public health policy focus)",
+    "parentUniversity": "Deemed to be University",
+    "targetProfile": "Analysts / programme managers / consultants in health policy, CSR, multilateral agencies"
+  },
+  {
+    "id": "others_thdx98a4z",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Hospital & Health Management (public health systems management)",
+    "location": "Jaipur, Rajasthan",
+    "website": "https://iihmr.edu.in",
+    "specializations": [
+      "Hospital operations, quality assurance, NABH/NABL, programmatic public health logistics"
+    ],
+    "programName": "Post Graduate Diploma in Hospital & Health Management (public health systems management)",
+    "parentUniversity": "State Private University",
+    "targetProfile": "District programme managers, hospital administrators, CSR health leads"
+  },
+  {
+    "id": "others_bvefh87u8",
+    "courseType": "Others",
+    "institution": "Post Graduate Diploma in Health Systems Management",
+    "location": "Chandigarh, UT",
+    "website": "https://pgimer.edu.in",
+    "specializations": [
+      "Health systems strengthening, programme monitoring, HMIS, district programme leadership"
+    ],
+    "programName": "Post Graduate Diploma in Health Systems Management",
+    "parentUniversity": "Institute of National Importance",
+    "targetProfile": "In-service NHM/DHS cadre, aspiring public health programme leads"
+  },
+  {
+    "id": "others_c8k3xwef0",
+    "courseType": "Others",
+    "institution": "Advanced Certificate / PG Diploma in Public Health Surveillance & Outbreak Analytics",
+    "location": "Chennai, Tamil Nadu (with field postings nationwide)",
+    "website": "https://nie.icmr.org.in",
+    "specializations": [
+      "Surveillance dashboarding, rapid outbreak analytics, emergency response planning"
+    ],
+    "programName": "Advanced Certificate / PG Diploma in Public Health Surveillance & Outbreak Analytics",
+    "parentUniversity": "ICMR Institute / Govt. of India collaboration",
+    "targetProfile": "Epidemiologists / IDSP officers / EIS officers-in-training"
   }
 ]
