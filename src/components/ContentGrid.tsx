@@ -1,6 +1,7 @@
 import LatestResources from "./LatestResources";
 import LatestMagazines from "./LatestMagazines";
 import LatestJobs from "./LatestJobs";
+import LatestNews from "./LatestNews";
 
 const ContentGrid = () => {
   return (
@@ -20,6 +21,7 @@ const ContentGrid = () => {
           <div className="space-y-12">
             {/* Latest Jobs */}
             <LatestJobs />
+            <LatestNews />
           </div>
         </div>
       </div>

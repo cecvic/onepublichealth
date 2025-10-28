@@ -62,6 +62,14 @@ export type Comment = {
   rating?: number;
 };
 
+export type NewsArticle = {
+  id: string;
+  title: string;
+  date: string;
+  url: string;
+  description: string;
+};
+
 // Helper function to extract plain text from Contentful rich text
 const extractTextFromRichText = (richTextDocument: any): string => {
   if (!richTextDocument || !richTextDocument.content) return "";
@@ -395,5 +403,19 @@ export const mapResourceEntry = (item: any): Resource => {
     keyConsiderations: item.fields.keyConsiderations || "",
     futureDirections: item.fields.futureDirections || "",
     readTime: calculateReadTime(detailDescription),
+  };
+};
+
+export const mapNewsEntry = (item: any): NewsArticle => {
+  return {
+    id: item.sys.id,
+    title: item.fields.title || "Untitled News",
+    date: item.fields.date || new Date(item.sys.createdAt).toLocaleDateString('en-US', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    }),
+    url: item.fields.urls || item.fields.url || "#",
+    description: item.fields.descriptions || item.fields.description || "No description available",
   };
 };
