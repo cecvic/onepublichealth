@@ -1,0 +1,1594 @@
+[
+  {
+    "id": "corporate-consulting-0",
+    "name": "Deloitte India (Deloitte Touche Tohmatsu India LLP)",
+    "category": "Corporate Consulting",
+    "description": "Deloitte India provides technical and management consulting services to central and state governments, development partners, and healthcare providers. The health practice focuses on digital health transformation, public health system strengthening, NHM strategy, PPP design, health financing, and analytics for decision-making. Deloitte recruits public health professionals for consulting and project management roles that require both technical and operational knowledge of government health programs.",
+    "careersUrl": "https://www2.deloitte.com/in/en/careers.html",
+    "extraInfo": {
+      "Category": "Management Consulting / Big 4",
+      "Public Health Focus / Services": "Health systems consulting, health financing, NHM/NHM support, digital health strategy, analytics, hospital and health system reforms",
+      "Typical Roles Recruited": "Consultant, Senior Consultant, Manager, Health Analyst, Public Health Expert"
+    }
+  },
+  {
+    "id": "corporate-consulting-1",
+    "name": "Ernst & Young (EY) India – Government and Public Sector Advisory",
+    "category": "Corporate Consulting",
+    "description": "EY India’s Government and Public Sector (GPS) team delivers advisory support to ministries, state governments, and development partners in public health, health financing, and program implementation. They support digital health initiatives, NHM and disease-specific reforms, and large-scale monitoring and evaluation assignments. EY regularly recruits public health professionals as consultants, analysts, and program managers with a focus on systems design and strategic advisory.",
+    "careersUrl": "https://www.ey.com/en_in/careers",
+    "extraInfo": {
+      "Category": "Management Consulting / Big 4",
+      "Public Health Focus / Services": "Health policy, NHM and NTEP support, data systems, digital health, PPP, monitoring and evaluation, strategic planning",
+      "Typical Roles Recruited": "Consultant, Senior Consultant, Project Manager, Policy Analyst, M&E Specialist"
+    }
+  },
+  {
+    "id": "corporate-consulting-2",
+    "name": "PricewaterhouseCoopers (PwC) India",
+    "category": "Corporate Consulting",
+    "description": "PwC India’s Health Advisory team works with ministries, state governments, and private sector players on healthcare strategy, health financing, digital systems, PPP, and quality improvement. They partner with institutions such as the World Bank, UN agencies, and NHM on major health systems reforms and analytics projects. PwC frequently recruits MPH and MBBS professionals for consulting and project implementation roles focusing on evidence-based decision support.",
+    "careersUrl": "https://www.pwc.in/careers.html",
+    "extraInfo": {
+      "Category": "Management Consulting / Big 4",
+      "Public Health Focus / Services": "Health system strengthening, PPP, hospital management, digital health, analytics, and evaluation of donor-funded projects",
+      "Typical Roles Recruited": "Consultant, Health Policy Specialist, Senior Associate, Data Analyst, Project Manager"
+    }
+  },
+  {
+    "id": "corporate-consulting-3",
+    "name": "KPMG India",
+    "category": "Corporate Consulting",
+    "description": "KPMG India’s healthcare and life sciences division supports public health reforms through strategy, data analytics, and digital transformation. They assist NHM, state governments, and development partners in designing systems for health financing, human resources, quality improvement, and PPP implementation. The firm recruits professionals with backgrounds in medicine, public health, and data science for technical and project management consulting roles.",
+    "careersUrl": "https://home.kpmg/in/en/home/careers.html",
+    "extraInfo": {
+      "Category": "Management Consulting / Big 4",
+      "Public Health Focus / Services": "Public health strategy, NHM and state program support, digital health, PPP, analytics, CSR advisory",
+      "Typical Roles Recruited": "Associate Consultant, Consultant, Manager, Senior Manager (Healthcare Advisory)"
+    }
+  },
+  {
+    "id": "corporate-consulting-4",
+    "name": "Boston Consulting Group (BCG) India",
+    "category": "Corporate Consulting",
+    "description": "BCG partners with national and state governments, donor agencies, and corporates on healthcare and public health transformation. The firm supports Ayushman Bharat, vaccine logistics, digital health ecosystems, and UHC design. It recruits consultants and project leaders with strong analytical and health systems expertise, and often collaborates with NITI Aayog, MoHFW, and international foundations on flagship initiatives.",
+    "careersUrl": "https://www.bcg.com/careers",
+    "extraInfo": {
+      "Category": "Management Consulting (Global Strategy Firm)",
+      "Public Health Focus / Services": "Health system reform, universal health coverage, vaccine logistics, health financing, innovation strategy",
+      "Typical Roles Recruited": "Associate, Consultant, Project Leader, Public Health Expert, Analyst"
+    }
+  },
+  {
+    "id": "corporate-consulting-5",
+    "name": "McKinsey & Company (India)",
+    "category": "Corporate Consulting",
+    "description": "McKinsey’s India Public and Social Sector practice works with governments, multilaterals, and corporations to strengthen healthcare delivery, design CSR initiatives, and optimize health financing models. It has supported national missions on health and nutrition, as well as private sector CSR strategy in health. McKinsey recruits generalist consultants and healthcare implementation specialists with expertise in public health systems and data analytics.",
+    "careersUrl": "https://www.mckinsey.com/careers",
+    "extraInfo": {
+      "Category": "Management Consulting (Global Strategy Firm)",
+      "Public Health Focus / Services": "Health financing, delivery innovation, private sector engagement, CSR health strategy, government reform",
+      "Typical Roles Recruited": "Consultant, Implementation Manager, Analyst, Engagement Manager"
+    }
+  },
+  {
+    "id": "corporate-consulting-6",
+    "name": "IQVIA India",
+    "category": "Corporate Consulting",
+    "description": "IQVIA supports pharmaceutical companies, governments, and global health organizations with data analytics, real-world evidence generation, and monitoring & evaluation. In India, IQVIA also works with development partners and CSR arms on TB, HIV, and NCD program analytics, and population health studies. They hire analysts, data scientists, and consultants with strong public health and data backgrounds.",
+    "careersUrl": "https://jobs.iqvia.com/",
+    "extraInfo": {
+      "Category": "Healthcare Data Analytics and Research Company",
+      "Public Health Focus / Services": "Health data analytics, pharmacoepidemiology, market access, monitoring and evaluation of health programs",
+      "Typical Roles Recruited": "Health Analyst, Data Scientist, Consultant, Epidemiologist, Health Economist"
+    }
+  },
+  {
+    "id": "corporate-consulting-7",
+    "name": "ACCESS Health International (India)",
+    "category": "Corporate Consulting",
+    "description": "ACCESS Health International is a global think tank and implementation partner working on digital health systems, financing reform, and innovative health models. In India, it supports Ayushman Bharat and other UHC initiatives through technical assistance, data analytics, and health systems policy. ACCESS Health recruits programme managers, health systems analysts, and consultants for design and implementation support.",
+    "careersUrl": "https://accessh.org/work-with-us/",
+    "extraInfo": {
+      "Category": "Health Systems Consultancy / NGO",
+      "Public Health Focus / Services": "Digital health, health financing, aging and NCD care, health systems design, PPP advisory",
+      "Typical Roles Recruited": "Consultant, Programme Manager, Policy Analyst, Research Associate"
+    }
+  },
+  {
+    "id": "corporate-consulting-8",
+    "name": "Tata Trusts – Health Portfolio",
+    "category": "Corporate Consulting",
+    "description": "Tata Trusts funds and implements large-scale health programmes in maternal and child health, nutrition, cancer control, and public health system strengthening. Its technical teams provide implementation and policy support to national and state governments. The health vertical recruits programme officers, consultants, and monitoring specialists with a strong grounding in community health and systems design.",
+    "careersUrl": "https://tatatrusts.org/careers",
+    "extraInfo": {
+      "Category": "CSR Foundation / Philanthropic Institution",
+      "Public Health Focus / Services": "Maternal and child health, cancer control, health systems strengthening, nutrition, digital health innovations",
+      "Typical Roles Recruited": "Programme Officer, Consultant (Public Health), M&E Specialist, Technical Lead"
+    }
+  },
+  {
+    "id": "corporate-consulting-9",
+    "name": "Reliance Foundation – Health Initiatives",
+    "category": "Corporate Consulting",
+    "description": "Reliance Foundation implements health outreach and telemedicine programmes across rural India. Its health vertical focuses on improving access to primary care, maternal health, and preventive services, leveraging digital platforms. The foundation hires programme managers, technical specialists, data and M&E staff, and public health experts for planning and field oversight roles.",
+    "careersUrl": "https://www.reliancefoundation.org/careers",
+    "extraInfo": {
+      "Category": "CSR Foundation",
+      "Public Health Focus / Services": "Rural health, primary healthcare, telemedicine, maternal and child health, emergency response",
+      "Typical Roles Recruited": "Programme Manager, Monitoring Officer, Field Coordinator, Consultant (Public Health)"
+    }
+  },
+  {
+    "id": "corporate-consulting-10",
+    "name": "Aditya Birla CSR – Health Initiatives",
+    "category": "Corporate Consulting",
+    "description": "Aditya Birla CSR Foundation runs health and nutrition programmes through partnerships with NGOs and local governments. Activities include maternal and child health, NCD screening, mobile medical units, and community health education. The foundation employs public health and social development professionals for project coordination, monitoring, and partnership management roles.",
+    "careersUrl": "https://www.adityabirla.com/careers",
+    "extraInfo": {
+      "Category": "Corporate CSR Division",
+      "Public Health Focus / Services": "Maternal health, nutrition, NCD screening, health camps, mobile medical units, sanitation and hygiene",
+      "Typical Roles Recruited": "Project Coordinator, CSR Health Manager, M&E Officer, Community Health Specialist"
+    }
+  },
+  {
+    "id": "corporate-consulting-11",
+    "name": "Philips India Healthcare",
+    "category": "Corporate Consulting",
+    "description": "Philips India collaborates with the government and private providers to implement digital health and diagnostic technology in primary and secondary care. It supports projects on tele-ICU, maternal health devices, and imaging systems in partnership with NHM and CSR initiatives. Philips recruits professionals for health systems partnerships, programme management, and analytics roles.",
+    "careersUrl": "https://www.careers.philips.com/",
+    "extraInfo": {
+      "Category": "Health Technology / MedTech Corporation",
+      "Public Health Focus / Services": "Digital health solutions, telemedicine, diagnostics, maternal health devices, health systems partnerships",
+      "Typical Roles Recruited": "Programme Manager (Public Health), Partnerships Lead, Data Analyst, CSR Health Specialist"
+    }
+  },
+  {
+    "id": "corporate-consulting-12",
+    "name": "Siemens Healthineers India",
+    "category": "Corporate Consulting",
+    "description": "Siemens Healthineers supports both private and public health systems through diagnostic technology, imaging solutions, and AI-driven analytics. It collaborates with government initiatives and donor-funded health technology strengthening projects. The company hires consultants, project leads, and biomedical engineers with expertise in health systems and digital health implementation.",
+    "careersUrl": "https://jobs.siemens-healthineers.com/",
+    "extraInfo": {
+      "Category": "Health Technology / MedTech Corporation",
+      "Public Health Focus / Services": "Diagnostics, radiology, AI-based imaging, health systems consulting, biomedical capacity building",
+      "Typical Roles Recruited": "Consultant (Health Systems), Project Manager, Biomedical Specialist, Data Analyst"
+    }
+  },
+  {
+    "id": "corporate-consulting-13",
+    "name": "GE Healthcare India",
+    "category": "Corporate Consulting",
+    "description": "GE Healthcare India implements partnerships for maternal and newborn health, imaging, diagnostics, and capacity building in biomedical equipment maintenance. It supports PPPs for radiology and health technology management with state governments. GE recruits project managers, health system specialists, and engineers involved in public health innovation and service delivery partnerships.",
+    "careersUrl": "https://jobs.gecareers.com/healthcare/global/en",
+    "extraInfo": {
+      "Category": "Health Technology / Diagnostics Company",
+      "Public Health Focus / Services": "Maternal and newborn health, diagnostics, radiology, PPP in imaging, skill development in biomedical equipment management",
+      "Typical Roles Recruited": "Health Systems Specialist, Project Manager, Biomedical Engineer, Consultant"
+    }
+  },
+  {
+    "id": "implementation-organizations-14",
+    "name": "National Health Mission (NHM) / State Health Societies",
+    "category": "Implementation Organizations",
+    "description": "The National Health Mission (and its state and district health societies) directly implements large-scale public health programmes across India in maternal and child health, communicable and non-communicable diseases, community processes/ASHA support, health & wellness centres, and quality improvement. States continuously hire programme managers, district consultants, epidemiologists, data/MIS officers, quality-of-care coordinators, and public health specialists on contract, often under titles like ‘District Programme Manager’, ‘Epidemiologist-IDSP’, ‘Community Process Consultant’, or ‘Quality Consultant’. This is one of the most reliable hiring channels for applied public health implementation experience at district/block level.",
+    "careersUrl": "https://nhm.gov.in/",
+    "extraInfo": {
+      "Category": "Government health programme (central + state)",
+      "Programmatic Focus / Thematic Areas": "RMNCH+A, NCD screening, HWCs/primary care, immunization, health systems strengthening, quality of care, community processes, data/MIS",
+      "Typical Recruitment Cadres": "District Programme Manager, State Programme Manager, Epidemiologist, Data/MIS Officer, Quality of Care Consultant, Community Process Coordinator",
+      "Geographic Footprint / Deployment": "All states and most districts"
+    }
+  },
+  {
+    "id": "implementation-organizations-15",
+    "name": "National Health Systems Resource Centre (NHSRC)",
+    "category": "Implementation Organizations",
+    "description": "NHSRC is the Government of India’s in-house technical support unit to the National Health Mission. It supports states on planning and budgeting, quality of care standards (LaQshya, NQAS), public health management, HRH strategy, community processes/ASHAs, and health financing reforms. NHSRC routinely deploys consultants and senior consultants who sit in Delhi or are seconded to state governments to drive programme implementation, monitoring, and policy translation. It is one of the most consistent recruiters of MPH / MD-Community Medicine profiles in India.",
+    "careersUrl": "https://nhsrcindia.org/Career",
+    "extraInfo": {
+      "Category": "MoHFW Technical Support Agency to NHM",
+      "Programmatic Focus / Thematic Areas": "Primary health care (AB-HWC), health systems design, quality of care (LaQshya, NQAS), community processes, HRH planning, health financing",
+      "Typical Recruitment Cadres": "Consultant – Public Health Planning, Senior Consultant – Quality Improvement, Community Processes Specialist, Health Financing Analyst",
+      "Geographic Footprint / Deployment": "New Delhi HQ + deputations/placements to State NHMs"
+    }
+  },
+  {
+    "id": "implementation-organizations-16",
+    "name": "State Health Systems Resource Centres / State Technical Support Units (SHSRC / TSU / SPMU)",
+    "category": "Implementation Organizations",
+    "description": "Many states have SHSRCs, TSUs or State Programme Management Units that act as embedded technical cells for NHM, focusing on programme planning, analytics, supportive supervision, quality improvement, and roll-out of national initiatives like HWCs, LaQshya, and NCD screening. These units directly recruit consultants, district programme managers, quality coordinators, M&E officers, data analysts, and training coordinators. Roles are hands-on and usually district- or state-posted, making them core employers for applied public health implementation professionals.",
+    "careersUrl": "https://nhm.gov.in/",
+    "extraInfo": {
+      "Category": "State-level Technical Support Units embedded in Health Dept/NHM",
+      "Programmatic Focus / Thematic Areas": "RMNCH+A, NCDs, urban health, quality improvement, data systems and monitoring, training/supervision of frontline workforce",
+      "Typical Recruitment Cadres": "Public Health Consultant, District Programme Manager, M&E Officer, Quality of Care Lead, Training/Capacity Building Coordinator",
+      "Geographic Footprint / Deployment": "Every state (state HQ + high priority districts)"
+    }
+  },
+  {
+    "id": "implementation-organizations-17",
+    "name": "Integrated Disease Surveillance Programme (IDSP) / National Centre for Disease Control (NCDC)",
+    "category": "Implementation Organizations",
+    "description": "IDSP under NCDC coordinates epidemic intelligence and real-time surveillance of priority diseases in every state and most districts. It also supports AMR and zoonotic surveillance. Implementation staff include epidemiologists and data managers embedded in state and district surveillance units. These roles involve active outbreak investigation, data review, and rapid field coordination with local health authorities, making IDSP one of the best direct applied epidemiology pathways for young public health professionals.",
+    "careersUrl": "https://ncdc.gov.in/index1.php?lang=1&level=1&sublinkid=144&lid=65",
+    "extraInfo": {
+      "Category": "Government surveillance & outbreak response programme",
+      "Programmatic Focus / Thematic Areas": "Surveillance, outbreak investigation, AMR, zoonotic diseases, epidemic intelligence, rapid response",
+      "Typical Recruitment Cadres": "Epidemiologist (IDSP), State Surveillance Officer, Microbiologist, Data Manager, Entomologist",
+      "Geographic Footprint / Deployment": "MoHFW (Delhi) + every State Surveillance Unit + most District Surveillance Units"
+    }
+  },
+  {
+    "id": "implementation-organizations-18",
+    "name": "Doctors Without Borders / Médecins Sans Frontières (MSF) India",
+    "category": "Implementation Organizations",
+    "description": "MSF delivers direct medical and psychosocial care in crisis, conflict, outbreak, and underserved settings. In India, MSF has implemented DR-TB treatment support, HIV/HCV care models, Kala-azar care, sexual and gender-based violence survivor services, and mental health support for excluded populations. They hire clinicians, programme managers, counsellors, mental health professionals, pharmacists, lab leads, and health promoters for direct service delivery and project coordination.",
+    "careersUrl": "https://www.msfindia.in/work-with-msf-india/",
+    "extraInfo": {
+      "Category": "International humanitarian medical NGO",
+      "Programmatic Focus / Thematic Areas": "Drug-resistant TB, HIV, hepatitis C, infectious disease outbreak care, gender-based violence response, mental health in crisis-affected/marginalised groups",
+      "Typical Recruitment Cadres": "Medical Coordinator, Project Coordinator, Health Promotion Officer, Counsellor, Mental Health Officer, TB/HIV Programme Manager",
+      "Geographic Footprint / Deployment": "India projects (often urban slums/underserved pockets and crisis-affected districts) + international missions"
+    }
+  },
+  {
+    "id": "implementation-organizations-19",
+    "name": "LEPRA Society (LEPRA India)",
+    "category": "Implementation Organizations",
+    "description": "LEPRA works with national and state programmes to detect, treat, and prevent complications of leprosy and lymphatic filariasis, and to reduce disability and stigma. Implementation includes active case finding, community-based morbidity management (lymphoedema care), disability prevention, self-care groups, and rehabilitation. LEPRA recruits programme officers, district coordinators, physiotherapists/disability specialists, M&E staff, and field supervisors to work within government systems in high-burden states.",
+    "careersUrl": "https://leprasociety.org.in/careers/",
+    "extraInfo": {
+      "Category": "Public health NGO / Disease control NGO",
+      "Programmatic Focus / Thematic Areas": "Leprosy, lymphatic filariasis, disability prevention & rehabilitation, community-based case finding, social inclusion",
+      "Typical Recruitment Cadres": "Project Officer, District Coordinator, Physiotherapist (Disability Prevention), M&E/Monitoring Officer, Field Supervisor",
+      "Geographic Footprint / Deployment": "High-burden states (e.g. Bihar, Odisha, Andhra Pradesh, Telangana, etc.)"
+    }
+  },
+  {
+    "id": "implementation-organizations-20",
+    "name": "IPE Global",
+    "category": "Implementation Organizations",
+    "description": "IPE Global implements large-scale public health and development programmes funded by national/state governments, USAID, FCDO, World Bank, etc. Work includes improving RMNCH service delivery, urban health systems, health financing reforms, SBCC, quality of care, nutrition, and last-mile delivery of government schemes. They recruit programme managers, technical specialists, monitoring & evaluation leads, data and analytics officers, district/state coordinators, and health financing/policy consultants.",
+    "careersUrl": "https://ipeglobal.com/careers/",
+    "extraInfo": {
+      "Category": "Development consulting & implementation partner (for government and donors)",
+      "Programmatic Focus / Thematic Areas": "RMNCH+A, health systems strengthening, urban health, health financing, nutrition, social protection delivery, SBCC",
+      "Typical Recruitment Cadres": "Technical Specialist (RMNCH / Health Systems), State Coordinator, M&E Lead, Programme Manager, Health Financing/Policy Consultant",
+      "Geographic Footprint / Deployment": "Pan-India (often embedded in State NHM / Dept. of Health offices)"
+    }
+  },
+  {
+    "id": "implementation-organizations-21",
+    "name": "India Health Action Trust (IHAT)",
+    "category": "Implementation Organizations",
+    "description": "IHAT implements Technical Support Units in partnership with high-burden state governments (notably Uttar Pradesh). It supports maternal and newborn health, family planning, HIV prevention among key populations, and TB systems strengthening. IHAT staff sit inside health departments and work on supervision, data review, training, logistics, and programme quality. This is one of the most common real-world implementation employers for public health professionals at state and district level.",
+    "careersUrl": "https://www.ihat.in/careers/",
+    "extraInfo": {
+      "Category": "Technical Support Unit (TSU) NGO",
+      "Programmatic Focus / Thematic Areas": "Maternal and newborn health, RMNCH, HIV prevention, TB systems strengthening, data-driven public health management",
+      "Typical Recruitment Cadres": "District Public Health Consultant, M&E Officer, Programme Manager, State Technical Specialist (RMNCH/HIV/TB), Training/Capacity Building Lead",
+      "Geographic Footprint / Deployment": "Uttar Pradesh and other high-priority geographies"
+    }
+  },
+  {
+    "id": "implementation-organizations-22",
+    "name": "CARE India",
+    "category": "Implementation Organizations",
+    "description": "CARE India partners with state health and ICDS systems to improve facility- and community-level RMNCH+N outcomes. Work includes facility mentoring for labour room quality, home visits for newborn care, SAM management, adolescent anaemia programmes, and technical support for large-scale nutrition missions. They recruit block and district technical officers, training coordinators, programme managers, and monitoring & evaluation specialists, often embedded in state structures.",
+    "careersUrl": "https://www.careindia.org/careers/",
+    "extraInfo": {
+      "Category": "Large development NGO aligned with state governments",
+      "Programmatic Focus / Thematic Areas": "Maternal & newborn survival, severe acute malnutrition, adolescent anaemia, frontline worker mentoring, community-based nutrition",
+      "Typical Recruitment Cadres": "Block Technical Officer (Health/Nutrition), District Coordinator, Training Coordinator, Programme Manager, M&E Specialist",
+      "Geographic Footprint / Deployment": "Bihar, Uttar Pradesh, Madhya Pradesh, Odisha, Jharkhand, etc."
+    }
+  },
+  {
+    "id": "implementation-organizations-23",
+    "name": "Population Services International (PSI) / PSI India (sometimes under local affiliates)",
+    "category": "Implementation Organizations",
+    "description": "PSI applies market-based and private-sector models to expand access to SRH, condoms and contraceptives, STI/HIV prevention, self-care services, and quality-assured private primary care in urban settings. Implementation work includes provider network strengthening, demand generation/SBCC, community outreach for key populations, and linkage to services. PSI hires programme leads, state coordinators, demand generation/SBCC specialists, provider network managers, and M&E staff.",
+    "careersUrl": "https://www.psi.org/careers/",
+    "extraInfo": {
+      "Category": "Social marketing and health systems NGO",
+      "Programmatic Focus / Thematic Areas": "Sexual and reproductive health, HIV prevention for key populations, self-care, urban primary care networks, private sector engagement",
+      "Typical Recruitment Cadres": "Programme Manager, State Coordinator, SBCC / Demand Generation Specialist, Network Manager (Private Providers), M&E/Strategic Information Officer",
+      "Geographic Footprint / Deployment": "Urban/peri-urban hubs in multiple states, often under donor-funded SRH/HIV projects"
+    }
+  },
+  {
+    "id": "implementation-organizations-24",
+    "name": "Clinton Health Access Initiative (CHAI) – India country team",
+    "category": "Implementation Organizations",
+    "description": "CHAI partners with governments to improve access to affordable, high-quality diagnostics, medicines, oxygen systems, and service delivery in TB, HIV, hepatitis, RMNCH, and other priority areas. In India, CHAI staff frequently sit with state or national programme leads to drive implementation: supply chain optimization, private sector engagement for TB, maternal/newborn health strengthening, and oxygen ecosystem scale-up. Roles are technical but operational.",
+    "careersUrl": "https://careers-chai.icims.com/",
+    "extraInfo": {
+      "Category": "International NGO / Health systems and access to commodities",
+      "Programmatic Focus / Thematic Areas": "TB, HIV, hepatitis, oxygen systems, RMNCH, diagnostics access, health systems market shaping",
+      "Typical Recruitment Cadres": "Programme Officer, State Programme Manager, Supply Chain/Market Access Associate, Technical Advisor (TB/RMNCH/Oxygen), Data & M&E Associate",
+      "Geographic Footprint / Deployment": "Delhi + multiple state postings"
+    }
+  },
+  {
+    "id": "implementation-organizations-25",
+    "name": "PATH India",
+    "category": "Implementation Organizations",
+    "description": "PATH works directly with national and state governments, manufacturers, and providers to introduce and scale health technologies and delivery models. In India this includes TB molecular diagnostics rollout, oxygen generation and biomedical maintenance systems, immunization cold chain and last-mile delivery, digital health platforms for primary care, and NCD screening models. PATH recruits programme managers, state technical officers, biomedical/oxygen systems coordinators, and digital health implementation leads who are embedded with government counterparts.",
+    "careersUrl": "https://path.org/careers/",
+    "extraInfo": {
+      "Category": "Global health implementation and innovation nonprofit (India country office)",
+      "Programmatic Focus / Thematic Areas": "TB diagnostics scale-up, oxygen ecosystems, immunization/cold chain, primary care digital tools, NCD screening models",
+      "Typical Recruitment Cadres": "Programme Manager, State Technical Officer, Biomedical/Oxygen Systems Coordinator, Digital Health Implementation Lead, M&E/Analytics Officer",
+      "Geographic Footprint / Deployment": "Multiple states + national technical support to MoHFW/ICMR"
+    }
+  },
+  {
+    "id": "implementation-organizations-26",
+    "name": "JSI (John Snow, Inc.) / JSI India projects",
+    "category": "Implementation Organizations",
+    "description": "JSI supports Indian governments on last-mile delivery systems: routine immunization strengthening, vaccine cold chain and logistics, essential medicines supply chains, digital tools for inventory and reporting, and primary health care/urban health systems models. They recruit supply chain officers, immunization technical officers, state coordinators, M&E specialists, and digital health system implementers who work closely with state NHM and immunization cells.",
+    "careersUrl": "https://www.jsi.com/work-with-us/careers/",
+    "extraInfo": {
+      "Category": "Public health systems and supply chain implementation partner",
+      "Programmatic Focus / Thematic Areas": "Routine immunization, vaccine logistics, essential medicines supply chain, PHC/urban health systems, community health worker support",
+      "Typical Recruitment Cadres": "Immunization Technical Officer, Supply Chain Specialist, State Coordinator, M&E Specialist, Digital Health/Logistics Officer",
+      "Geographic Footprint / Deployment": "State and district postings in high-priority geographies, plus Delhi technical backstopping"
+    }
+  },
+  {
+    "id": "implementation-organizations-27",
+    "name": "FHI 360 (India / Asia programs)",
+    "category": "Implementation Organizations",
+    "description": "FHI 360 supports HIV and TB prevention and treatment among key populations, SRH and family planning, lab systems strengthening, and behaviour change communication. In India and South Asia, FHI 360 implements targeted interventions for high-risk groups, builds state capacity, and strengthens surveillance/reporting systems. They hire technical advisors, M&E/strategic information officers, state/district programme managers, and lab/quality systems coordinators.",
+    "careersUrl": "https://www.fhi360.org/careers",
+    "extraInfo": {
+      "Category": "International NGO / Global health and development implementer",
+      "Programmatic Focus / Thematic Areas": "HIV prevention and care, TB, key populations, SRH/FP, SBC, lab systems, health systems strengthening",
+      "Typical Recruitment Cadres": "Technical Advisor (HIV/TB/SRH), Strategic Information/M&E Officer, Programme Manager (Key Populations), Lab Systems/Quality Coordinator",
+      "Geographic Footprint / Deployment": "Delhi and state-level placements on donor-funded programmes"
+    }
+  },
+  {
+    "id": "implementation-organizations-28",
+    "name": "Voluntary Health Association networks / State-level VHAs (e.g. VHAI)",
+    "category": "Implementation Organizations",
+    "description": "Voluntary Health Association networks work with state governments and civil society on tobacco control enforcement, public health entitlements awareness, NCD prevention, and health equity advocacy. They implement awareness campaigns, capacity-building of frontline workers, and policy advocacy at state level. They recruit programme officers, state coordinators, advocacy and communication officers, and M&E staff to support implementation and policy interface.",
+    "careersUrl": "https://vhai.org/career/",
+    "extraInfo": {
+      "Category": "National/state public health NGO coalitions",
+      "Programmatic Focus / Thematic Areas": "Tobacco control, NCD prevention, community health worker support, health rights and entitlements access",
+      "Typical Recruitment Cadres": "Programme Officer, State Coordinator, Advocacy & Communications Officer, M&E/Documentation Officer",
+      "Geographic Footprint / Deployment": "Multiple states via VHA chapters"
+    }
+  },
+  {
+    "id": "implementation-organizations-29",
+    "name": "WaterAid India",
+    "category": "Implementation Organizations",
+    "description": "WaterAid India works with state governments and local bodies to strengthen access to safe water, sanitation, and hygiene. Programmes include menstrual hygiene management, hygiene behaviour change in communities and schools, strengthening WASH in health facilities, and urban sanitation/fecal sludge management. They recruit state programme managers, WASH specialists, behaviour change/IEC leads, and M&E/knowledge management staff tied to government programmes.",
+    "careersUrl": "https://www.wateraid.org/in/work-with-us",
+    "extraInfo": {
+      "Category": "WASH and public health NGO",
+      "Programmatic Focus / Thematic Areas": "Rural and urban sanitation, hygiene behaviour change, WASH in health facilities and schools, faecal sludge management",
+      "Typical Recruitment Cadres": "State Programme Manager, WASH Specialist, Behaviour Change/IEC Lead, Monitoring & Evaluation Officer",
+      "Geographic Footprint / Deployment": "Multiple high-focus states, urban local bodies, aspirational districts"
+    }
+  },
+  {
+    "id": "implementation-organizations-30",
+    "name": "World Vision India / World Vision International (India programmes)",
+    "category": "Implementation Organizations",
+    "description": "World Vision runs child health and nutrition programmes, adolescent girls’ anaemia reduction, school WASH, livelihood and cash support for vulnerable families, and humanitarian relief in emergencies. Teams operate at block/district/community level and coordinate with ICDS, Health, and local administration. They recruit programme managers, district coordinators, nutrition officers, M&E staff, and emergency response/rapid deployment personnel.",
+    "careersUrl": "https://worldvision.in/careers",
+    "extraInfo": {
+      "Category": "Faith-inspired humanitarian and development NGO",
+      "Programmatic Focus / Thematic Areas": "Child health and nutrition, WASH, adolescent girls’ anaemia, livelihoods, humanitarian response",
+      "Typical Recruitment Cadres": "Programme Manager (Health/Nutrition), District Coordinator, Nutrition Officer, M&E Officer, Humanitarian Response Officer",
+      "Geographic Footprint / Deployment": "Multiple states, including high-vulnerability districts and humanitarian settings"
+    }
+  },
+  {
+    "id": "implementation-organizations-31",
+    "name": "International Rescue Committee (IRC) – India / South Asia technical presence",
+    "category": "Implementation Organizations",
+    "description": "IRC delivers humanitarian health programming in acute crisis and displacement settings globally, and in South Asia works on health systems for refugees/asylum seekers, GBV response systems, WASH in emergencies, and SRH in crisis settings. They hire health coordinators, GBV and protection specialists, SRH in emergencies advisors, WASH engineers, programme managers, and M&E/Grants/Partnerships staff for implementation and systems support to governments and local partners.",
+    "careersUrl": "https://www.rescue.org/careers",
+    "extraInfo": {
+      "Category": "International humanitarian NGO",
+      "Programmatic Focus / Thematic Areas": "Humanitarian health, emergency SRH, GBV response systems, cash/basic needs, WASH in crisis and displacement settings",
+      "Typical Recruitment Cadres": "Health Coordinator, GBV Specialist, SRH-in-Emergencies Advisor, WASH Engineer, Programme Manager, M&E/Grants Officer",
+      "Geographic Footprint / Deployment": "Regional (South Asia including India presence, emergency and migration contexts)"
+    }
+  },
+  {
+    "id": "implementation-organizations-32",
+    "name": "SEWA-related Health / Worker Welfare and Occupational Health Initiatives (Self-Employed Women’s Association ecosystem)",
+    "category": "Implementation Organizations",
+    "description": "SEWA-linked health programmes work at the intersection of labour rights, women’s health, and social protection. Teams help women in the informal sector access primary care, maternal health services, NCD care, insurance, and social protection benefits, while also addressing occupational/ergonomic and heat stress risks. They recruit programme coordinators, health educators, community organisers, and public health monitoring staff.",
+    "careersUrl": "https://www.sewafederation.org/work-with-us/",
+    "extraInfo": {
+      "Category": "Worker rights / community health NGO network",
+      "Programmatic Focus / Thematic Areas": "Women's occupational health, social protection enrollment, primary care linkages for informal workers, NCD and maternal health among self-employed women",
+      "Typical Recruitment Cadres": "Programme Coordinator, Community Health Organizer, Health Educator, Monitoring & Documentation Officer",
+      "Geographic Footprint / Deployment": "Primarily Gujarat and other states where SEWA federations are active"
+    }
+  },
+  {
+    "id": "implementation-organizations-33",
+    "name": "SEARCH (Society for Education, Action and Research in Community Health)",
+    "category": "Implementation Organizations",
+    "description": "SEARCH in Gadchiroli runs direct service delivery to tribal and remote rural communities, including community health workers for maternal/newborn survival, management of neonatal sepsis, NCD screening and follow-up, alcohol harm reduction, and mental health care models tailored to tribal populations. Staff spend time in villages, coordinating care pathways between community and the formal health system.",
+    "careersUrl": "https://searchforhealth.ngo/careers",
+    "extraInfo": {
+      "Category": "Rural tribal health NGO implementing service delivery models",
+      "Programmatic Focus / Thematic Areas": "Tribal health, maternal and newborn survival, community health workers, mental health, alcohol harm reduction, NCDs in underserved areas",
+      "Typical Recruitment Cadres": "Public Health Physician, Programme Coordinator, Field Supervisor, Community Health Worker Mentor, Monitoring & Evaluation Officer",
+      "Geographic Footprint / Deployment": "Gadchiroli, Maharashtra (tribal/remote blocks)"
+    }
+  },
+  {
+    "id": "implementation-organizations-34",
+    "name": "Catholic Health Association of India (CHAI)",
+    "category": "Implementation Organizations",
+    "description": "CHAI is a large network of not-for-profit hospitals and health centres, especially in underserved and tribal geographies. It supports TB and HIV programmes, NCD screening, palliative care, access to essential medicines, community outreach, and health worker training. Implementation roles often involve coordination with district health authorities and faith-based facilities to expand service delivery in hard-to-reach locations.",
+    "careersUrl": "https://chai-india.org/career/",
+    "extraInfo": {
+      "Category": "Faith-based health network / NGO",
+      "Programmatic Focus / Thematic Areas": "Primary health care in underserved areas, TB, HIV, NCD screening, palliative care, health access for remote/tribal communities",
+      "Typical Recruitment Cadres": "State/District Programme Coordinator, TB/HIV Programme Manager, Training & Capacity Building Officer, M&E Officer, Community Outreach Coordinator",
+      "Geographic Footprint / Deployment": "Pan-India network with emphasis on underserved & tribal areas"
+    }
+  },
+  {
+    "id": "research-&-academic-35",
+    "name": "Indian Council of Medical Research (ICMR) Headquarters",
+    "category": "Research & Academic",
+    "description": "ICMR is India’s apex body for biomedical and public health research under MoHFW. It oversees disease surveillance, operational research for national programmes (TB, vector-borne disease control, immunization), outbreak investigation, multi-centre studies, national registries, guideline development, and funding of extramural research and fellowships.",
+    "careersUrl": "https://recruit.icmr.org.in/",
+    "extraInfo": {
+      "Category": "Central government apex biomedical & public health research body",
+      "Specializations / Focus Areas": "Epidemiology, infectious diseases, NCDs, surveillance, health systems, implementation research, public health policy",
+      "Typical Recruitment Cadres": "Scientist B/C/D, Project Scientist, Research Assistant, Statistician, Project Technical Officer",
+      "Location / Presence": "New Delhi HQ + oversight of all ICMR institutes"
+    }
+  },
+  {
+    "id": "research-&-academic-36",
+    "name": "ICMR - National Institute of Epidemiology (NIE)",
+    "category": "Research & Academic",
+    "description": "ICMR-NIE in Chennai focuses on applied epidemiology and implementation research to strengthen public health programmes and surveillance. It leads the Field Epidemiology Training Programme (FETP), supports outbreak investigations, TB and vector-borne disease research, and NCD risk factor surveillance.",
+    "careersUrl": "https://nie.icmr.org.in/careers",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "Field epidemiology, surveillance, outbreak investigation, operational research, implementation science",
+      "Typical Recruitment Cadres": "Project Scientist, Consultant (Epidemiology), Biostatistician, Research Assistant, FETP Mentor",
+      "Location / Presence": "Chennai, Tamil Nadu"
+    }
+  },
+  {
+    "id": "research-&-academic-37",
+    "name": "ICMR - National Institute for Research in Tuberculosis (NIRT)",
+    "category": "Research & Academic",
+    "description": "ICMR-NIRT in Chennai is India’s flagship TB research institute, supporting NTEP with clinical trials, drug resistance surveillance, and operational research for diagnosis, adherence, newer regimens, and DR-TB care. It manages multi-state field implementation studies.",
+    "careersUrl": "https://nirt.res.in/career.php",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "TB, MDR/XDR-TB, TB diagnostics, drug resistance, operational research for NTEP",
+      "Typical Recruitment Cadres": "Project Technical Officer, Scientist B (Medical / Non-medical), Field Investigator, Data Manager",
+      "Location / Presence": "Chennai HQ + multi-state field sites"
+    }
+  },
+  {
+    "id": "research-&-academic-38",
+    "name": "ICMR - National AIDS Research Institute (NARI)",
+    "category": "Research & Academic",
+    "description": "ICMR-NARI in Pune leads India’s HIV research agenda, including epidemiology, prevention trials, ART optimization, PrEP, stigma reduction, and linkage-to-care models for key populations. It supports NACO with surveillance and programme evaluation.",
+    "careersUrl": "https://nari-icmr.res.in/nari/index.php/recruitment",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "HIV, STIs, key populations, PrEP, stigma, linkage to care",
+      "Typical Recruitment Cadres": "Project Scientist, Programme Coordinator, Counsellor, M&E Officer, Field Investigator",
+      "Location / Presence": "Pune, Maharashtra"
+    }
+  },
+  {
+    "id": "research-&-academic-39",
+    "name": "ICMR - National Institute of Malaria Research (NIMR)",
+    "category": "Research & Academic",
+    "description": "ICMR-NIMR studies malaria transmission dynamics, vector control, insecticide resistance, climate drivers, and surveillance in endemic zones. It generates evidence for malaria elimination policy and supports NVBDCP.",
+    "careersUrl": "https://nimr.icmr.org.in/career",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "Malaria epidemiology, vector biology, insecticide resistance, surveillance, elimination strategies",
+      "Typical Recruitment Cadres": "Research Scientist, Entomologist, Project Assistant, Data Analyst, Field Worker",
+      "Location / Presence": "New Delhi HQ + field stations in endemic states"
+    }
+  },
+  {
+    "id": "research-&-academic-40",
+    "name": "ICMR - National Institute of Cholera and Enteric Diseases (NICED)",
+    "category": "Research & Academic",
+    "description": "ICMR-NICED in Kolkata works on cholera, typhoid, AMR, environmental and wastewater surveillance, and vaccine evaluation for enteric infections. It supports outbreak response and WASH-linked public health action in urban and peri-urban slums.",
+    "careersUrl": "https://niced.icmr.org.in/index.php/en/career",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "Diarrhoeal diseases, AMR in enteric pathogens, WASH-linked outbreaks, vaccine trials",
+      "Typical Recruitment Cadres": "Scientist B/C, Project Research Assistant, Lab Technician, Data Manager, Field Investigator",
+      "Location / Presence": "Kolkata, West Bengal"
+    }
+  },
+  {
+    "id": "research-&-academic-41",
+    "name": "ICMR - National Institute for Research in Environmental Health (NIREH)",
+    "category": "Research & Academic",
+    "description": "ICMR-NIREH in Bhopal studies environmental exposure, industrial contamination, ambient and indoor air pollution, occupational hazards, and long-term health impacts of disasters. It informs national environmental health policy.",
+    "careersUrl": "https://nireh.icmr.org.in/recruitment",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "Environmental/occupational health, air pollution, toxic exposure, climate and health",
+      "Typical Recruitment Cadres": "Scientist B (Environmental Health), Project Assistant, Technician, Research Associate",
+      "Location / Presence": "Bhopal, Madhya Pradesh"
+    }
+  },
+  {
+    "id": "research-&-academic-42",
+    "name": "ICMR - National Institute of Nutrition (NIN)",
+    "category": "Research & Academic",
+    "description": "ICMR-NIN in Hyderabad develops national dietary standards, studies undernutrition and anaemia, evaluates fortification, and supports nutrition missions such as POSHAN Abhiyaan and Anemia Mukt Bharat.",
+    "careersUrl": "https://www.nin.res.in/careers.html",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "Maternal/child nutrition, micronutrient deficiency, anaemia, fortification, dietary guidelines",
+      "Typical Recruitment Cadres": "Scientist B (Nutrition), Project Nutritionist, Statistician, Field Investigator",
+      "Location / Presence": "Hyderabad, Telangana"
+    }
+  },
+  {
+    "id": "research-&-academic-43",
+    "name": "ICMR - National Institute for Research in Reproductive and Child Health (NIRRCH)",
+    "category": "Research & Academic",
+    "description": "ICMR-NIRRCH in Mumbai works on RMNCH+A, respectful maternity care, contraception, adolescent anaemia, infertility, and newborn survival. It supports MoHFW on reproductive and child health policy and programme design.",
+    "careersUrl": "https://nirrch.icmr.org.in/index.php/opportunities/career",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "Maternal, newborn, child and adolescent health; fertility; family planning",
+      "Typical Recruitment Cadres": "Project Scientist, Programme Officer (RMNCH), Social Scientist, Statistician, Field Investigator",
+      "Location / Presence": "Mumbai, Maharashtra"
+    }
+  },
+  {
+    "id": "research-&-academic-44",
+    "name": "ICMR - National Institute of Virology (NIV)",
+    "category": "Research & Academic",
+    "description": "ICMR-NIV in Pune leads viral outbreak detection, genomic surveillance, vaccine evaluation, biosafety containment work, and national lab network strengthening for pandemic preparedness.",
+    "careersUrl": "https://niv.icmr.org.in/careers",
+    "extraInfo": {
+      "Category": "ICMR institute",
+      "Specializations / Focus Areas": "Emerging/re-emerging viruses, genomic surveillance, zoonoses, outbreak response, BSL-3/4 virology",
+      "Typical Recruitment Cadres": "Scientist B/C (Virology/Microbiology), Project Research Associate, Lab Technician, Data Analyst, Field Coordinator",
+      "Location / Presence": "Pune, Maharashtra + national network"
+    }
+  },
+  {
+    "id": "research-&-academic-45",
+    "name": "ICMR - Regional Medical Research Centres (RMRCs) network",
+    "category": "Research & Academic",
+    "description": "ICMR RMRC sites (e.g. RMRC Bhubaneswar, RMRC NE Region Shillong, RMRC Port Blair, RMRC Gorakhpur) focus on tribal/rural health, JE/AE surveillance, malaria, dengue, One Health surveillance, nutrition, and district health systems gaps for hard-to-reach populations.",
+    "careersUrl": "https://recruit.icmr.org.in/",
+    "extraInfo": {
+      "Category": "ICMR regional institutes",
+      "Specializations / Focus Areas": "Tribal health, vector-borne diseases, zoonoses, nutrition, rural health systems in underserved geographies",
+      "Typical Recruitment Cadres": "Project Assistant, Scientist B (Non-medical), Field Investigator, Data Entry Operator",
+      "Location / Presence": "Odisha, Northeast, Andaman & Nicobar, Uttar Pradesh, etc."
+    }
+  },
+  {
+    "id": "research-&-academic-46",
+    "name": "All India Institute of Medical Sciences (AIIMS) New Delhi",
+    "category": "Research & Academic",
+    "description": "AIIMS Delhi conducts large-scale public health, systems, and community-based research through the Centre for Community Medicine (CCM) and other departments. Focus areas include PHC service delivery, NCDs, nutrition, injury prevention, and environmental/occupational exposures.",
+    "careersUrl": "https://aiims.edu/en/recruitment.html",
+    "extraInfo": {
+      "Category": "Institute of National Importance / Central academic medical & public health research centre",
+      "Specializations / Focus Areas": "Community medicine, primary care systems, NCD risk factors, environmental/occupational health, implementation research",
+      "Typical Recruitment Cadres": "Senior Research Fellow, Project Scientist, Biostatistician, Project Technician, Field Investigator",
+      "Location / Presence": "New Delhi + Delhi NCR and partner states"
+    }
+  },
+  {
+    "id": "research-&-academic-47",
+    "name": "AIIMS Bhopal / AIIMS Jodhpur / AIIMS Bhubaneswar / AIIMS Rishikesh / AIIMS Raipur / AIIMS Patna etc.",
+    "category": "Research & Academic",
+    "description": "Newer AIIMS institutes lead regionally relevant implementation research: population NCD screening through HWCs, maternal and child health quality, infectious disease surveillance, road safety, and tribal/occupational health. They recruit project staff for state and NHM-linked studies.",
+    "careersUrl": "https://aiimsbhopal.edu.in/jobs.aspx",
+    "extraInfo": {
+      "Category": "AIIMS network (newer AIIMS)",
+      "Specializations / Focus Areas": "Community & family medicine, infectious disease surveillance, NCD screening, occupational/tribal health, trauma/injury systems",
+      "Typical Recruitment Cadres": "Research Associate, Project Coordinator, Field Investigator, Statistician, Data Manager",
+      "Location / Presence": "Multiple states (MP, Rajasthan, Odisha, Uttarakhand, Chhattisgarh, Bihar, etc.)"
+    }
+  },
+  {
+    "id": "research-&-academic-48",
+    "name": "National Institute of Health and Family Welfare (NIHFW)",
+    "category": "Research & Academic",
+    "description": "NIHFW in New Delhi provides capacity building and health systems policy/monitoring support to MoHFW. Work includes NHM programme monitoring, reproductive and child health, HMIS strengthening, human resources for health, and quality of care systems.",
+    "careersUrl": "http://www.nihfw.org/Jobs.html",
+    "extraInfo": {
+      "Category": "MoHFW autonomous institute",
+      "Specializations / Focus Areas": "Public health management, RMNCH, HMIS, health policy support, programme monitoring",
+      "Typical Recruitment Cadres": "Consultant (Public Health), M&E Specialist, Training Consultant, Data Analyst",
+      "Location / Presence": "New Delhi"
+    }
+  },
+  {
+    "id": "research-&-academic-49",
+    "name": "National Health Systems Resource Centre (NHSRC)",
+    "category": "Research & Academic",
+    "description": "NHSRC supports the National Health Mission and states on health systems design, PHC transformation (AB-HWC), quality standards, community processes, planning and budgeting, and workforce strategy. It is one of the most consistent recruiters of MPH / MD-Community Medicine profiles in India.",
+    "careersUrl": "https://nhsrcindia.org/Career",
+    "extraInfo": {
+      "Category": "MoHFW technical support agency (NHM)",
+      "Specializations / Focus Areas": "Health systems strengthening, primary health care, quality of care, health financing, HRH planning",
+      "Typical Recruitment Cadres": "Consultant (Public Health Planning), Senior Consultant - Quality Improvement, Community Processes Specialist, Health Financing Analyst",
+      "Location / Presence": "New Delhi HQ + state postings"
+    }
+  },
+  {
+    "id": "research-&-academic-50",
+    "name": "State Health Systems Resource Centres / State Programme Management Units (SPMUs)",
+    "category": "Research & Academic",
+    "description": "SHSRC / SPMU / TSU-type units in most states function as embedded health systems support cells under NHM. They handle programme planning, monitoring, quality improvement, analytics, and supportive supervision at state and district level for RMNCH, NCD screening, and health systems strengthening.",
+    "careersUrl": "https://nhm.gov.in/",
+    "extraInfo": {
+      "Category": "State NHM technical support units",
+      "Specializations / Focus Areas": "Public health programme management, RMNCH, NCDs, quality of care, data systems, community processes",
+      "Typical Recruitment Cadres": "District Programme Manager, Public Health Consultant, M&E Officer, Quality of Care Lead, Epidemiologist",
+      "Location / Presence": "Every state and many districts"
+    }
+  },
+  {
+    "id": "research-&-academic-51",
+    "name": "National Centre for Disease Control (NCDC) / IDSP",
+    "category": "Research & Academic",
+    "description": "NCDC in Delhi anchors the Integrated Disease Surveillance Programme (IDSP), national epidemic intelligence, AMR surveillance, and zoonotic disease coordination. It deploys epidemiologists and data managers to national/state surveillance units and supports rapid outbreak investigation.",
+    "careersUrl": "https://ncdc.gov.in/index1.php?lang=1&level=1&sublinkid=144&lid=65",
+    "extraInfo": {
+      "Category": "Central government institute (MoHFW)",
+      "Specializations / Focus Areas": "Surveillance, outbreak response, AMR, zoonoses, field epidemiology",
+      "Typical Recruitment Cadres": "Epidemiologist (IDSP), Microbiologist, State Surveillance Officer, Data Manager, Entomologist",
+      "Location / Presence": "New Delhi + state/district IDSP cells"
+    }
+  },
+  {
+    "id": "research-&-academic-52",
+    "name": "National Health Mission (NHM) / State NHMs",
+    "category": "Research & Academic",
+    "description": "NHM at state and district level runs large-scale public health programmes: maternal and child health, communicable and non-communicable diseases, HWCs, community processes, quality of care, and monitoring & evaluation. Many positions are contractual but continuously available.",
+    "careersUrl": "https://nhm.gov.in/",
+    "extraInfo": {
+      "Category": "Government health programme structures at state level",
+      "Specializations / Focus Areas": "RMNCH, NCDs, health systems, community processes, programme monitoring",
+      "Typical Recruitment Cadres": "District/State Programme Manager, Epidemiologist, Data/MIS Officer, Quality of Care Consultant, Community Process Coordinator",
+      "Location / Presence": "All states and most districts"
+    }
+  },
+  {
+    "id": "research-&-academic-53",
+    "name": "Public Health Foundation of India (PHFI) / IIPH Network",
+    "category": "Research & Academic",
+    "description": "PHFI and the Indian Institutes of Public Health conduct epidemiological studies, state health systems assessments, tobacco control, NCD surveillance, policy analysis, urban health, and training of the public health workforce. They are major recruiters of Research Assistants/Associates, Biostatisticians, Programme Managers, and Faculty.",
+    "careersUrl": "https://phfi.org/careers/",
+    "extraInfo": {
+      "Category": "Public health academic & research institution (public-private; NGO trust model)",
+      "Specializations / Focus Areas": "Health systems, NCDs, RMNCH, health economics, tobacco control, environmental health, policy research",
+      "Typical Recruitment Cadres": "Research Assistant, Research Scientist, Programme Manager, Biostatistician, Assistant/Associate Professor",
+      "Location / Presence": "Delhi NCR, Gandhinagar, Hyderabad, Bhubaneswar, Shillong etc."
+    }
+  },
+  {
+    "id": "research-&-academic-54",
+    "name": "IIHMR University (Indian Institute of Health Management Research)",
+    "category": "Research & Academic",
+    "description": "IIHMR focuses on health systems, public health management, health financing, MIS/HMIS, and evaluation of large national and donor-funded programmes (RMNCH, NCDs, insurance, etc.). It also supports health policy advisory work to governments.",
+    "careersUrl": "https://www.iihmr.edu.in/careers",
+    "extraInfo": {
+      "Category": "Deemed university / Health management & public health research institute",
+      "Specializations / Focus Areas": "Health systems management, health economics, health financing, HMIS, programme evaluation",
+      "Typical Recruitment Cadres": "Research Officer, Project Manager, Assistant Professor, M&E Specialist, Consultant (Health Systems)",
+      "Location / Presence": "Jaipur (HQ) + Delhi/Bangalore collaborations"
+    }
+  },
+  {
+    "id": "research-&-academic-55",
+    "name": "Institute of Public Health (IPH) Bangalore",
+    "category": "Research & Academic",
+    "description": "IPH Bangalore conducts applied health systems and implementation research, focusing on strengthening PHC, managing NCDs in primary care, tobacco control policy, and capacity building for health governance and research methods with state governments.",
+    "careersUrl": "https://iphindia.org/work-with-us/",
+    "extraInfo": {
+      "Category": "Independent public health research NGO / academic collaborative institute",
+      "Specializations / Focus Areas": "Primary health care, health systems governance, NCD control, tobacco control, implementation research",
+      "Typical Recruitment Cadres": "Research Officer, Programme Officer, Field Investigator, Qualitative Researcher",
+      "Location / Presence": "Bengaluru, Karnataka"
+    }
+  },
+  {
+    "id": "research-&-academic-56",
+    "name": "The George Institute for Global Health – India",
+    "category": "Research & Academic",
+    "description": "The George Institute runs research on cardiovascular disease, hypertension control in PHC, trauma and road safety, digital health tools for low-resource settings, and gender and health equity. It also supports policy translation with governments.",
+    "careersUrl": "https://www.georgeinstitute.org.in/careers",
+    "extraInfo": {
+      "Category": "Global health research institute (Indian entity)",
+      "Specializations / Focus Areas": "NCDs (hypertension, CVD), injury prevention, primary care models, digital health, road safety, health policy",
+      "Typical Recruitment Cadres": "Research Fellow, Project Coordinator, Data Manager, Policy & Advocacy Officer, Biostatistician",
+      "Location / Presence": "New Delhi / Hyderabad / multi-site trials"
+    }
+  },
+  {
+    "id": "research-&-academic-57",
+    "name": "The INCLEN Trust International (INCLEN)",
+    "category": "Research & Academic",
+    "description": "INCLEN conducts large multi-site epidemiological and implementation studies on vaccines, nutrition, RMNCH, early childhood development, infectious diseases, and health technology assessment for government decision-making.",
+    "careersUrl": "https://inclentrust.org/career/",
+    "extraInfo": {
+      "Category": "Public health research NGO / consortium",
+      "Specializations / Focus Areas": "Child health, vaccines, RMNCH, nutrition, disease burden, HTA",
+      "Typical Recruitment Cadres": "Epidemiologist, Biostatistician, Project Manager, Field Supervisor, Qualitative Researcher",
+      "Location / Presence": "New Delhi (HQ) + multi-state sites"
+    }
+  },
+  {
+    "id": "research-&-academic-58",
+    "name": "Tata Institute of Social Sciences (TISS) – School of Health Systems Studies",
+    "category": "Research & Academic",
+    "description": "TISS works on health systems and policy research, public health financing, social determinants, urban health, mental health systems, labour and occupational health, and gender equity in health. It partners with governments and donors for evaluations and technical support.",
+    "careersUrl": "https://tiss.edu/careers-and-vacancies",
+    "extraInfo": {
+      "Category": "Central (deemed) university / Public health and health systems research school",
+      "Specializations / Focus Areas": "Health policy, health systems governance, social determinants, health financing, urban health, gender and health equity",
+      "Typical Recruitment Cadres": "Research Associate, Programme Officer, Faculty (Assistant Professor), Public Health Analyst, M&E Officer",
+      "Location / Presence": "Mumbai HQ + state collaborations"
+    }
+  },
+  {
+    "id": "research-&-academic-59",
+    "name": "National Institute of Mental Health and Neuro Sciences (NIMHANS) – Public Health / Epidemiology / Mental Health Policy Units",
+    "category": "Research & Academic",
+    "description": "NIMHANS leads public mental health implementation work, including district mental health programmes, suicide prevention systems, de-addiction, school mental health, and policy support to states and MoHFW. Many roles are programme and field-facing.",
+    "careersUrl": "https://nimhans.ac.in/careers/",
+    "extraInfo": {
+      "Category": "Institute of National Importance",
+      "Specializations / Focus Areas": "Mental health systems, addiction, suicide prevention, community mental health, digital mental health, policy",
+      "Typical Recruitment Cadres": "Project Officer, Field Investigator, Programme Coordinator, Research Assistant, Data Manager",
+      "Location / Presence": "Bengaluru, Karnataka + multi-state pilots"
+    }
+  },
+  {
+    "id": "research-&-academic-60",
+    "name": "St. John’s Medical College & St. John’s Research Institute (SJRI)",
+    "category": "Research & Academic",
+    "description": "SJRI runs high-quality research on maternal and child nutrition, low birth weight, infectious diseases, vaccine studies, and community health systems in collaboration with ICMR, DBT, and international funders. Strong field research presence.",
+    "careersUrl": "https://sjri.res.in/opportunities",
+    "extraInfo": {
+      "Category": "Medical college + Research institute (charitable trust)",
+      "Specializations / Focus Areas": "Maternal/child nutrition, infectious disease, community health, clinical epidemiology",
+      "Typical Recruitment Cadres": "Research Assistant, Nutritionist, Field Supervisor, Data Manager, Scientist B",
+      "Location / Presence": "Bengaluru, Karnataka"
+    }
+  },
+  {
+    "id": "research-&-academic-61",
+    "name": "Christian Medical College (CMC) Vellore – RUHSA / CHAD / Community Health",
+    "category": "Research & Academic",
+    "description": "CMC Vellore’s community health units (RUHSA, CHAD) and ID programmes lead long-term rural and peri-urban public health research covering maternal and child health, infectious disease surveillance, occupational health, NCD screening, and primary care delivery models.",
+    "careersUrl": "https://www.cmch-vellore.edu/careers",
+    "extraInfo": {
+      "Category": "Private deemed university medical college (strong rural public health research model)",
+      "Specializations / Focus Areas": "Rural health systems, infectious diseases, RMNCH, occupational health, NCD screening, palliative and community care",
+      "Typical Recruitment Cadres": "Research Officer, Programme Manager, Field Investigator, Data Coordinator, Medical Officer (Public Health)",
+      "Location / Presence": "Vellore district field practice areas, Tamil Nadu"
+    }
+  },
+  {
+    "id": "research-&-academic-62",
+    "name": "Manipal Academy of Higher Education (MAHE) / Dept. of Public Health / KMC Manipal",
+    "category": "Research & Academic",
+    "description": "Manipal drives infectious disease and health systems work through its Department of Public Health and Kasturba Medical College, with focus on AMR surveillance, hospital IPC, zoonoses, coastal disaster health, and digital surveillance systems.",
+    "careersUrl": "https://manipal.edu/mu/careers.html",
+    "extraInfo": {
+      "Category": "Deemed university / Academic research institution",
+      "Specializations / Focus Areas": "Infectious disease epidemiology, AMR, One Health, hospital infection control, disaster health, health policy",
+      "Typical Recruitment Cadres": "Research Fellow, Epidemiologist, Project Coordinator, Data Analyst, Field Investigator",
+      "Location / Presence": "Manipal / Udupi, Karnataka; coastal Karnataka field sites"
+    }
+  },
+  {
+    "id": "research-&-academic-63",
+    "name": "SRM Institute of Science and Technology / SRM Medical College Hospital & Research Centre – Dept. of Community Medicine / Public Health",
+    "category": "Research & Academic",
+    "description": "SRM conducts implementation research on NCD screening, maternal and child health, adolescent anaemia, school health, and environmental/occupational exposure around industrial belts. It also supports state NHM evaluations.",
+    "careersUrl": "https://www.srmist.edu.in/careers/",
+    "extraInfo": {
+      "Category": "Deemed university medical college",
+      "Specializations / Focus Areas": "Community-based NCD screening, RMNCH, adolescent health, environmental/occupational exposure in peri-urban areas",
+      "Typical Recruitment Cadres": "Project Coordinator, Research Assistant, Statistician, Field Investigator",
+      "Location / Presence": "Kattankulathur, Tamil Nadu + surrounding field practice areas"
+    }
+  },
+  {
+    "id": "research-&-academic-64",
+    "name": "JIPMER – Dept. of Preventive & Social Medicine / Public Health Units",
+    "category": "Research & Academic",
+    "description": "JIPMER in Puducherry runs strong community and public health research through Preventive & Social Medicine and vector control collaborations: dengue/chikungunya surveillance, RMNCH, disaster/heat preparedness, injury/road safety, and coastal community health.",
+    "careersUrl": "https://jipmer.edu.in/announcements/jobs",
+    "extraInfo": {
+      "Category": "Institute of National Importance (Central govt tertiary care & research institute)",
+      "Specializations / Focus Areas": "Vector-borne disease surveillance, maternal and child health, coastal/rural health systems, injury, disaster/heat preparedness",
+      "Typical Recruitment Cadres": "Research Associate, Field Investigator, Entomology Assistant, Data Manager, Project Officer (Public Health)",
+      "Location / Presence": "Puducherry + TN coastal belt field sites"
+    }
+  },
+  {
+    "id": "research-&-academic-65",
+    "name": "PGIMER Chandigarh – School of Public Health / Dept. of Community Medicine",
+    "category": "Research & Academic",
+    "description": "PGIMER’s School of Public Health and Community Medicine department run implementation research supporting Punjab, Haryana, Himachal, and national programmes on RMNCH, road safety, air pollution, infectious disease surveillance, and NHM evaluations.",
+    "careersUrl": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/JSP/GI_JobsCurrent.jsp",
+    "extraInfo": {
+      "Category": "Institute of National Importance",
+      "Specializations / Focus Areas": "Health systems, RMNCH, NCDs, injury prevention, air pollution & health, programme evaluation",
+      "Typical Recruitment Cadres": "Research Assistant, Statistician, Field Investigator, Programme Manager, Consultant (Public Health)",
+      "Location / Presence": "Chandigarh + North India field sites"
+    }
+  },
+  {
+    "id": "research-&-academic-66",
+    "name": "SCTIMST – Achutha Menon Centre for Health Science Studies (AMCHSS)",
+    "category": "Research & Academic",
+    "description": "AMCHSS at Sree Chitra Tirunal Institute (Trivandrum) is one of India’s earliest public health and health policy training centres. It focuses on NCDs, health economics, primary care models, health equity, and health technology assessment for policy.",
+    "careersUrl": "https://www.sctimst.ac.in/AboutSctimst/Careers/",
+    "extraInfo": {
+      "Category": "Institute of National Importance (Dept. of S&T, Govt. of India) – public health school",
+      "Specializations / Focus Areas": "Health policy & systems research, NCDs, health economics, HTA, PHC models",
+      "Typical Recruitment Cadres": "Research Associate, Research Fellow, Biostatistician, Project Coordinator, Assistant Professor (Public Health / Health Policy)",
+      "Location / Presence": "Thiruvananthapuram, Kerala"
+    }
+  },
+  {
+    "id": "research-&-academic-67",
+    "name": "Banaras Hindu University (BHU) – Institute of Medical Sciences / Dept. of Community Medicine",
+    "category": "Research & Academic",
+    "description": "BHU (Varanasi) conducts implementation and cohort studies on RMNCH, nutrition, vector-borne disease control, and environmental exposures in eastern Uttar Pradesh and the adjoining Bihar belt. Strong rural/low-resource service delivery focus.",
+    "careersUrl": "https://www.bhu.ac.in/recruitment/",
+    "extraInfo": {
+      "Category": "Central university medical sciences institute",
+      "Specializations / Focus Areas": "Maternal and child health, nutrition, vector-borne disease, environmental health, rural health service delivery",
+      "Typical Recruitment Cadres": "Research Assistant, Field Worker, Programme Coordinator, Epidemiologist, Data Manager",
+      "Location / Presence": "Varanasi, Uttar Pradesh + eastern UP field sites"
+    }
+  },
+  {
+    "id": "research-&-academic-68",
+    "name": "MGIMS Sevagram (Mahatma Gandhi Institute of Medical Sciences) – Dept. of Community Medicine",
+    "category": "Research & Academic",
+    "description": "MGIMS Sevagram (Wardha) is known for long-term rural field practice areas and innovative village-based service delivery models. Work includes maternal/newborn survival, surveillance, NCD screening, and evaluation of public schemes in rural/tribal Vidarbha.",
+    "careersUrl": "https://www.mgims.ac.in/index.php/careers",
+    "extraInfo": {
+      "Category": "Trust-based medical college with rural public health research model",
+      "Specializations / Focus Areas": "Rural health systems, maternal/newborn health, village surveillance, chronic disease care in rural/tribal settings",
+      "Typical Recruitment Cadres": "Field Investigator, Programme Officer, Research Assistant, Data Manager, Community Health Worker (Project)",
+      "Location / Presence": "Wardha, Maharashtra (rural Vidarbha)"
+    }
+  },
+  {
+    "id": "research-&-academic-69",
+    "name": "SEARCH (Society for Education, Action and Research in Community Health) Gadchiroli",
+    "category": "Research & Academic",
+    "description": "SEARCH, founded by Dr. Abhay Bang and Dr. Rani Bang, pioneered community-based newborn care in tribal/rural Gadchiroli and now works on NCDs, mental health, gender, alcohol harm reduction, and health system accountability for excluded populations.",
+    "careersUrl": "https://searchforhealth.ngo/careers",
+    "extraInfo": {
+      "Category": "Rural public health research NGO",
+      "Specializations / Focus Areas": "Tribal and rural health, maternal/newborn survival, NCDs in underserved populations, mental health, alcohol harm reduction",
+      "Typical Recruitment Cadres": "Programme Coordinator, Public Health Physician, Statistician, Field Investigator, Research Associate",
+      "Location / Presence": "Gadchiroli, Maharashtra (tribal blocks)"
+    }
+  },
+  {
+    "id": "research-&-academic-70",
+    "name": "India HIV/AIDS Alliance (Alliance India)",
+    "category": "Research & Academic",
+    "description": "Alliance India supports targeted interventions for key populations, harm reduction for PWID, stigma reduction, ART adherence, and community-driven monitoring. It partners with NACO, state SACS, and CBOs, and runs high-intensity monitoring & evaluation systems.",
+    "careersUrl": "https://allianceindia.org/work-with-us/",
+    "extraInfo": {
+      "Category": "National NGO with technical support role to NACO/State AIDS Control Societies",
+      "Specializations / Focus Areas": "HIV prevention, key populations, harm reduction, stigma reduction, community systems strengthening",
+      "Typical Recruitment Cadres": "Programme Officer, M&E Officer, State Programme Manager, Advocacy Officer, Community Liaison Coordinator",
+      "Location / Presence": "New Delhi HQ + state offices"
+    }
+  },
+  {
+    "id": "research-&-academic-71",
+    "name": "India Health Action Trust (IHAT)",
+    "category": "Research & Academic",
+    "description": "IHAT runs Technical Support Units embedded in high-priority states (notably Uttar Pradesh), supporting RMNCH, HIV prevention, TB, and systems strengthening including data, supervision, training, and logistics. It is one of the most consistent recruiters for district/state public health consultant roles.",
+    "careersUrl": "https://www.ihat.in/careers/",
+    "extraInfo": {
+      "Category": "Technical Support Unit (TSU) NGO",
+      "Specializations / Focus Areas": "Maternal and newborn health, RMNCH, HIV, TB, state health systems strengthening",
+      "Typical Recruitment Cadres": "District Public Health Consultant, M&E Officer, Programme Manager, State Technical Specialist (RMNCH/HIV/TB)",
+      "Location / Presence": "Lucknow, Uttar Pradesh + district placements"
+    }
+  },
+  {
+    "id": "research-&-academic-72",
+    "name": "CARE India (technical and knowledge management units)",
+    "category": "Research & Academic",
+    "description": "CARE India implements and supports state-led RMNCH and nutrition programmes, with embedded technical teams for maternal/newborn survival, SAM management, adolescent anaemia, frontline worker capacity-building, and programme quality in high-burden states.",
+    "careersUrl": "https://www.careindia.org/careers/",
+    "extraInfo": {
+      "Category": "Large development NGO aligned with public health and nutrition systems",
+      "Specializations / Focus Areas": "Maternal and child health, nutrition, severe acute malnutrition, frontline worker mentoring, social protection delivery",
+      "Typical Recruitment Cadres": "Block Technical Officer (Health/Nutrition), M&E Specialist, Training Coordinator, Knowledge Management Officer",
+      "Location / Presence": "Bihar, Uttar Pradesh, MP, Odisha etc."
+    }
+  },
+  {
+    "id": "research-&-academic-73",
+    "name": "CHRD-SAS (Centre for Health Research and Development, Society for Applied Studies)",
+    "category": "Research & Academic",
+    "description": "Society for Applied Studies / CHRD runs high-quality community trials and large implementation research on immunization, nutrition, maternal/newborn survival, and primary health care delivery in North India. It often partners with state governments and global funders.",
+    "careersUrl": "https://sas.org.in/career/",
+    "extraInfo": {
+      "Category": "Not-for-profit research organisation",
+      "Specializations / Focus Areas": "Maternal, newborn, and child health; nutrition; vaccines; community trials; primary care delivery models",
+      "Typical Recruitment Cadres": "Research Officer, Trial Coordinator, Field Supervisor, Data Manager, Medical Officer (Public Health)",
+      "Location / Presence": "New Delhi / NCR + Uttar Pradesh / Bihar field sites"
+    }
+  },
+  {
+    "id": "research-&-academic-74",
+    "name": "The Energy and Resources Institute (TERI) – Environment & Health Division",
+    "category": "Research & Academic",
+    "description": "TERI links environment and public health through work on air pollution exposure, household/ambient air quality, climate risk, occupational hazards, and health-informed urban resilience planning. Increasingly relevant for heat action plans and clean air policies.",
+    "careersUrl": "https://www.teriin.org/careers",
+    "extraInfo": {
+      "Category": "Independent research institute",
+      "Specializations / Focus Areas": "Air pollution and health, climate & health adaptation, occupational/environmental exposure, urban resilience",
+      "Typical Recruitment Cadres": "Environmental Health Researcher, Air Quality Analyst, Programme Manager (Climate & Health), Epidemiologist",
+      "Location / Presence": "New Delhi + state technical partnerships"
+    }
+  },
+  {
+    "id": "research-&-academic-75",
+    "name": "PHFI Tobacco Control / HRIDAY / Bloomberg Initiative partners (Delhi tobacco control consortia)",
+    "category": "Research & Academic",
+    "description": "Delhi-based consortia including PHFI tobacco control units and HRIDAY provide technical support on tobacco taxation and regulation, enforcement support, surveillance of use (especially youth), and NCD policy advocacy for governments.",
+    "careersUrl": "https://phfi.org/careers/",
+    "extraInfo": {
+      "Category": "Public health policy/advocacy & research consortium",
+      "Specializations / Focus Areas": "Tobacco control policy, taxation, regulation of marketing, NCD prevention, adolescent health",
+      "Typical Recruitment Cadres": "Policy Researcher, M&E Specialist, Advocacy & Communications Officer, Data Analyst",
+      "Location / Presence": "New Delhi + state tobacco control cells"
+    }
+  },
+  {
+    "id": "research-&-academic-76",
+    "name": "Population & Health Surveillance / HDSS sites (e.g. Ballabgarh/AIIMS, Vellore, Anantapur etc.)",
+    "category": "Research & Academic",
+    "description": "Long-standing Health and Demographic Surveillance System (HDSS) sites in India (Ballabgarh AIIMS, Vellore, Anantapur, etc.) maintain longitudinal population cohorts and verbal autopsy systems for mortality, NCD risk, maternal/child outcomes, and service utilization. They underpin implementation research and health systems monitoring.",
+    "careersUrl": "https://aiims.edu/en/recruitment.html",
+    "extraInfo": {
+      "Category": "Population health and demographic surveillance sites (academic-government partnerships)",
+      "Specializations / Focus Areas": "Vital events surveillance, maternal/child health, injury, NCD risk factors, programme coverage monitoring",
+      "Typical Recruitment Cadres": "Field Surveyor, Data Manager, Statistician, Project Coordinator, Research Fellow (Epidemiology)",
+      "Location / Presence": "Multiple long-term field sites across states"
+    }
+  },
+  {
+    "id": "international-organizations-77",
+    "name": "World Health Organization (WHO)",
+    "category": "International Organizations",
+    "description": "WHO is the United Nations’ specialized health agency. It provides global leadership on public health standards, surveillance, outbreak control, health systems strengthening, and regulatory guidance. In India, WHO works closely with the Ministry of Health and Family Welfare, state governments, and partners to support disease elimination (TB, polio, malaria), epidemiological surveillance, digital health, primary care, and Universal Health Coverage. WHO also deploys consultants, field monitors, epidemiologists, data managers, lab specialists, and program managers to drive national and subnational public health programmes.",
+    "careersUrl": "https://careers.who.int/",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation",
+      "Specializations": "Health systems, infectious diseases, immunization, UHC, emergency response"
+    }
+  },
+  {
+    "id": "international-organizations-78",
+    "name": "United Nations Children's Fund (UNICEF)",
+    "category": "International Organizations",
+    "description": "UNICEF supports governments to improve survival, development, and protection of children and adolescents. Work includes newborn and child health, vaccination campaigns, micronutrient supplementation, WASH in schools and health facilities, early childhood development, social protection, gender equity, and adolescent mental health. UNICEF India recruits for programme management, monitoring & evaluation, nutrition, immunization, water and sanitation, health systems, communication for behaviour change, and emergency preparedness roles at national and state levels.",
+    "careersUrl": "https://jobs.unicef.org/",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation",
+      "Specializations": "Child health, nutrition, WASH, immunization, RMNCH+A, SBC"
+    }
+  },
+  {
+    "id": "international-organizations-79",
+    "name": "United Nations Development Programme (UNDP)",
+    "category": "International Organizations",
+    "description": "UNDP works on inclusive development, governance, climate resilience, health systems strengthening, and SDG acceleration. In health, UNDP supports large-scale procurement and supply chain management for HIV, TB, malaria, NCDs, and diagnostics; digital health governance; health financing; and social protection. In India, UNDP manages public health projects including health supply chain optimization, digital health platforms, TB elimination acceleration, and migrant/social protection programmes. They frequently recruit public health professionals, public policy analysts, data managers, and supply chain specialists.",
+    "careersUrl": "https://www.undp.org/careers",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation",
+      "Specializations": "Health systems, HIV, TB, procurement & supply chain, governance"
+    }
+  },
+  {
+    "id": "international-organizations-80",
+    "name": "World Bank Group",
+    "category": "International Organizations",
+    "description": "The World Bank funds and provides technical assistance for large-scale health, nutrition, and sanitation programmes. Focus areas include primary health care reform, health financing, pandemic preparedness, social protection, women’s and child nutrition, and health system resilience. In India, World Bank operations include state-level health systems strengthening, health insurance reforms, nutrition missions, and pandemic preparedness loans. Public health hires include health economists, monitoring & evaluation specialists, operations officers, and health systems consultants.",
+    "careersUrl": "https://www.worldbank.org/en/about/careers",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation / Multilateral development bank",
+      "Specializations": "Health financing, health economics, primary care systems, nutrition, water & sanitation"
+    }
+  },
+  {
+    "id": "international-organizations-81",
+    "name": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+    "category": "International Organizations",
+    "description": "The Global Fund is a financing mechanism that supports countries to prevent, diagnose, and treat HIV, TB, and malaria, and to build resilient, sustainable health systems. India is both a recipient and a strategic partner. The Global Fund funds national and state programmes, procurement systems, labs, digital surveillance, key population outreach, and community systems strengthening. Roles are available in grant management, monitoring & evaluation, epidemiology, health products management, and resilient & sustainable systems for health (RSSH).",
+    "careersUrl": "https://www.theglobalfund.org/en/careers/",
+    "extraInfo": {
+      "Category": "Global health financing partnership",
+      "Specializations": "HIV, TB, malaria, health systems strengthening, supply chain, data systems"
+    }
+  },
+  {
+    "id": "international-organizations-82",
+    "name": "Gavi, the Vaccine Alliance",
+    "category": "International Organizations",
+    "description": "Gavi finances and supports equitable access to vaccines in lower-income settings. It works on new vaccine introductions, cold chain and logistics, last-mile delivery, surveillance for vaccine-preventable diseases, and strengthening primary health care. Although India is now largely domestically financed, India is a strategic manufacturing and innovation hub, and Gavi partners with Indian national and state governments, CSOs, and vaccine manufacturers. Professionals are recruited in immunization, supply chain, market shaping, impact evaluation, and programme management.",
+    "careersUrl": "https://www.gavi.org/careers",
+    "extraInfo": {
+      "Category": "Public–private global health partnership",
+      "Specializations": "Immunization policy, vaccine delivery, cold chain, health systems strengthening"
+    }
+  },
+  {
+    "id": "international-organizations-83",
+    "name": "U.S. Centers for Disease Control and Prevention (CDC)",
+    "category": "International Organizations",
+    "description": "CDC supports partner countries through technical assistance on surveillance, field epidemiology training (FETP), outbreak investigation, AMR containment, emergency preparedness, HIV and TB control, and lab network strengthening. CDC India works with national programmes such as NTEP, National Centre for Disease Control, and ICMR institutions. They recruit epidemiologists, surveillance officers, lab advisors, AMR specialists, data scientists, and programme managers through US Embassy/CDC India postings and US government hiring mechanisms.",
+    "careersUrl": "https://www.cdc.gov/globalhealth/employment/index.html",
+    "extraInfo": {
+      "Category": "US government public health agency (international programs)",
+      "Specializations": "Epidemiology, surveillance, laboratory systems, outbreak response, anti-microbial resistance"
+    }
+  },
+  {
+    "id": "international-organizations-84",
+    "name": "U.S. Agency for International Development (USAID)",
+    "category": "International Organizations",
+    "description": "USAID funds and implements global health and development programmes, including TB elimination, RMNCH, urban health, health financing reforms, health private sector engagement, WASH, and infectious disease preparedness. USAID India partners with government ministries, civil society, and private sector innovators to improve service delivery and health outcomes. They recruit for health advisors, monitoring & evaluation specialists, private sector engagement experts, and TB/urban health technical leads, often via implementing partners.",
+    "careersUrl": "https://www.usaid.gov/careers",
+    "extraInfo": {
+      "Category": "Bilateral development agency",
+      "Specializations": "Health systems, RMNCH, TB, HIV, private sector engagement, health financing"
+    }
+  },
+  {
+    "id": "international-organizations-85",
+    "name": "Food and Agriculture Organization of the United Nations (FAO)",
+    "category": "International Organizations",
+    "description": "FAO works on global food security, sustainable agriculture, animal health, and safe food systems. In India, FAO engages in disease surveillance for zoonotic infections, One Health AMR containment, food safety standards, climate-resilient agriculture, and nutrition-sensitive agriculture to reduce stunting and micronutrient deficiencies. FAO hires veterinarians, One Health specialists, food safety experts, AMR program officers, and monitoring & evaluation specialists for India and South Asia projects.",
+    "careersUrl": "https://www.fao.org/employment/en/",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation",
+      "Specializations": "Food safety, zoonoses, antimicrobial resistance in animal health, nutrition security"
+    }
+  },
+  {
+    "id": "international-organizations-86",
+    "name": "World Food Programme (WFP)",
+    "category": "International Organizations",
+    "description": "WFP is the UN agency focused on hunger and nutrition. In India, WFP supports government-led food safety nets such as the Public Distribution System and ICDS, works on fortified staples, school meals, climate-resilient livelihoods, and logistics/supply chain strengthening for last-mile delivery of entitlements. Public health professionals are recruited in nutrition, social protection systems, micronutrient fortification, programme monitoring, last-mile logistics, and emergency response planning.",
+    "careersUrl": "https://www.wfp.org/careers",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation",
+      "Specializations": "Nutrition, food security, social protection, logistics, supply chain"
+    }
+  },
+  {
+    "id": "international-organizations-87",
+    "name": "United Nations Population Fund (UNFPA)",
+    "category": "International Organizations",
+    "description": "UNFPA works to ensure reproductive rights, access to contraception, safe motherhood, adolescent health, and prevention of gender-based violence. In India, UNFPA supports adolescent reproductive and sexual health programmes, family planning logistics management, and gender-transformative programming with governments and civil society. They recruit technical experts in SRH, adolescent health, gender, M&E, and programme management at national and state offices.",
+    "careersUrl": "https://www.unfpa.org/jobs",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation",
+      "Specializations": "Sexual and reproductive health, adolescents, gender, family planning"
+    }
+  },
+  {
+    "id": "international-organizations-88",
+    "name": "Joint United Nations Programme on HIV/AIDS (UNAIDS)",
+    "category": "International Organizations",
+    "description": "UNAIDS coordinates the global response to HIV by supporting evidence-based prevention, treatment access, stigma reduction, community-led services, and human rights-based approaches. In India, UNAIDS works with NACO, state AIDS control societies, and community organisations to strengthen prevention among key populations, improve data systems, and align policy with global HIV commitments. UNAIDS recruits strategic information advisors, policy analysts, community engagement specialists, and programme officers.",
+    "careersUrl": "https://www.unaids.org/en/vacancies",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation / UN joint programme",
+      "Specializations": "HIV prevention and treatment, key populations, health rights, surveillance"
+    }
+  },
+  {
+    "id": "international-organizations-89",
+    "name": "Gates Foundation (Bill & Melinda Gates Foundation)",
+    "category": "International Organizations",
+    "description": "The Gates Foundation funds large-scale public health initiatives focused on infectious disease elimination, vaccines, maternal and newborn health, nutrition, sanitation, data systems, and digital public health infrastructure. India is one of its key geographies, including work on TB, routine immunization, health systems digitalization, gender data, and sanitation. They recruit for technical experts in health policy, epidemiology, program strategy, partnerships, and impact evaluation, often based in Delhi or Bengaluru.",
+    "careersUrl": "https://www.gatesfoundation.org/about/careers",
+    "extraInfo": {
+      "Category": "Philanthropic foundation / International NGO",
+      "Specializations": "Infectious diseases, vaccines, health innovation, health systems, sanitation"
+    }
+  },
+  {
+    "id": "international-organizations-90",
+    "name": "Clinton Health Access Initiative (CHAI)",
+    "category": "International Organizations",
+    "description": "CHAI works with governments to increase access to high-quality treatment, diagnostics, and preventive interventions for high-burden diseases, while strengthening systems such as supply chains, labs, and health financing. CHAI India works on TB case finding, paediatric HIV, access to hepatitis C treatment, maternal and neonatal health, oxygen ecosystems, and cancer screening. They recruit program officers, epidemiologists, health economists, supply chain analysts, and monitoring & evaluation leads.",
+    "careersUrl": "https://careers-chai.icims.com/",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "Market shaping, affordable diagnostics and drugs, HIV, TB, malaria, hepatitis, RMNCH"
+    }
+  },
+  {
+    "id": "international-organizations-91",
+    "name": "Médecins Sans Frontières (MSF) / Doctors Without Borders",
+    "category": "International Organizations",
+    "description": "MSF provides independent emergency medical care in crisis zones, including conflict settings, epidemics, natural disasters, and areas with collapsing health systems. In India, MSF has delivered care for drug-resistant TB, HIV, kala-azar, sexual and gender-based violence, and mental health, especially among marginalized populations. They recruit medical officers, infectious disease specialists, counsellors, pharmacists, lab managers, and project coordinators with strong public health orientation.",
+    "careersUrl": "https://www.msf.org/work-msf",
+    "extraInfo": {
+      "Category": "International NGO / Humanitarian medical organisation",
+      "Specializations": "Emergency medicine, outbreaks, AMR, HIV/TB, NCD care in crises"
+    }
+  },
+  {
+    "id": "international-organizations-92",
+    "name": "Save the Children International",
+    "category": "International Organizations",
+    "description": "Save the Children focuses on survival, learning, and protection of children. In India, work includes newborn and child health, nutrition rehabilitation, severe acute malnutrition management, immunization support, adolescent health, disaster response, child protection systems, and education continuity in humanitarian settings. They recruit programme managers, nutrition specialists, M&E officers, child protection and humanitarian response staff.",
+    "careersUrl": "https://www.savethechildren.net/careers",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "Child health, nutrition, education in emergencies, protection"
+    }
+  },
+  {
+    "id": "international-organizations-93",
+    "name": "PATH",
+    "category": "International Organizations",
+    "description": "PATH develops and scales affordable health technologies and delivery models for LMICs. In India, PATH supports TB diagnostics rollout, oxygen systems, vaccine delivery innovation, digital health tools, primary care strengthening for NCDs, and health workforce capacity-building. PATH recruits programme managers, biomedical/diagnostics specialists, public health researchers, market access strategists, and digital health implementation leads.",
+    "careersUrl": "https://path.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Global health innovation nonprofit",
+      "Specializations": "Vaccines, diagnostics, digital health, NCDs, primary health care"
+    }
+  },
+  {
+    "id": "international-organizations-94",
+    "name": "FHI 360",
+    "category": "International Organizations",
+    "description": "FHI 360 is a global nonprofit working on integrated health and development solutions. It focuses on HIV prevention and treatment, TB, family planning, reproductive health, laboratory systems, and social and behavior change communication. In India and South Asia, FHI 360 supports key population programs, HIV prevention innovations, PrEP scale-up, and strategic information systems. They recruit technical advisors, M&E specialists, SBC experts, epidemiologists, and implementation science staff.",
+    "careersUrl": "https://www.fhi360.org/careers",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "HIV, TB, reproductive health, social & behavioral change, health systems strengthening"
+    }
+  },
+  {
+    "id": "international-organizations-95",
+    "name": "Jhpiego (an affiliate of Johns Hopkins University)",
+    "category": "International Organizations",
+    "description": "Jhpiego supports governments to improve quality of maternal, newborn, and reproductive health services by strengthening clinical skills, mentoring, infection prevention, and health systems. Jhpiego India has worked on labour room quality of care, respectful maternity care, cervical cancer screening, family planning counselling, and health worker training at scale under national programmes. They recruit clinical/public health technical officers, RMNCH advisors, training & capacity-building specialists, and implementation managers.",
+    "careersUrl": "https://jobs-jhpiego.icims.com/",
+    "extraInfo": {
+      "Category": "International NGO / Global health technical agency",
+      "Specializations": "Maternal and newborn health, RMNCH, FP, health workforce strengthening"
+    }
+  },
+  {
+    "id": "international-organizations-96",
+    "name": "JSI (John Snow, Inc.)",
+    "category": "International Organizations",
+    "description": "JSI focuses on strengthening health systems, especially last-mile delivery of essential health commodities, vaccine logistics, community health worker programmes, digital health tools, and primary health care systems. In India, JSI has supported routine immunization strengthening, essential medicines supply chains, and urban primary health care models. They recruit supply chain experts, digital health architects, monitoring & evaluation specialists, and PHC systems advisors.",
+    "careersUrl": "https://www.jsi.com/work-with-us/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Public health consulting and implementation partner",
+      "Specializations": "Supply chain, immunization, PHC systems, digital health, community health"
+    }
+  },
+  {
+    "id": "international-organizations-97",
+    "name": "CARE International",
+    "category": "International Organizations",
+    "description": "CARE works to fight poverty and social injustice, centering women and girls. CARE India operates large-scale programmes on maternal and newborn survival, severe malnutrition management, frontline worker capacity-building, social protection delivery, and health systems accountability. They recruit programme leads in RMNCH, monitoring & evaluation, nutrition, gender, social protection delivery, and humanitarian response planning.",
+    "careersUrl": "https://www.care-international.org/get-involved/careers",
+    "extraInfo": {
+      "Category": "International NGO / Humanitarian and development organisation",
+      "Specializations": "Gender equity, nutrition, RMNCH, livelihoods, humanitarian response"
+    }
+  },
+  {
+    "id": "international-organizations-98",
+    "name": "RTI International",
+    "category": "International Organizations",
+    "description": "RTI International is a nonprofit research and implementation institute. In global health, RTI works on health systems governance, health financing, primary care quality, TB control, HIV, air pollution and health, and WASH in low-resource settings. In India, RTI has supported air quality and health burden assessments, urban health systems work, and TB private sector engagement. They recruit public health researchers, health systems governance specialists, economists, and M&E professionals.",
+    "careersUrl": "https://www.rti.org/careers",
+    "extraInfo": {
+      "Category": "International NGO / Independent research institute",
+      "Specializations": "Public health research, health systems, NCDs, environmental health, WASH"
+    }
+  },
+  {
+    "id": "international-organizations-99",
+    "name": "Population Services International (PSI)",
+    "category": "International Organizations",
+    "description": "PSI applies private-sector approaches to expand access to affordable health products and services. In India, PSI and PSI-affiliated organizations have worked on family planning, condoms and contraceptives, HIV prevention for key populations, self-care models, and primary care access through networked private providers. They recruit in programme implementation, demand generation/SBC, marketing, market-shaping, and monitoring & evaluation.",
+    "careersUrl": "https://www.psi.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Social marketing organisation",
+      "Specializations": "Sexual and reproductive health, HIV prevention, self-care, private sector engagement"
+    }
+  },
+  {
+    "id": "international-organizations-100",
+    "name": "The Union (International Union Against Tuberculosis and Lung Disease)",
+    "category": "International Organizations",
+    "description": "The Union is a global scientific and technical organisation focused on lung health, including TB, MDR/XDR-TB, tobacco control, air pollution, and respiratory health. India has been a major geography for its research, operational pilots, technical assistance to NTEP, and tobacco control advocacy. They recruit TB technical advisors, operational research trainers, epidemiologists, and tobacco control policy specialists.",
+    "careersUrl": "https://theunion.org/work-with-us",
+    "extraInfo": {
+      "Category": "International NGO / Technical agency",
+      "Specializations": "TB, tobacco control, lung health, operational research, MDR-TB"
+    }
+  },
+  {
+    "id": "international-organizations-101",
+    "name": "FIND (Foundation for Innovative New Diagnostics)",
+    "category": "International Organizations",
+    "description": "FIND accelerates equitable access to high-quality, affordable diagnostics in low- and middle-income countries. In India, FIND has supported rollout and evaluation of rapid molecular tests for TB, linkage-to-care systems, viral hepatitis diagnostics, AMR surveillance, and integrated testing models. They recruit laboratory systems specialists, diagnostics market-shaping experts, epidemiologists, study coordinators, and implementation managers.",
+    "careersUrl": "https://www.finddx.org/jobs/",
+    "extraInfo": {
+      "Category": "International NGO / Product development partnership",
+      "Specializations": "Diagnostics for TB, HIV, malaria, hepatitis, AMR, pandemic preparedness"
+    }
+  },
+  {
+    "id": "international-organizations-102",
+    "name": "Vital Strategies",
+    "category": "International Organizations",
+    "description": "Vital Strategies partners with governments to strengthen public health systems and policies in areas like tobacco control, air quality, road safety, overdose prevention, and civil registration and vital statistics (CRVS). In India, they have worked on tobacco control policy enforcement, Bloomberg Initiative support, urban health data systems, and road safety reforms. They recruit policy and advocacy specialists, epidemiologists, data analysts, and communication strategists.",
+    "careersUrl": "https://www.vitalstrategies.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Global public health organization",
+      "Specializations": "Tobacco control, road safety, NCD prevention, data systems"
+    }
+  },
+  {
+    "id": "international-organizations-103",
+    "name": "International Committee of the Red Cross (ICRC)",
+    "category": "International Organizations",
+    "description": "ICRC provides neutral and independent humanitarian protection and assistance in conflict and violence settings. Health work includes emergency medical care, surgical care, rehabilitation, water and sanitation, public health in detention settings, and health systems support where services have collapsed. ICRC has a regional presence in South Asia and hires medical coordinators, water and habitat (WASH) engineers, mental health and psychosocial support specialists, epidemiologists, and health emergency planners.",
+    "careersUrl": "https://careers.icrc.org/",
+    "extraInfo": {
+      "Category": "International NGO / Humanitarian organisation",
+      "Specializations": "Humanitarian health in conflict, emergency surgery, health in detention, public health in emergencies"
+    }
+  },
+  {
+    "id": "international-organizations-104",
+    "name": "International Federation of Red Cross and Red Crescent Societies (IFRC)",
+    "category": "International Organizations",
+    "description": "The IFRC is the global network of national Red Cross/Red Crescent societies, focused on public health in emergencies, epidemic preparedness, disaster response, first aid capacity, WASH, and community resilience. In India, IFRC works with Indian Red Cross Society on disaster response, blood services, and public health outreach in emergencies such as floods, heatwaves, and outbreaks. They recruit emergency health coordinators, epidemic preparedness officers, WASH specialists, and community health programme managers.",
+    "careersUrl": "https://www.ifrc.org/jobs",
+    "extraInfo": {
+      "Category": "International NGO / Humanitarian network",
+      "Specializations": "Disaster health response, community health, epidemic preparedness, WASH"
+    }
+  },
+  {
+    "id": "international-organizations-105",
+    "name": "World Vision International",
+    "category": "International Organizations",
+    "description": "World Vision focuses on improving child well-being through health, nutrition, WASH, education, child protection, and livelihoods programming, especially in vulnerable communities. In India, World Vision has run programmes on acute malnutrition management, maternal and newborn health, adolescent girls’ nutrition and anaemia reduction, WASH access, and humanitarian relief after disasters. They recruit programme leads in nutrition, health, livelihoods, and humanitarian response monitoring.",
+    "careersUrl": "https://www.wvi.org/careers",
+    "extraInfo": {
+      "Category": "International NGO / Faith-inspired humanitarian and development organisation",
+      "Specializations": "Child health, nutrition, WASH, livelihoods, disaster response"
+    }
+  },
+  {
+    "id": "international-organizations-106",
+    "name": "Oxfam International",
+    "category": "International Organizations",
+    "description": "Oxfam campaigns and implements programmes on inequality reduction, humanitarian aid, gender justice, livelihoods, climate resilience, and WASH. In India, Oxfam has historically worked on social protection delivery to marginalized groups, public health in humanitarian contexts (especially WASH and primary care in emergencies), and gender-responsive budgeting. They recruit policy specialists, humanitarian program managers, WASH coordinators, and research & advocacy officers.",
+    "careersUrl": "https://www.oxfam.org/en/take-action/job-opportunities",
+    "extraInfo": {
+      "Category": "International NGO / Confederation of NGOs",
+      "Specializations": "Inequality, gender justice, WASH, humanitarian response, social protection"
+    }
+  },
+  {
+    "id": "international-organizations-107",
+    "name": "Plan International",
+    "category": "International Organizations",
+    "description": "Plan International focuses on advancing children’s rights and equality for girls. Areas include adolescent health, menstrual hygiene, SRH education, child protection, nutrition, and education in emergencies. Plan International works in South Asia on adolescent SRH, gender-transformative programming, and resilience in humanitarian settings. They recruit SRH advisors, adolescent health specialists, gender and protection officers, and programme managers.",
+    "careersUrl": "https://plan-international.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "Child rights, adolescent health, SRH, gender equality, education in emergencies"
+    }
+  },
+  {
+    "id": "international-organizations-108",
+    "name": "Nutrition International",
+    "category": "International Organizations",
+    "description": "Nutrition International supports large-scale nutrition interventions, including iron-folic acid supplementation in adolescents and pregnant women, vitamin A supplementation, salt and flour fortification, and anaemia reduction strategies. In India, they work closely with state governments on anaemia-free initiatives, fortification of staples, and maternal nutrition counselling. They recruit nutrition specialists, programme managers, monitoring & evaluation advisors, and policy/advocacy analysts.",
+    "careersUrl": "https://www.nutritionintl.org/about-us/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Technical agency",
+      "Specializations": "Micronutrient supplementation, anaemia, maternal and child nutrition, fortification"
+    }
+  },
+  {
+    "id": "international-organizations-109",
+    "name": "Management Sciences for Health (MSH)",
+    "category": "International Organizations",
+    "description": "MSH strengthens health systems with a focus on pharmaceutical management, TB and MDR-TB program support, laboratory systems, and antimicrobial stewardship. It works with ministries of health to build governance, improve supply chains and rational drug use, and scale quality of care. MSH and its projects recruit TB technical advisors, pharmaceutical management specialists, AMR and stewardship experts, and health governance consultants in LMICs including India.",
+    "careersUrl": "https://msh.org/work-with-us/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Global health technical assistance organisation",
+      "Specializations": "Pharmaceutical systems, TB, AMR, health systems governance"
+    }
+  },
+  {
+    "id": "international-organizations-110",
+    "name": "Abt Global (formerly Abt Associates)",
+    "category": "International Organizations",
+    "description": "Abt is a mission-driven global research and implementation firm. In health, it supports health systems strengthening, private sector engagement for TB and urban health, primary care quality improvement, social and behavior change, digital health platforms, and rigorous monitoring & evaluation. In India, Abt-affiliated projects have supported urban health systems and tuberculosis private provider engagement. They recruit health systems analysts, economists, project managers, and evaluation specialists.",
+    "careersUrl": "https://www.abtglobal.com/careers",
+    "extraInfo": {
+      "Category": "International NGO / Global research & implementation firm",
+      "Specializations": "Health systems, private sector engagement, NCDs, digital health, evaluation"
+    }
+  },
+  {
+    "id": "international-organizations-111",
+    "name": "ICF",
+    "category": "International Organizations",
+    "description": "ICF is a global consulting and analytics company working with governments, multilaterals, and foundations. Public health areas include pandemic preparedness, health security, immunization strategy, climate and health risk, digital health, and health communication. They recruit public health analysts, health security advisors, climate and health experts, data scientists, and evaluation specialists for South Asia-focused and global projects that include India.",
+    "careersUrl": "https://www.icf.com/careers",
+    "extraInfo": {
+      "Category": "International NGO / Consulting and analytics firm",
+      "Specializations": "Global health security, climate & health, health policy, evaluation, data systems"
+    }
+  },
+  {
+    "id": "international-organizations-112",
+    "name": "Chemonics International",
+    "category": "International Organizations",
+    "description": "Chemonics implements large donor-funded programmes in global health, governance, and supply chain. In health, they manage procurement and last-mile delivery of medicines and diagnostics, strengthen national logistics systems, and support HIV, TB, and malaria control programmes. They often recruit supply chain experts, health system strengthening specialists, M&E leads, and programme chiefs of party for projects that include India or South Asia nodes.",
+    "careersUrl": "https://careers.chemonics.com/jobs/",
+    "extraInfo": {
+      "Category": "International NGO / Development contractor",
+      "Specializations": "Supply chain, HIV, malaria, TB, health systems, private sector engagement"
+    }
+  },
+  {
+    "id": "international-organizations-113",
+    "name": "EngenderHealth",
+    "category": "International Organizations",
+    "description": "EngenderHealth focuses on rights-based family planning, comprehensive sexuality education, safe motherhood, post-partum contraception, and gender-based violence response within public health systems. In South Asia, the organisation supports health worker training, quality improvement in reproductive health services, and respectful maternity care. They recruit SRH technical advisors, gender specialists, program managers, and quality improvement leads.",
+    "careersUrl": "https://www.engenderhealth.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "Sexual and reproductive health, family planning, gender-based violence response"
+    }
+  },
+  {
+    "id": "international-organizations-114",
+    "name": "WaterAid",
+    "category": "International Organizations",
+    "description": "WaterAid works to improve access to safe drinking water, sanitation, and hygiene (WASH) in low-resource settings. In India, WaterAid supports rural and urban sanitation systems, faecal sludge management, hygiene behaviour change, menstrual hygiene management, and WASH in schools and health facilities, linking WASH to disease prevention and dignity. They recruit WASH specialists, behaviour change and IEC experts, MEL officers, and programme managers at national and state levels.",
+    "careersUrl": "https://www.wateraid.org/uk/careers",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "WASH, public health engineering, behaviour change, urban sanitation, hygiene in health facilities"
+    }
+  },
+  {
+    "id": "international-organizations-115",
+    "name": "PATH Foundation / India country office",
+    "category": "International Organizations",
+    "description": "PATH India works with central and state governments, manufacturers, startups, and donors to accelerate access to lifesaving health technologies. Work includes TB diagnostic scale-up, oxygen ecosystems for critical care, immunization logistics, advanced cold chain, digital health platforms for PHC, and NCD screening models. They recruit programme officers, biomedical engineers, health systems consultants, and policy/advocacy staff, often state-embedded.",
+    "careersUrl": "https://path.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Country office of global health nonprofit",
+      "Specializations": "Primary care, digital health, TB, oxygen ecosystems, immunization innovation"
+    }
+  },
+  {
+    "id": "international-organizations-116",
+    "name": "ACCESS Health International",
+    "category": "International Organizations",
+    "description": "ACCESS Health International is a global think tank and advisory group that works with governments and private sector partners on health financing, digital health platforms, elderly care models, and primary health care reforms. In India, it has supported Ayushman Bharat policy dialogue, health insurance design, and digital health infrastructure. They recruit health financing analysts, digital health strategists, public health researchers, and programme managers.",
+    "careersUrl": "https://accessh.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Health systems think tank and technical partner",
+      "Specializations": "Health financing, digital health, primary health care, ageing, health innovation"
+    }
+  },
+  {
+    "id": "international-organizations-117",
+    "name": "PATH's Coalition for Epidemic Preparedness Innovations (CEPI partner note: CEPI)",
+    "category": "International Organizations",
+    "description": "CEPI funds and coordinates vaccine R&D for emerging infectious diseases with pandemic potential. India is a critical vaccine manufacturing hub, and CEPI partners with Indian manufacturers, research institutes, and regulators to accelerate rapid vaccine development platforms and equitable access. CEPI recruits vaccine R&D specialists, regulatory affairs experts, epidemiologists, clinical trial operations staff, and manufacturing partnership leads.",
+    "careersUrl": "https://cepi.net/careers/",
+    "extraInfo": {
+      "Category": "International partnership / Vaccine R&D coalition",
+      "Specializations": "Vaccine R&D for epidemic threats, pandemic preparedness, manufacturing partnerships"
+    }
+  },
+  {
+    "id": "international-organizations-118",
+    "name": "Asian Development Bank (ADB)",
+    "category": "International Organizations",
+    "description": "ADB funds large-scale infrastructure and systems reform projects across Asia. In health, this includes pandemic preparedness financing, public health emergency operations centers, climate-resilient health infrastructure, regional disease surveillance networks, and primary health care systems strengthening. India is one of ADB’s largest member countries. ADB recruits health economists, health systems specialists, climate and health planners, and monitoring & evaluation professionals for sovereign and technical assistance projects.",
+    "careersUrl": "https://www.adb.org/work-with-us/careers",
+    "extraInfo": {
+      "Category": "Multilateral development bank",
+      "Specializations": "Health financing, pandemic preparedness, climate and health resilience, health infrastructure"
+    }
+  },
+  {
+    "id": "international-organizations-119",
+    "name": "World Organisation for Animal Health (WOAH, formerly OIE)",
+    "category": "International Organizations",
+    "description": "WOAH sets international standards for animal health, zoonotic disease surveillance, AMR stewardship in animal use, and safe trade of animals and animal products. Its work links veterinary services with public health systems using a One Health framework. For India and the South Asia region, WOAH supports veterinary capacity building, outbreak detection, and reporting systems for transboundary animal diseases. They recruit veterinarians, epidemiologists, AMR specialists, and surveillance officers.",
+    "careersUrl": "https://www.woah.org/en/careers-at-woah/",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation",
+      "Specializations": "Zoonoses, veterinary public health, AMR in animal health, One Health surveillance"
+    }
+  },
+  {
+    "id": "international-organizations-120",
+    "name": "World Resources Institute (WRI)",
+    "category": "International Organizations",
+    "description": "WRI is a global research and policy organisation working on environment, cities, and climate. In India, WRI India works on sustainable cities, clean air, transport safety, climate resilience, and heat-health risk reduction. Much of this overlaps with public health, including road injury prevention and air pollution exposure reduction. They recruit researchers and programme managers in environmental health, road safety, urban health resilience, and climate & health policy.",
+    "careersUrl": "https://www.wri.org/careers",
+    "extraInfo": {
+      "Category": "International NGO / Global research nonprofit",
+      "Specializations": "Air quality and health, climate resilience, urban health, transport and road safety"
+    }
+  },
+  {
+    "id": "international-organizations-121",
+    "name": "Vital Voices / Gender-focused networks (public health intersection)",
+    "category": "International Organizations",
+    "description": "Vital Voices invests in women leaders addressing issues including gender-based violence response systems, SRH access, and social protection for vulnerable women and girls. The work intersects with public health in areas such as GBV crisis response, trauma-informed care, survivor services, and economic resilience. They recruit programme managers, advocacy specialists, monitoring & evaluation officers, and gender-based violence response advisors across regions including South Asia.",
+    "careersUrl": "https://www.vitalvoices.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Advocacy and capacity-building network",
+      "Specializations": "Gender-based violence response, women's health leadership, community systems strengthening"
+    }
+  },
+  {
+    "id": "international-organizations-122",
+    "name": "PATH / Coalition for Access to Medical Oxygen (Oxygen alliances)",
+    "category": "International Organizations",
+    "description": "Multiple global partners, often convened or supported technically by PATH and similar global health actors, are working with governments to scale reliable medical oxygen ecosystems after COVID-19. India is a major focus for oxygen generation plants, biomedical maintenance systems, and training of clinical and biomedical staff in oxygen therapy. Roles include biomedical engineers, health systems strengthening specialists, supply chain/logistics coordinators, and field implementation managers.",
+    "careersUrl": "https://path.org/careers/",
+    "extraInfo": {
+      "Category": "International partnership / Health systems strengthening",
+      "Specializations": "Medical oxygen systems, critical care access, device quality, biomedical engineering"
+    }
+  },
+  {
+    "id": "international-organizations-123",
+    "name": "Solidaridad Network",
+    "category": "International Organizations",
+    "description": "Solidaridad works with producers and workers in agriculture and informal industries to improve sustainability, labour conditions, occupational health, and climate resilience. In India, this includes informal sector worker health (heat stress, chemical exposure), gender inclusion, and livelihood security, which are strongly linked to public health and social determinants of health. They recruit programme managers in worker health and safety, ESG/social compliance, gender, and climate adaptation.",
+    "careersUrl": "https://www.solidaridadnetwork.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO / Sustainability and livelihoods organisation",
+      "Specializations": "Sustainable livelihoods, worker health and safety, environmental health, climate resilience"
+    }
+  },
+  {
+    "id": "international-organizations-124",
+    "name": "Helen Keller Intl",
+    "category": "International Organizations",
+    "description": "Helen Keller Intl focuses on preventing vision loss, controlling neglected tropical diseases, and reducing malnutrition, especially micronutrient deficiencies. In South Asia, the organisation supports vitamin A supplementation, deworming, nutrition counselling for mothers, and screening/referral for eye conditions. They recruit nutrition programme managers, M&E officers, NTD coordinators, policy/advocacy specialists, and public health optometry/eye health experts.",
+    "careersUrl": "https://www.hki.org/careers/",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "Nutrition, vitamin A supplementation, eye health, NTDs"
+    }
+  },
+  {
+    "id": "international-organizations-125",
+    "name": "The Carter Center",
+    "category": "International Organizations",
+    "description": "The Carter Center leads global disease elimination campaigns (Guinea worm, trachoma, river blindness) and works on mental health policy and access to care in underserved settings. While historically more focused in Africa, its technical work on NTDs, surveillance, and mental health systems is globally influential and used for benchmarking in Asia. They recruit epidemiologists, NTD elimination specialists, data managers, and mental health systems advisors.",
+    "careersUrl": "https://www.cartercenter.org/involved/careers.html",
+    "extraInfo": {
+      "Category": "International NGO",
+      "Specializations": "Neglected tropical diseases, mental health policy, peace and health linkages"
+    }
+  },
+  {
+    "id": "international-organizations-126",
+    "name": "PATH / Digital Square (Global Digital Health)",
+    "category": "International Organizations",
+    "description": "Digital Square is a global initiative that accelerates open, interoperable digital health tools for LMIC governments. India is both a contributor and test bed for large-scale digital public health infrastructure. Work includes health information systems design, data governance, interoperability standards, and digital health workforce capacity. They recruit product managers, health informatics specialists, interoperability architects, and implementation leads.",
+    "careersUrl": "https://path.org/careers/",
+    "extraInfo": {
+      "Category": "International partnership / Digital health initiative",
+      "Specializations": "Digital health platforms, health data exchange, interoperability, health informatics workforce"
+    }
+  },
+  {
+    "id": "international-organizations-127",
+    "name": "UN Women",
+    "category": "International Organizations",
+    "description": "UN Women supports gender-responsive policy, prevention and response to gender-based violence, women's economic security, and leadership in governance. Much of this overlaps with public health, including GBV crisis and referral systems, unpaid care work and mental health, and access to SRH and social protection. In India, UN Women partners with government and civil society on women's safety and empowerment. They recruit gender and GBV programme specialists, policy analysts, and M&E officers.",
+    "careersUrl": "https://www.unwomen.org/en/about-us/employment",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation / UN Entity",
+      "Specializations": "Gender equality, GBV response systems, economic resilience, SRH policy for women and girls"
+    }
+  },
+  {
+    "id": "international-organizations-128",
+    "name": "UN Environment Programme (UNEP)",
+    "category": "International Organizations",
+    "description": "UNEP is the UN's environmental authority. Its work intersects with public health in areas such as air pollution exposure reduction, mercury and chemical safety, waste management, climate resilience, and zoonotic spillover risks through land-use change. UNEP in India and South Asia engages on clean air action plans, plastic waste reduction, and climate-health co-benefits. They recruit environmental health analysts, air quality specialists, circular economy and waste policy experts, and programme managers.",
+    "careersUrl": "https://www.unep.org/work-with-us",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation / UN agency",
+      "Specializations": "Air pollution and health, climate and health, chemicals and waste, One Health (environment-human-animal)"
+    }
+  },
+  {
+    "id": "international-organizations-129",
+    "name": "ILO (International Labour Organization)",
+    "category": "International Organizations",
+    "description": "ILO sets international labour standards and supports decent work, social security, occupational health and safety, migrant worker protections, and elimination of child labour. In India, ILO programmes address workplace safety, heat stress, social protection for informal and gig workers, and labour rights for women and migrants. They recruit specialists in occupational health, social protection systems, labour policy, and monitoring & evaluation.",
+    "careersUrl": "https://jobs.ilo.org/",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation / UN specialised agency",
+      "Specializations": "Occupational health and safety, informal workers’ welfare, social protection"
+    }
+  },
+  {
+    "id": "international-organizations-130",
+    "name": "UN High Commissioner for Refugees (UNHCR)",
+    "category": "International Organizations",
+    "description": "UNHCR protects and supports refugees, asylum seekers, and stateless persons. Health-related work includes access to primary care, immunization, nutrition support, WASH, GBV and mental health services, and outbreak control in displacement settings. In India, UNHCR works with refugee and asylum seeker populations (including urban refugees) on protection and basic services. They recruit public health officers, protection officers, mental health and psychosocial support staff, M&E officers, and programme managers.",
+    "careersUrl": "https://www.unhcr.org/careers.html",
+    "extraInfo": {
+      "Category": "Intergovernmental organisation / UN Refugee Agency",
+      "Specializations": "Refugee health, mental health and psychosocial support, protection systems, humanitarian response"
+    }
+  },
+  {
+    "id": "international-organizations-131",
+    "name": "International Rescue Committee (IRC)",
+    "category": "International Organizations",
+    "description": "IRC responds to humanitarian crises by delivering health care, nutrition, WASH, child protection, cash/voucher assistance, and GBV survivor services. While IRC’s large operations are in acute crisis settings, it also engages in policy and technical assistance work relevant to South Asia, including refugee health systems, emergency SRH, and GBV response systems. They recruit health coordinators, SRH in emergencies specialists, GBV advisors, WASH engineers, and M&E staff.",
+    "careersUrl": "https://www.rescue.org/careers",
+    "extraInfo": {
+      "Category": "International NGO / Humanitarian organization",
+      "Specializations": "Humanitarian health, SRH in crises, GBV response, WASH, cash and basic needs"
+    }
+  }
+]
