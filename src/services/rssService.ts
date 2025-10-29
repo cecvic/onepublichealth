@@ -27,42 +27,42 @@ export const DEFAULT_RSS_FEEDS: RssFeedConfig[] = [
     name: 'ScienceDaily Health',
     url: 'https://www.sciencedaily.com/rss/top/health.xml',
     enabled: true,
-    maxArticles: 20
+    maxArticles: 50
   },
   {
     id: 'nih-healthit-news',
     name: 'NIH Health IT News',
     url: 'https://www.nlm.nih.gov/rss/healthitnews.rss',
     enabled: true,
-    maxArticles: 15
+    maxArticles: 30
   },
   {
     id: 'circulating-now',
     name: 'Circulating Now (NIH)',
     url: 'https://circulatingnow.nlm.nih.gov/feed/?_gl=1*oe5qky*_ga*MTMyMzk4MjI1OC4xNzYxNjc0NzA0*_ga_7147EPK006*czE3NjE2NzQ3MDQkbzEkZzEkdDE3NjE2NzUwNjYkajUyJGwwJGgw*_ga_P1FPTH9PL4*czE3NjE2NzQ3MDQkbzEkZzEkdDE3NjE2NzUwNjYkajUyJGwwJGgw',
     enabled: true,
-    maxArticles: 15
+    maxArticles: 30
   },
   {
     id: 'pmc-new-articles',
     name: 'PMC New Articles',
     url: 'https://pmc.ncbi.nlm.nih.gov/about/new-in-pmc.rss',
     enabled: true,
-    maxArticles: 15
+    maxArticles: 30
   },
   {
     id: 'medlineplus-news',
     name: 'MedlinePlus News',
     url: 'https://medlineplus.gov/xml/rss/news.xml',
     enabled: true,
-    maxArticles: 15
+    maxArticles: 30
   },
   {
     id: 'nlm-news',
     name: 'NLM News',
     url: 'https://www.nlm.nih.gov/rss/news.rss',
     enabled: true,
-    maxArticles: 15
+    maxArticles: 30
   }
 ];
 
