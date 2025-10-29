@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, ArrowRight, ExternalLink } from "lucide-react";
 import client from "@/lib/contentful";
 import { mapNewsEntry, NewsArticle } from "@/utils/utils";
-import { fetchAllNews } from "@/services/rssService";
+import { fetchAllNews, getFeedNameFromArticleId } from "@/services/rssService";
 
 const LatestNews = () => {
   const [news, setNews] = useState<NewsArticle[]>([]);
@@ -116,7 +116,7 @@ const LatestNews = () => {
                     <span className="text-sm text-muted-foreground">{formatDate(article.date)}</span>
                     {article.id.startsWith('rss_') && (
                       <Badge variant="secondary" className="text-xs ml-2">
-                        ScienceDaily
+                        {getFeedNameFromArticleId(article.id)}
                       </Badge>
                     )}
                   </div>

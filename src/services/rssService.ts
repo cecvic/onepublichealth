@@ -70,6 +70,19 @@ export const DEFAULT_RSS_FEEDS: RssFeedConfig[] = [
 const RSS_PROXY_URL = 'https://api.allorigins.win/raw?url=';
 
 /**
+ * Get feed name from article ID
+ */
+export const getFeedNameFromArticleId = (articleId: string): string => {
+  // Extract feed ID from article ID format: rss_${feedId}_${hash}
+  const match = articleId.match(/^rss_([^_]+)_/);
+  if (!match) return 'RSS Feed';
+
+  const feedId = match[1];
+  const feed = DEFAULT_RSS_FEEDS.find(f => f.id === feedId);
+  return feed ? feed.name : 'RSS Feed';
+};
+
+/**
  * Generate a unique ID for RSS articles using URL hash
  */
 const generateRssId = (url: string, feedId: string): string => {
@@ -200,35 +213,42 @@ const parseRssXml = (xmlText: string, feedId: string): NewsArticle[] => {
  * Fetch RSS news from a single feed with retry logic
  */
 export const fetchSingleRssFeed = async (feedConfig: RssFeedConfig): Promise<NewsArticle[]> => {
+  const startTime = Date.now();
   try {
-    console.log(`Fetching RSS feed: ${feedConfig.name} (${feedConfig.id})`);
+    console.log(`[RSS] Fetching: ${feedConfig.name} (${feedConfig.id})`);
+    console.log(`[RSS] URL: ${feedConfig.url}`);
 
     const proxyUrl = `${RSS_PROXY_URL}${encodeURIComponent(feedConfig.url)}`;
 
     // Use retry logic
     const response = await fetchWithRetry(proxyUrl, 2, 1000);
+    const fetchTime = Date.now() - startTime;
 
     const xmlText = await response.text();
+    console.log(`[RSS] ${feedConfig.name}: Received ${xmlText.length} bytes in ${fetchTime}ms`);
 
     if (!xmlText || xmlText.trim().length === 0) {
-      console.warn(`Empty RSS feed received for ${feedConfig.name}`);
+      console.warn(`[RSS] ${feedConfig.name}: Empty response`);
       return [];
     }
 
     const articles = parseRssXml(xmlText, feedConfig.id);
 
     if (articles.length === 0) {
-      console.warn(`No articles found in RSS feed for ${feedConfig.name}`);
+      console.warn(`[RSS] ${feedConfig.name}: No articles parsed from XML`);
+      console.log(`[RSS] ${feedConfig.name}: First 500 chars of XML:`, xmlText.substring(0, 500));
       return [];
     }
 
     const limitedArticles = articles.slice(0, feedConfig.maxArticles || 20);
+    const totalTime = Date.now() - startTime;
 
-    console.log(`Successfully fetched ${limitedArticles.length} RSS articles from ${feedConfig.name}`);
+    console.log(`[RSS] ✓ ${feedConfig.name}: ${limitedArticles.length} articles (${totalTime}ms total)`);
     return limitedArticles;
 
   } catch (error) {
-    console.error(`Failed to fetch RSS feed ${feedConfig.name}:`, error);
+    const totalTime = Date.now() - startTime;
+    console.error(`[RSS] ✗ ${feedConfig.name}: Failed after ${totalTime}ms`, error);
     return [];
   }
 };
@@ -266,6 +286,14 @@ export const fetchMultipleRssFeeds = async (
     const results = await Promise.all(fetchPromises);
 
     const allArticles = results.flat();
+
+    // Log summary of articles from each feed
+    console.log('=== RSS Feed Summary ===');
+    enabledFeeds.forEach((feed, index) => {
+      const count = results[index].length;
+      console.log(`${feed.name}: ${count} articles`);
+    });
+    console.log('========================');
 
     // Sort by date (newest first)
     allArticles.sort((a, b) => {

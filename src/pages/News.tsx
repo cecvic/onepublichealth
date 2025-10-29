@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { Calendar, ExternalLink, Search, Filter, TrendingUp, AlertCircle, RefreshCw } from "lucide-react";
 import { NewsArticle, mapNewsEntry } from "@/utils/utils";
 import { createClient } from 'contentful';
-import { fetchAllNews, getCacheAge } from "@/services/rssService";
+import { fetchAllNews, getCacheAge, getFeedNameFromArticleId } from "@/services/rssService";
 
 const News = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -113,6 +113,22 @@ const News = () => {
     }
   };
 
+  // Get article distribution by source
+  const getArticleDistribution = () => {
+    const distribution: { [key: string]: number } = {};
+
+    newsArticles.forEach(article => {
+      if (article.id.startsWith('rss_')) {
+        const feedName = getFeedNameFromArticleId(article.id);
+        distribution[feedName] = (distribution[feedName] || 0) + 1;
+      } else {
+        distribution['Contentful'] = (distribution['Contentful'] || 0) + 1;
+      }
+    });
+
+    return distribution;
+  };
+
   return (
     <>
       <Header />
@@ -150,6 +166,15 @@ const News = () => {
 
               {/* Refresh Button & Cache Info */}
               <div className="flex items-center gap-3">
+                {!loading && newsArticles.length > 0 && (
+                  <div className="flex items-center gap-2">
+                    {Object.entries(getArticleDistribution()).map(([source, count]) => (
+                      <Badge key={source} variant="outline" className="text-xs">
+                        {source}: {count}
+                      </Badge>
+                    ))}
+                  </div>
+                )}
                 {cacheAge !== null && !loading && (
                   <span className="text-sm text-muted-foreground">
                     Updated {cacheAge === 0 ? 'just now' : `${cacheAge} min ago`}
@@ -226,7 +251,7 @@ const News = () => {
                         </span>
                         {article.id.startsWith('rss_') && (
                           <Badge variant="secondary" className="text-xs">
-                            ScienceDaily
+                            {getFeedNameFromArticleId(article.id)}
                           </Badge>
                         )}
                       </div>
@@ -282,7 +307,7 @@ const News = () => {
                             {formatDate(article.date)}
                             {article.id.startsWith('rss_') && (
                               <Badge variant="secondary" className="text-xs ml-2">
-                                ScienceDaily
+                                {getFeedNameFromArticleId(article.id)}
                               </Badge>
                             )}
                           </div>
