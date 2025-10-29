@@ -180,50 +180,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Contact Information */}
-        <Separator className="my-8 bg-white/20" />
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="flex items-start gap-3">
-            <div className="p-2 bg-brand-green/20 rounded-lg">
-              <MapPin className="h-5 w-5 text-brand-green" />
-            </div>
-            <div>
-              <h4 className="font-semibold mb-1">Address</h4>
-              <p className="text-white/70 text-sm">
-                123 Health Street, Medical District<br />
-                New Delhi, India 110001
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-3">
-            <div className="p-2 bg-brand-blue/20 rounded-lg">
-              <Phone className="h-5 w-5 text-brand-blue" />
-            </div>
-            <div>
-              <h4 className="font-semibold mb-1">Phone</h4>
-              <p className="text-white/70 text-sm">
-                +91 (11) 1234-5678<br />
-                Mon-Fri, 9:00 AM - 6:00 PM IST
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-3">
-            <div className="p-2 bg-brand-green/20 rounded-lg">
-              <Mail className="h-5 w-5 text-brand-green" />
-            </div>
-            <div>
-              <h4 className="font-semibold mb-1">Email</h4>
-              <p className="text-white/70 text-sm">
-                info@onepublichealth.com<br />
-                support@onepublichealth.com
-              </p>
-            </div>
-          </div>
-        </div>
-
+        {/* Removed contact information section */}
         <Separator className="my-8 bg-white/20" />
 
         {/* Bottom Footer */}

@@ -362,7 +362,7 @@ const RawJobs = () => {
 
                       <div className="flex items-center justify-between pt-2">
                         <div className="flex gap-2">
-                          {job.url && job.source !== 'devnet' && (
+                          {job.url && (
                             <Button
                               variant="outline"
                               size="sm"
