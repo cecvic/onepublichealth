@@ -33,41 +33,74 @@ export const DEFAULT_RSS_FEEDS: RssFeedConfig[] = [
     id: 'nih-healthit-news',
     name: 'NIH Health IT News',
     url: 'https://www.nlm.nih.gov/rss/healthitnews.rss',
-    enabled: true,
+    enabled: false,
     maxArticles: 30
   },
   {
     id: 'circulating-now',
     name: 'Circulating Now (NIH)',
-    url: 'https://circulatingnow.nlm.nih.gov/feed/?_gl=1*oe5qky*_ga*MTMyMzk4MjI1OC4xNzYxNjc0NzA0*_ga_7147EPK006*czE3NjE2NzQ3MDQkbzEkZzEkdDE3NjE2NzUwNjYkajUyJGwwJGgw*_ga_P1FPTH9PL4*czE3NjE2NzQ3MDQkbzEkZzEkdDE3NjE2NzUwNjYkajUyJGwwJGgw',
-    enabled: true,
+    url: 'https://circulatingnow.nlm.nih.gov/feed/',
+    enabled: false,
     maxArticles: 30
   },
   {
     id: 'pmc-new-articles',
     name: 'PMC New Articles',
     url: 'https://pmc.ncbi.nlm.nih.gov/about/new-in-pmc.rss',
-    enabled: true,
+    enabled: false,
     maxArticles: 30
   },
   {
     id: 'medlineplus-news',
     name: 'MedlinePlus News',
     url: 'https://medlineplus.gov/xml/rss/news.xml',
-    enabled: true,
+    enabled: false,
     maxArticles: 30
   },
   {
     id: 'nlm-news',
     name: 'NLM News',
     url: 'https://www.nlm.nih.gov/rss/news.rss',
+    enabled: false,
+    maxArticles: 30
+  },
+  // Alternative feeds as backup
+  {
+    id: 'cdc-health-news',
+    name: 'CDC Health News',
+    url: 'https://tools.cdc.gov/api/v2/resources/media/132952.rss',
+    enabled: true,
+    maxArticles: 30
+  },
+  {
+    id: 'who-news',
+    name: 'WHO News',
+    url: 'https://www.who.int/rss-feeds/news-english.xml',
+    enabled: true,
+    maxArticles: 30
+  },
+  {
+    id: 'reuters-health',
+    name: 'Reuters Health',
+    url: 'https://feeds.reuters.com/reuters/health',
+    enabled: true,
+    maxArticles: 30
+  },
+  {
+    id: 'medical-news-today',
+    name: 'Medical News Today',
+    url: 'https://www.medicalnewstoday.com/rss',
     enabled: true,
     maxArticles: 30
   }
 ];
 
-// Use a working CORS proxy
-const RSS_PROXY_URL = 'https://api.allorigins.win/raw?url=';
+// Use multiple CORS proxies as fallbacks
+const RSS_PROXY_URLS = [
+  'https://api.allorigins.win/raw?url=',
+  'https://cors-anywhere.herokuapp.com/',
+  'https://api.codetabs.com/v1/proxy?quest='
+];
 
 /**
  * Get feed name from article ID
@@ -218,10 +251,8 @@ export const fetchSingleRssFeed = async (feedConfig: RssFeedConfig): Promise<New
     console.log(`[RSS] Fetching: ${feedConfig.name} (${feedConfig.id})`);
     console.log(`[RSS] URL: ${feedConfig.url}`);
 
-    const proxyUrl = `${RSS_PROXY_URL}${encodeURIComponent(feedConfig.url)}`;
-
-    // Use retry logic
-    const response = await fetchWithRetry(proxyUrl, 2, 1000);
+    // Try multiple proxy services
+    const response = await fetchWithMultipleProxies(feedConfig.url, 2, 1000);
     const fetchTime = Date.now() - startTime;
 
     const xmlText = await response.text();
@@ -422,6 +453,62 @@ export const getCacheAge = (): number | null => {
     console.error('Error getting cache age:', error);
     return null;
   }
+};
+
+/**
+ * Fetch RSS news with multiple proxy fallbacks
+ */
+const fetchWithMultipleProxies = async (
+  originalUrl: string,
+  maxRetries: number = 2,
+  delayMs: number = 1000
+): Promise<Response> => {
+  let lastError: Error | null = null;
+
+  for (const proxyUrl of RSS_PROXY_URLS) {
+    try {
+      const fullUrl = proxyUrl.includes('url=') 
+        ? `${proxyUrl}${encodeURIComponent(originalUrl)}`
+        : `${proxyUrl}${originalUrl}`;
+      
+      console.log(`Trying proxy: ${proxyUrl}`);
+      
+      for (let attempt = 0; attempt <= maxRetries; attempt++) {
+        try {
+          const response = await fetch(fullUrl);
+          if (response.ok) {
+            const text = await response.text();
+            // Check if response is actually RSS XML, not HTML
+            if (text.includes('<rss') || text.includes('<feed') || text.includes('<item>')) {
+              console.log(`✓ Success with proxy: ${proxyUrl}`);
+              return new Response(text, {
+                status: response.status,
+                statusText: response.statusText,
+                headers: response.headers
+              });
+            } else {
+              console.warn(`Proxy ${proxyUrl} returned HTML instead of RSS`);
+              throw new Error('Response is not RSS XML');
+            }
+          }
+          lastError = new Error(`HTTP error! status: ${response.status}`);
+        } catch (error) {
+          lastError = error instanceof Error ? error : new Error('Unknown error');
+          console.warn(`Proxy ${proxyUrl} attempt ${attempt + 1} failed:`, lastError.message);
+
+          // Wait before retrying (except on last attempt)
+          if (attempt < maxRetries) {
+            await new Promise(resolve => setTimeout(resolve, delayMs * Math.pow(2, attempt)));
+          }
+        }
+      }
+    } catch (error) {
+      console.warn(`All attempts failed for proxy ${proxyUrl}:`, error);
+      lastError = error instanceof Error ? error : new Error('Unknown error');
+    }
+  }
+
+  throw lastError || new Error('All proxy services failed');
 };
 
 /**
