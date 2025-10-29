@@ -92,8 +92,8 @@ const HeroSection = () => {
           </WarpBackground>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
+        {/* Scroll indicator (hidden on mobile) */}
+        <div className="hidden md:block absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
           <div className="flex flex-col items-center gap-2">
             <span className="text-sm font-medium" style={{ color: '#3D4B52' }}>Scroll</span>
             <svg

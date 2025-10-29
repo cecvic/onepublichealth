@@ -24,71 +24,71 @@ const Header = () => {
           </div>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center space-x-8" role="navigation">
+          <nav className="hidden md:flex items-center h-16 space-x-8" role="navigation">
             <Link
               to="/"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               About
             </Link>
             <Link
               to="/resources"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Resources
             </Link>
             <Link
               to="/news"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               News
             </Link>
             <Link
               to="/magazines"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Magazines
             </Link>
             <Link
               to="/jobs"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Jobs
             </Link>
             <Link
               to="/courses"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Courses
             </Link>
             <Link
               to="/organizations"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Organizations
             </Link>
             <Link
               to="/advertise"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Advertise
             </Link>
             <Link
               to="/join-us"
-              className="text-foreground hover:text-brand-primary transition-colors font-medium"
+              className="flex items-center h-16 text-foreground hover:text-brand-primary transition-colors font-medium"
             >
               Join Us
             </Link>
           </nav>
 
           {/* CTA Button */}
-          <div className="flex items-center">
+          <div className="flex items-center h-16">
             <Button 
               variant="primary" 
               size="default"
