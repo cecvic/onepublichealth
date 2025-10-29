@@ -5,10 +5,10 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Calendar, ExternalLink, Search, Filter, TrendingUp, AlertCircle } from "lucide-react";
+import { Calendar, ExternalLink, Search, Filter, TrendingUp, AlertCircle, RefreshCw } from "lucide-react";
 import { NewsArticle, mapNewsEntry } from "@/utils/utils";
 import { createClient } from 'contentful';
-import { fetchAllNews } from "@/services/rssService";
+import { fetchAllNews, getCacheAge } from "@/services/rssService";
 
 const News = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -16,7 +16,9 @@ const News = () => {
   const [newsArticles, setNewsArticles] = useState<NewsArticle[]>([]);
   const [filteredArticles, setFilteredArticles] = useState<NewsArticle[]>([]);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [cacheAge, setCacheAge] = useState<number | null>(null);
 
   // Initialize Contentful client
   const client = createClient({
@@ -24,39 +26,64 @@ const News = () => {
     accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN || '',
   });
 
-  // Load news articles from Contentful and RSS
-  useEffect(() => {
-    const loadNewsData = async () => {
-      try {
+  // Load news articles with smart caching
+  const loadNewsData = async (forceRefresh: boolean = false) => {
+    try {
+      if (forceRefresh) {
+        setRefreshing(true);
+      } else {
         setLoading(true);
-        setError(null);
-        
-        // Fetch news articles from Contentful
-        const response = await client.getEntries({
-          content_type: 'news',
-          order: ['-sys.createdAt'],
-        });
-
-        const contentfulArticles = response.items.map(mapNewsEntry);
-        
-        // Fetch and combine with RSS news
-        const allArticles = await fetchAllNews(contentfulArticles);
-        
-        setNewsArticles(allArticles);
-        setFilteredArticles(allArticles);
-      } catch (err) {
-        console.error("Error loading news data:", err);
-        setError("Failed to load news articles. Please try again later.");
-        // Fallback to empty state
-        setNewsArticles([]);
-        setFilteredArticles([]);
-      } finally {
-        setLoading(false);
       }
-    };
+      setError(null);
 
-    loadNewsData();
+      // Fetch news articles from Contentful
+      const response = await client.getEntries({
+        content_type: 'news',
+        order: ['-sys.createdAt'],
+      });
+
+      const contentfulArticles = response.items.map(mapNewsEntry);
+
+      // Fetch and combine with RSS news (uses cache by default)
+      const allArticles = await fetchAllNews(contentfulArticles, {
+        useCache: true,
+        forceRefresh
+      });
+
+      setNewsArticles(allArticles);
+      setFilteredArticles(allArticles);
+
+      // Update cache age
+      const age = getCacheAge();
+      setCacheAge(age);
+    } catch (err) {
+      console.error("Error loading news data:", err);
+      setError("Failed to load news articles. Please try again later.");
+      // Fallback to empty state
+      setNewsArticles([]);
+      setFilteredArticles([]);
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  };
+
+  // Initial load - uses cache for instant display
+  useEffect(() => {
+    loadNewsData(false);
+
+    // Background refresh if cache is old (> 5 minutes)
+    const age = getCacheAge();
+    if (age && age > 5) {
+      console.log('Cache is old, refreshing in background');
+      setTimeout(() => loadNewsData(true), 1000);
+    }
   }, []);
+
+  // Manual refresh handler
+  const handleRefresh = () => {
+    loadNewsData(true);
+  };
 
   useEffect(() => {
     let filtered = newsArticles;
@@ -107,7 +134,7 @@ const News = () => {
         {/* Search Section */}
         <section className="py-8 px-4 sm:px-6 lg:px-8 border-b">
           <div className="max-w-7xl mx-auto">
-            <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
+            <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
               {/* Search Bar */}
               <div className="relative w-full md:w-96">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground" />
@@ -119,6 +146,25 @@ const News = () => {
                   className="pl-10"
                   disabled={loading}
                 />
+              </div>
+
+              {/* Refresh Button & Cache Info */}
+              <div className="flex items-center gap-3">
+                {cacheAge !== null && !loading && (
+                  <span className="text-sm text-muted-foreground">
+                    Updated {cacheAge === 0 ? 'just now' : `${cacheAge} min ago`}
+                  </span>
+                )}
+                <Button
+                  onClick={handleRefresh}
+                  disabled={loading || refreshing}
+                  variant="outline"
+                  size="sm"
+                  className="gap-2"
+                >
+                  <RefreshCw className={`h-4 w-4 ${refreshing ? 'animate-spin' : ''}`} />
+                  {refreshing ? 'Refreshing...' : 'Refresh'}
+                </Button>
               </div>
             </div>
           </div>

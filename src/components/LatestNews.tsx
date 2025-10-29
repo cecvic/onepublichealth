@@ -21,12 +21,12 @@ const LatestNews = () => {
           limit: 3,
           order: ["-sys.createdAt"]
         });
-        
+
         const contentfulNews = res.items.map(mapNewsEntry);
-        
-        // Fetch and combine with RSS news
-        const allNews = await fetchAllNews(contentfulNews);
-        
+
+        // Fetch and combine with RSS news (with caching enabled)
+        const allNews = await fetchAllNews(contentfulNews, { useCache: true });
+
         // Take only the first 3 for the latest news section
         setNews(allNews.slice(0, 3));
       } catch (err) {
